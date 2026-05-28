@@ -13,4 +13,8 @@ wheels/
 desktop.ini
 *.gdoc
 
+# Documentation
+docs/
+
+
 
