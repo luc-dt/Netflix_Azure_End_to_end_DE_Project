@@ -1,0 +1,4463 @@
+\# tactiq.io free youtube transcript \# The ONLY Azure End-To-End Data
+Engineering Project You NEED in 2025 \| \[Step-by-Step Guide\] \#
+https://www.youtube.com/watch/uc-u_juRg-w
+
+00:00:00.320 this 5 hours long end to end your data 00:00:03.879
+engineering project will provide you 00:00:06.759 multiple offers in
+2025 because this 00:00:10.599 project has high standards instead of
+00:00:13.280 building basic pipelines you will build 00:00:16.400
+Dynamic parameterized end to end data 00:00:19.400 pipelines with data
+validation steps in 00:00:22.359 your data Factory and this time you
+will 00:00:25.720 use autol loader to incrementally read 00:00:28.320
+the data files from these Source not 00:00:31.080 only this you will
+also build Dynamic 00:00:34.000 parameterized notebooks and data breaks
+00:00:36.960 which you will orchestrate using data 00:00:39.480 breakes
+workflows and you know what you 00:00:42.120 will build Delta life
+tables in the gold 00:00:45.360 layer which is the most in demand
+00:00:48.160 technology right now in the world of 00:00:50.360 data
+engineering but wait why I have 00:00:53.480 added so much in this
+project because 00:00:56.320 the Dynamics of the data engineering
+00:00:58.440 world is changing r ly and you need to 00:01:01.440 be
+competitive enough to beat the 00:01:04.159 competition so this project
+video will 00:01:06.520 provide you strong handson with all the
+00:01:09.799 latest tools and Technologies with all 00:01:12.560 the
+latest upgrades and every single 00:01:15.799 layer of this Medallion
+architecture 00:01:18.119 project is filled with new challenges so
+00:01:22.360 if you want to crack the interviews in 00:01:24.439 2025
+then this is the video that you 00:01:27.360 need so take out your
+notebook on laptop 00:01:30.920 and start learning what\'s up my what\'s
+00:01:33.560 up what\'s up what\'s up happy Sunday and 00:01:36.360 this
+Sunday will be the happiest for you 00:01:40.000 so far why why why
+because this Sunday 00:01:43.799 we will be building a real time project
+00:01:46.719 Real Time Project trust me real time 00:01:48.560 project
+and as you can see on the screen 00:01:50.719 Netflix project okay so we
+will be using 00:01:54.439 Netflix data yes why did I pick this
+00:01:57.759 data and what we\'ll be learning in this 00:01:59.600 proc
+project what will be exactly 00:02:01.960 building in this project I
+will just 00:02:03.880 tell you in just few seconds so just to
+00:02:06.600 give you a reminder that this is your 00:02:09.479 realtime
+project and trust me after 00:02:11.400 completing this project you can
+00:02:12.920 definitely mention this project in your 00:02:15.120 resume
+and this project can help you 00:02:18.400 landar a job in the asure SL
+datab space 00:02:23.280 because we will be just dealing with so
+00:02:25.440 many realtime scenarios and we will be 00:02:27.840 just
+working with all the late latest 00:02:30.280 architectures latest tools
+latest 00:02:33.840 approach everything latest so everything
+00:02:36.360 is upgraded as you know that we have so 00:02:38.680 much
+of stuff in data break that is new 00:02:40.800 so we\'ll be just
+covering all the things 00:02:42.599 in detail so let me just show you
+the 00:02:45.560 architecture now and you will actually 00:02:47.519 see
+what exactly you will be learning in 00:02:49.760 this project so first
+of all good job 00:02:53.959 buch that\'s an amazing architecture okay
+00:02:56.840 okay okay I know this so just hold your 00:02:59.599 breath
+and it\'s time to actually look at 00:03:01.920 the architecture because
+this will just 00:03:04.200 give you the insights that you will be
+00:03:08.560 learning today today or if you will you 00:03:11.080 will
+be just watching this video in 00:03:12.560 parts then definitely like
+uh first of 00:03:15.480 all first of all first of all we will be
+00:03:17.640 using a your data engineering space okay 00:03:21.000 along
+with data brakes why because both 00:03:23.120 go hand in hand and
+obviously whenever 00:03:25.920 we are just um building any kind of
+00:03:28.599 solution then most probably we\'ll be 00:03:30.680 using
+data brakes as well okay so now 00:03:34.120 now now first of all as you
+know that we 00:03:37.480 have data Factory and data bricks as our
+00:03:41.400 source as our source not as a source 00:03:45.959 these are
+the tools that we\'ll be using 00:03:48.319 to pull the data from the
+sources okay 00:03:51.360 so an lamba so far we were just pulling
+00:03:55.079 data using data Factory I know this why 00:03:58.799 have
+you just included 00:04:00.879 this okay I will just tell you so this
+00:04:03.799 time we\'ll be using multiple sources 00:04:06.200 First
+Source is this one GitHub okay in 00:04:09.959 which we have files
+don\'t worry I will 00:04:11.560 just show you the real data as well
+okay 00:04:14.040 so without delaying let me just tell you 00:04:17.279
+the flow so our data files are setting 00:04:20.358 in GitHub not all
+the files few files 00:04:23.440 okay then we\'ll be building real time
+00:04:26.280 pipeline parameterized pipeline Dynamic 00:04:28.800
+pipeline Plus plus all the data 00:04:30.800 validation steps everything
+included in 00:04:33.120 that particular end to end orchestrated
+00:04:35.240 pipeline sorted so this pipeline will be 00:04:38.080 your
+real time scenario like this pipel 00:04:41.039 will contain like all
+the real time 00:04:42.960 scenarios as well so do not need to
+00:04:44.400 worry you will just build an amazing 00:04:46.639 pipeline
+okay so this will be done by 00:04:49.440 aure data Factory now next
+thing is we 00:04:52.919 have few files sitting in the lake in
+00:04:55.240 the data Lake and we will be using data 00:04:58.039 brakes
+to pull that data 00:05:00.560 incrementally and we will be using we
+00:05:03.680 will be 00:05:05.120 using Auto lorder autol 00:05:08.880
+loer so I know this is a very very very 00:05:12.440 popular addition in
+data brakes and you 00:05:14.919 should know how you can just include
+00:05:17.039 this kind of you can say strategy to 00:05:19.520 pull data
+incrementally in a project as 00:05:21.680 well so that\'s why I have
+included 00:05:23.840 autoloader and you will be just pulling
+00:05:26.160 data from the source incrementally using 00:05:28.360 data
+bricks autol loader 00:05:31.240 got it very good then we will dump our
+00:05:34.440 data in the row Zone and as you know 00:05:36.919 that we
+do not make any kind of 00:05:38.639 transformation in the row zone so
+our 00:05:40.639 row Zone will be based on the data Lake 00:05:43.160
+and data file formats will be exactly 00:05:45.880 same sorted an lamba
+we have seen 00:05:50.039 something special here as well I know I
+00:05:52.080 know I know I know it is like Delta live 00:05:53.960
+tables I know so once we have data in 00:05:56.840 the bronze layer then
+we will be using 00:06:00.120 data bricks as a transformation tool and
+00:06:04.639 this section is really really special 00:06:06.880 trust me
+let me just tell you why 00:06:09.400 because obviously we will be using
+uh 00:06:12.000 data break spice par okay to transform 00:06:15.080 our
+data so we\'ll be just using so many 00:06:17.800 you can say new new
+functions spice 00:06:19.560 parar as well we do not have like much
+00:06:21.080 new function spicebark but yeah I will 00:06:22.520 just
+try to include some scenarios where 00:06:24.520 you can just mix so
+many functions under 00:06:27.039 one transformation so you will learn a
+00:06:29.319 lot about prar as well in this section 00:06:32.280 plus
+plus I have included something 00:06:35.280 special in this what\'s that
+it is called 00:06:39.639 workflows activities okay so instead of
+00:06:44.280 creating instead of creating static 00:06:47.520 notebooks
+I will be creating Dynamic 00:06:50.400 parameterized notebooks and I
+will be 00:06:52.680 using workflows activities such 00:06:55.599 as uh
+for 00:06:57.639 each you can also call it as for loop 00:07:00.720
+it\'s fine if elth condition so we will 00:07:04.199 be using these
+kinds of activities as 00:07:06.800 well to create parameterized and
+dynamic 00:07:09.720 notebooks why because in the real world
+00:07:12.160 we do not create static notebooks we 00:07:14.560 create
+Dynamic notebook so if you\'re 00:07:16.160 just trying to crack the
+interviews you 00:07:18.599 should just tell the interviewer hey I
+00:07:20.720 know how to create these notebooks 00:07:22.360 because in
+the real world you\'ll be 00:07:23.360 creating parameterized notebooks
+right 00:07:25.800 so you will be creating parameterized 00:07:27.319
+notebook instead of static notebooks 00:07:28.919 using workflows
+activities then then 00:07:32.759 then then we will just go to the gold
+00:07:34.759 layer and I just received so many 00:07:37.639 comments and
+messages that please 00:07:40.000 include Delta life table by the way I
+00:07:42.360 have created a dedicated video on Delta 00:07:44.960 life
+tables you can just check that 00:07:46.560 video out if you do not know
+anything 00:07:48.080 about Delta life tables and you will 00:07:49.840
+learn everything in the world of Delta 00:07:52.440 life tables and if
+you do not even know 00:07:56.319 so that\'s why I have included this
+00:07:58.440 technology Del life tables in this 00:08:00.960 project why
+because the best way to 00:08:03.599 learn any technology is to just
+include 00:08:05.759 that in the project because you will be
+00:08:08.400 already building a kind of flow and then 00:08:10.560 you
+will feel hey okay I can just use 00:08:13.400 this technology in this
+place like 00:08:17.039 this okay so we will be using TTA life
+00:08:19.960 tables this time to create our to create 00:08:22.240 our
+gold layer and this layer will be 00:08:24.720 very very very special
+and you will be 00:08:26.400 creating Delta life table ETL workflow
+00:08:29.199 you using data 00:08:30.720 breaks how is this architecture
+just 00:08:33.279 tell me in the comments right now right 00:08:35.919
+now right now just tell me how is the 00:08:39.320 architecture I know
+the project is 00:08:40.839 awesome but just drop a comment right
+00:08:43.240 now in the comments in the comments on 00:08:45.680 the
+comments regarding architecture 00:08:47.800 regarding architecture
+regarding 00:08:50.040 architecture right 00:08:51.519 now who then once
+our gold layer is 00:08:55.160 ready then what we can do we can simply
+00:08:57.640 populate this data in the synapse 00:08:59.839 workspace
+now you will be saying hey why 00:09:02.120 do we need to create snaps
+worksspace 00:09:03.640 why do we need to push the data to snaps
+00:09:06.399 I know we do not need to but I\'m just 00:09:08.680 trying
+to tell you that you can okay you 00:09:12.200 can you have the options
+you do not know 00:09:15.760 about by the way how you can just judge
+00:09:19.160 anything as a 00:09:20.720 developer because you will be
+00:09:23.160 building according to the requirements 00:09:25.440 that
+you get from the stakeholders let\'s 00:09:27.519 say your manager your
+stakeholder your 00:09:30.440 business wants a same replica of data
+00:09:33.519 warehouseing synaps as well for any 00:09:35.200 reason how
+you can just reply to the 00:09:37.959 person hey we we have like data
+00:09:40.760 warehouse and data B why do you want 00:09:42.200 inaps how
+how you can just say this 00:09:44.880 thing it like being a developer
+you 00:09:47.399 should know you should know do not just 00:09:50.760
+say like hey we we can just do this in 00:09:52.760 data Bri as well by
+the way we can do 00:09:55.640 everything in syapse does that mean you
+00:09:57.839 should do everything in syapse 00:10:00.760 common sense
+right use your IQ okay then 00:10:04.959 we have reporting by the way we
+will not 00:10:06.760 be building any kind of reports but I 00:10:08.519
+will just show you how you can just 00:10:09.800 connect your data
+source with the 00:10:11.760 powerbi because being a data engineer
+00:10:13.320 you should know how to integrate these 00:10:14.720 things
+because you will be serving that 00:10:16.880 data to someone else right
+right right 00:10:19.880 okay very good now now now now let me
+00:10:22.959 just show you the data that you\'ll be 00:10:24.360 using
+by the way why did you pick 00:10:26.519 Netflix project like why why
+why did you 00:10:29.040 pick Netflix data why so the thing is
+00:10:32.279 see you are learning right you are 00:10:34.040 learning so
+00:10:36.880 my intent is to provide knowledge 00:10:40.040 obviously
+but you should also feel 00:10:42.160 engaged and when you\'ll be
+working with 00:10:45.079 um data that you already know because
+00:10:48.000 you would have like watched so many 00:10:49.279 Netflix
+series you would have watched 00:10:51.399 like so many movies so when
+you\'ll be 00:10:53.600 working with that data you will feel
+00:10:55.720 connected you will not feel like hey you 00:10:58.079 are
+studying something you will feel 00:10:59.720 like you are actually
+building something 00:11:02.160 you will feel aligned with your data
+00:11:04.639 that you\'re working with so that\'s why I 00:11:07.000
+have Pi Netflix project that\'s why 00:11:09.760 that\'s why that\'s why
+that\'s why so that 00:11:11.639 you can learn and have some fun and
+yeah 00:11:15.720 everything so without wasting any time 00:11:18.079
+let me just show you the data okay so 00:11:20.800 the real data is this
+one so this is the 00:11:24.440 website that you can see public. tab.com
+00:11:27.320 so this is the link I will just provide 00:11:29.040 the
+link l in the description as well 00:11:31.279 and this is the data that
+we are using 00:11:33.480 Netflix movies and TV so this is the
+00:11:36.040 data set which was in Exel format I have 00:11:38.000
+converted that in the CSV okay and this 00:11:40.399 is the Kel website
+from where I think 00:11:42.880 they have just pulled the data so let me
+00:11:44.480 just click on it so this is the real 00:11:46.560 link that
+you can see and you can just 00:11:48.320 download the data from here as
+well or 00:11:50.600 you can simply go to my repository and 00:11:53.880
+let me just show you if you just go to 00:11:55.720 my repository just
+go to my repositories 00:11:58.880 and this is this is the repository
+for 00:12:00.200 this project Netflix aure data engine 00:12:02.360
+project just click on it and then this 00:12:05.360 is the folder so
+here is our all the 00:12:08.839 files here is our all the files so you
+00:12:11.200 can simply download from here or you can 00:12:14.079
+simply pull the data from here as well 00:12:15.639 using the same URL
+it\'s not a big deal I 00:12:18.600 will just tell you everything don\'t
+00:12:19.720 worry I\'m just showing you the data okay 00:12:21.880 so
+if I just click on the data by the 00:12:23.600 way I have just made the
+slides for that 00:12:25.399 one don\'t worry so let me just tell you
+00:12:28.720 the project overview so we have five to 00:12:32.199 six
+files okay so this is our main file 00:12:35.440 okay and this is the
+file in which we 00:12:37.399 have like movie names when the movie was
+00:12:39.800 added release year rating description 00:12:41.959 show ID
+everything so this is a kind of 00:12:44.639 Master data that we have
+okay and this 00:12:47.560 data by the way it is in GitHub but we
+00:12:49.680 will be just pulling it from 00:12:51.639 Lake pulling it
+from leg using data 00:12:54.399 braks and we will be just pulling this
+00:12:56.000 data 00:12:56.880 incrementally okay so as you can see in
+00:12:58.800 my next slide I have just put 00:13:00.760 incremental data
+because we have a 00:13:03.279 framework in data braks I will just tell
+00:13:05.279 you everything about autoloader do not 00:13:07.279 need to
+worry do not need to worry okay 00:13:10.920 so once we have just pulled
+this data 00:13:13.000 then we have so many lookup tables so
+00:13:15.480 many lookup tables such 00:13:17.120 as directors and
+countries cast and 00:13:22.120 categories so these are like small small
+00:13:24.199 lookup tables not small small lookup 00:13:26.000 tables
+but yeah this is just kind of 00:13:27.920 lookup tables that we have
+and these 00:13:29.639 files will be pulled from GitHub using
+00:13:31.639 our aure data Factory and aure data we 00:13:34.839 will
+not be building a simple pipeline 00:13:36.920 this pipeline will be an
+amazing 00:13:38.519 pipeline bro amazing so this is the 00:13:41.000
+pipeline that we\'ll be building in a 00:13:42.440 short data Factory
+okay sorted sorted 00:13:45.079 scenes Okay now what\'s next what\'s
+next 00:13:49.279 prequest obviously obviously obviously I 00:13:52.440
+do not have a long list of prequest do 00:13:54.320 not need to worry I
+want say hey you 00:13:57.279 should know python hey you should know
+00:13:58.639 SQL hey you should know this this this 00:14:00.880 this
+this shut up no we do not need 00:14:03.720 anything you just need
+laptop or PC with 00:14:06.480 stable internet connection okay then
+00:14:09.079 your account if you do not have a your 00:14:11.880 account
+I will just tell you how you can 00:14:13.079 just create one do not
+need to worry the 00:14:15.360 main thing I think this is the thing
+00:14:17.199 that you need right now if you want to 00:14:20.480
+continue with this video okay so 00:14:23.120 excitement to learn a data
+solution yes 00:14:26.120 you should have that excitement to learn
+00:14:27.680 a data solution and that\'s it that\'s it 00:14:30.959 and
+yes enough information is provided 00:14:33.680 can we start building
+our project yes 00:14:35.240 sir we can but before starting that I
+00:14:37.959 want to announce something which is very 00:14:40.040
+special to me so let me just do that 00:14:41.720 right now so this
+announcement is for 00:14:44.000 YouTube so as you can see along with
+the 00:14:46.680 Subscribe button you have one more 00:14:48.759 button
+which is join and YouTube says 00:14:51.240 that this button is for
+those who are 00:14:52.800 like loyal subscribers so I do not call
+00:14:55.240 them like subscribers I just call them 00:14:56.880 as like
+data fam so this will this 00:14:58.519 button will be available for
+those who 00:15:00.600 are my loyal data fam and you can 00:15:02.880
+definitely join my channel in order to 00:15:05.639 support my hard work
+and if you want me 00:15:07.639 to continue building like these
+00:15:09.519 informative videos and just click on 00:15:11.920 this join
+button and support support 00:15:14.519 support this Channel right now
+and I am 00:15:17.959 expecting a lot a lot a lot of love from
+00:15:21.000 your side so this time is to show 00:15:23.959 loyalty in
+order to create the free 00:15:25.920 Azure account simply go to Google
+and 00:15:27.759 simply type azure 00:15:30.319 free 00:15:31.399
+account and simply search and just 00:15:34.519 select the first link
+then you will Lear 00:15:36.839 on this web page so simply click on try
+00:15:39.120 aure for free and once you click on this 00:15:43.000 it
+will just ask you to provide the 00:15:44.639 email ID if you do not
+have one like the 00:15:47.160 Microsoft email ID simply click on
+00:15:49.319 create one and you can simply create any 00:15:52.000 email
+account and then you can just use 00:15:53.720 that account using your
+personal emails 00:15:56.240 as well so it\'s up to you by the way if
+00:15:58.240 you just want to create the email 00:15:59.440 account just
+for the sake of this 00:16:00.560 project you can just create and dump
+it 00:16:03.399 okay so once you click on this create 00:16:04.959 one
+and then just put your credentials 00:16:06.959 then you will just land
+on a page on 00:16:09.800 which it will just ask you to just
+00:16:11.959 provide your all the personal details 00:16:13.759 such as
+your name your surname your 00:16:16.319 address blah blah blah so just
+fill all 00:16:19.000 the boxes and at the end just click on
+00:16:20.880 the sign up button by the way you get 00:16:23.600 \$200 to
+spend within 30 days when you 00:16:26.920 create the account so that
+you can just 00:16:28.639 easy easily use the Azure services
+00:16:30.720 without without paying for any stuff 00:16:33.880 it\'s
+cool right yeah it\'s cool so by the 00:16:36.600 way when you click on
+this sign up 00:16:37.639 button it will just ask you to provide
+00:16:38.920 the car details do not worry you can 00:16:40.440 simply
+put the car details it will not 00:16:42.160 charge you anything because
+it just 00:16:44.079 confirms that you are the one who will 00:16:45.560
+be using that particular account or 00:16:47.880 portal account so once
+30 days are over 00:16:50.720 your all the services will be nullified
+00:16:53.040 you will not be charged do not worry but 00:16:55.240 still
+you will have an opportunity to 00:16:56.600 upgrade your account to pay
+as you go if 00:16:58.120 you want to Launch more and more stuff
+00:16:59.600 in aure don\'t worry it will not charge 00:17:01.800 you
+much if you enable the pay as you go 00:17:05.199 you can hardly expect
+like like I cannot 00:17:07.880 say like it\'s all totally up to you
+like 00:17:09.559 how much you will be using but I\'m not 00:17:11.559
+encouraging to just go to upgrade your 00:17:14.199 account no if you do
+not want to upgrade 00:17:16.119 it\'s fine just click on we do not want
+00:17:18.640 to upgrade so it will not charge you 00:17:20.240 anything
+and by the way even if you do 00:17:21.919 not click on like you do not
+need to 00:17:23.919 upgrade still it will not charge you 00:17:25.319
+anything because it\'s a your you can 00:17:27.280 trust it so okay once
+you have the 00:17:29.440 account let me just take you to the aure
+00:17:31.960 portal account so let\'s 00:17:34.200 see so in order to
+now go to the Azure 00:17:38.200 portal account simply type 00:17:41.120
+portal. azure.com 00:17:43.679 okay this one then click hit enter then
+00:17:47.679 you just need to put the same email 00:17:49.200 account
+that you have just created and 00:17:50.880 validated simply put those
+credentials 00:17:53.679 and just so this is your Azure portal
+00:17:57.159 account okay by the way do not need to 00:17:59.559 worry
+about the resources or let\'s say 00:18:02.320 the services obviously it
+will be 00:18:04.640 different in your case because these are
+00:18:06.320 the resources or services that I was 00:18:07.880 using
+before as you can see so do not 00:18:10.679 need to worry okay simple
+so let me just 00:18:13.039 give you a quick overview of the aure
+00:18:14.840 portal account just a quick one okay so 00:18:17.280 these
+are B this is the area basically 00:18:19.960 which is your goto area
+why because here 00:18:23.159 you can see all the stuff such as home
+00:18:25.799 obviously this is the homepage the 00:18:27.240 dashboard
+and all the services you can 00:18:28.880 create a dashboard based on
+the project 00:18:30.799 as well so when you just click on 00:18:32.320
+dashboard it will just ask you to 00:18:34.080 provide or let\'s say
+drag all the 00:18:35.960 resources that you are using for a
+00:18:37.520 project so this way you can just 00:18:39.400 actually
+tackle it like how many 00:18:41.400 resources you are using I do not
+00:18:43.159 personally use it if you want you can do 00:18:45.240 not
+worry we are not building any kind 00:18:46.440 of real dashboard
+reporting this is not 00:18:48.679 that dashboard this is just a normal
+00:18:51.240 dashboard okay then all resources it 00:18:53.640 will just
+show you all the resources 00:18:55.039 that you have created then
+resource 00:18:56.840 groups don\'t worry I\'ll just talk about
+00:18:58.280 this as well let me talk about it so 00:19:00.440 basically
+Resource Group is a kind of 00:19:02.159 folder in which you put your
+all the 00:19:04.360 resources such as a data Factory it is a
+00:19:07.080 resource aure datab it is a resource 00:19:10.120 then aure
+snap analytics it is a 00:19:11.840 resource aure dat it is a resource
+so 00:19:14.200 you just put all the resources all the 00:19:16.840
+resources within this Resource Group 00:19:19.440 okay so let me just
+tell you the 00:19:20.760 hierarchy as well so first of all you
+00:19:22.799 will have let\'s say 00:19:24.799 tenant okay so tenant is
+nothing but 00:19:27.880 your organization ation within that you
+00:19:30.799 will be having subscription by the way 00:19:33.440 just
+take out your notebooks and just 00:19:34.840 start taking notes right
+00:19:36.919 now okay then you will be having 00:19:38.960 subscriptions
+because you you can just 00:19:40.760 buy multiple subscription within
+one 00:19:42.720 tenant why because let\'s say you your 00:19:46.760
+organization has like multiple 00:19:48.880 departments so your Finance
+team can 00:19:51.520 have a mult can have a different 00:19:53.000
+subscription your marketing team can 00:19:55.080 have a different
+subscription your uh it 00:19:57.320 team can have a different
+subscription 00:19:58.799 so that everyone will have a different
+00:20:01.480 bill because money is everything right 00:20:04.280 so
+within subscription we create 00:20:06.320 something called as resource
+groups 00:20:07.919 which is this 00:20:09.000 one and within resource
+groups we create 00:20:13.080 resources okay so these are like
+00:20:15.360 fundamentals but you should be aware of 00:20:16.919 these
+so just start taking notes about 00:20:18.880 all the stuff then we have
+some 00:20:20.760 resources listed here do not need to 00:20:22.159
+worry we will be creating all the 00:20:23.520 resources that are
+relevant to our 00:20:25.360 project okay okay then if I just go down
+00:20:29.080 then I can also see enter ID so this is 00:20:31.679
+basically the admin area where you can 00:20:33.919 just actually
+monitor your all the users 00:20:37.760 everything within this your all
+the 00:20:39.960 service principles managed identities 00:20:42.559 your
+users external users everything 00:20:45.960 okay then monitor as the
+name suggest 00:20:47.919 you can monitor your resources alerts
+00:20:51.080 everything then cost management plus 00:20:53.799 billing
+so it will just tell you how 00:20:55.840 much you\'re spending per
+month you can 00:20:58.080 also create create some uh you can say
+00:21:00.480 alerts so that let\'s say you have just 00:21:02.600 put an
+alert of \$10 so it will just give 00:21:05.039 you a notification hey
+you have already 00:21:07.159 used \$10 like this okay then help plus
+00:21:10.559 support so this was all about 00:21:13.400 your navigation
+area Okay so this is 00:21:17.000 this is it now it\'s time to actually
+00:21:19.679 create the resource Group and resources 00:21:21.720 okay
+so simply go to search bar so this 00:21:23.880 is the area where you
+can actually 00:21:25.440 search anything simply search resource
+00:21:29.720 Resource Group and it should just pop up 00:21:32.279 yep
+here so simply click on it and now 00:21:34.600 we will create a new one
+don\'t worry 00:21:36.600 these are like my old resource groups
+00:21:38.520 simply click on plus create and then 00:21:41.480 create a
+new Resource 00:21:43.760 Group so now this will just ask you for
+00:21:47.320 a resource Group name so now it\'s time 00:21:49.679 to
+actually name it I will simply put RG 00:21:53.440 and then I can simply
+say Netflix 00:21:55.440 project 00:21:59.799 Netflix project
+00:22:02.480 perfect that\'s it yeah that\'s it we just 00:22:04.840
+need to put like RG Netflix project and 00:22:07.159 region you can just
+put any so I will 00:22:10.200 simply pick uh uh 00:22:13.400 uh do we
+have Canada Central yeah just 00:22:16.840 pick Canada Central for this
+time okay 00:22:18.679 then review plus create and then hit 00:22:20.720
+create for one more time that\'s it so it 00:22:22.880 will just
+actually validate your 00:22:25.000 resource Group or resource so it is
+00:22:27.159 created you can simply click click on go 00:22:28.880 to
+Resource Group okay then you will see 00:22:32.000 it is empty why it is
+empty an lamba 00:22:34.279 because we have not created anything
+00:22:36.159 that\'s why it is empty now it\'s time to 00:22:37.960
+create our resources so first of all 00:22:40.760 first of all I will
+create my data Lake 00:22:43.720 because obviously we are working with
+00:22:45.440 Cloud so the sole Reason Not sole reason 00:22:49.159 like
+one of the main reasons to use 00:22:51.440 Azure is using data lake or
+cloud 00:22:54.200 storage right yes so simply create first 00:22:56.840
+of all the storage account and then we 00:22:59.000 will be creating
+data Factory okay 00:23:00.679 simply on plus create 00:23:05.039 and
+now it should just display the 00:23:08.000 marketplace so this is your
+marketplace 00:23:10.159 where you can actually pick any kind of
+00:23:12.559 resource so this is a kind of normal 00:23:14.679
+marketplace where you can 00:23:16.279 actually like use the services
+provided 00:23:18.640 by Azure Microsoft or any third parties
+00:23:21.360 as you can see these are some third 00:23:22.880 party
+sellers so we will simply write 00:23:25.000 storage 00:23:26.679
+account okay simply click on on 00:23:29.320 it then you will see all
+the resources 00:23:32.240 simply pick this one which is provided
+00:23:34.080 by 00:23:34.840 Microsoft then click on 00:23:39.400 Create
+and 00:23:41.960 then yes then we are on this page now we 00:23:46.840
+first of all need to name our storage 00:23:49.120 account and this
+storage account name 00:23:50.840 should be unique throughout the your
+00:23:52.480 network so the name I\'ll be putting here 00:23:55.240 will
+not be available in your this so 00:23:57.240 just keep this thing in
+your mind 00:23:59.240 I will simply say 00:24:01.600 Netflix
+00:24:03.520 project data lake is it available I 00:24:06.559 don\'t
+think so yeah because Netflix is 00:24:08.360 really popular so I will
+simply say 00:24:10.559 Netflix project data Lake un I think
+00:24:13.279 this should be 00:24:14.640 available yeah it is available
+so then 00:24:18.320 redundancy options you can simply pick 00:24:20.279
+lrs because this is the cheapest one 00:24:22.600 obviously you\'re
+using a free account so 00:24:23.880 you do not need to worry but still
+you 00:24:25.120 should know this that lrs is the 00:24:26.760 cheapest
+one and gzrs is the most 00:24:29.399 expensive one why because lrs just
+00:24:32.720 creates the replica of your data on the 00:24:35.279 same
+data center whereas in gzrs it 00:24:38.600 creates the replica of your
+data in the 00:24:41.399 different geography in the different
+00:24:43.640 region of different Zone run just pick 00:24:47.919 lrs
+then go to next then you need to 00:24:52.720 click on enable
+hierarchical name space 00:24:55.159 why because this is important if
+you 00:24:56.640 want to create a data link otherwise it 00:24:58.720
+will just create a blob storage and you 00:25:00.480 will see some
+difficulties while 00:25:02.399 creating the folders and if you want to
+00:25:05.240 seamlessly use hierarchical folders you 00:25:07.440 need
+to just pick hierarchical name 00:25:08.960 space that\'s it now you can
+simply click 00:25:11.080 on review plus create because we are not
+00:25:12.840 worrying about networking tags 00:25:15.880 nothing so it
+will just take few seconds 00:25:18.440 and it will just validate yeah
+done 00:25:20.240 simply click on 00:25:21.760 Create and then it will
+just deploy your 00:25:25.559 data Lake 00:25:29.480 uh uh uh yeah it is
+deploying your data 00:25:32.159 Lake and after this we will be creating
+00:25:35.559 our Y data Factory and we will just 00:25:39.080 start
+working with the your data Factory 00:25:40.799 to pull the data from
+the sources and do 00:25:44.679 the 00:25:46.919 ingestion okay so it is
+just loading 00:25:52.640 this okay so now it is deployed so now
+00:25:55.320 we can simply click on go to Resource 00:25:57.760 and we
+can see like how our data like 00:26:00.679 looks like okay simply click
+on go to 00:26:03.520 Resource and then this is the overview
+00:26:06.000 page of the data Lake okay then you can 00:26:08.240 simply
+click on containers click on it 00:26:11.640 and by the way we have like
+four 00:26:13.559 different types of services that we get 00:26:16.120
+containers file shares cues tables file 00:26:19.480 share is like your
+onetop solution to 00:26:21.600 put all the files under one H so that
+00:26:23.679 everyone can use it it is a kind of 00:26:26.679 SharePoint
+okay then cues this is a 00:26:30.159 solution to your streaming data
+where 00:26:32.240 you can actually hold the messages in 00:26:34.520
+the cues then you have tables so tables 00:26:38.000 is your solution
+for the semi-structure 00:26:40.320 data which are in the form of key
+value 00:26:42.240 pairs like Json data right this is the 00:26:44.840
+solution for that one similar to Cosmos 00:26:47.039 DV okay then
+containers is like your 00:26:50.440 containers data link simply click
+on 00:26:52.480 this and we will just create at least I 00:26:54.919
+think three containers not three I think 00:26:56.640 at least four
+containers why because 00:26:59.919 obviously three containers for
+bronze 00:27:01.960 silver and gold and one is for our uh 00:27:05.399
+data that we\'ll be pulling incrementally 00:27:07.279 for data bricks
+okay so first of all I 00:27:10.120 will create raw which is
+00:27:12.799 our data uh location that will\'ll be 00:27:16.200 using to
+pull the data then three 00:27:18.559 containers for three different
+layers I 00:27:20.640 will simply 00:27:21.720 say 00:27:24.200 bronze
+then silver 00:27:29.039 and then 00:27:31.320 gold perfect our data L
+is ready now I 00:27:35.399 will simply go to home and then I will
+00:27:38.279 simply click on Resource Group and then 00:27:40.679 I will
+simply see my data L Netflix 00:27:43.279 project data L on now I will
+create the 00:27:45.760 aure data Factory okay simply click on
+00:27:48.080 Create and then simply search data 00:27:51.880 Factory
+search it and then you will see 00:27:55.240 all the solutions related
+to data 00:27:56.559 Factory we will pick provided by 00:27:57.840
+microsof soft click on 00:28:00.200 Create and 00:28:03.000 then here we
+again need to provide the 00:28:05.399 name so I will simply say ADF
+Netflix 00:28:09.240 yep and 00:28:11.000 region oh this is already
+taken okay I 00:28:14.000 will simply say ADF Netflix on this
+00:28:16.000 should not be taken yeah then region 00:28:19.120 it\'s
+fine then simply click on review 00:28:20.840 plus 00:28:23.000 create
+and yep then click on create for 00:28:25.960 one more time and then it
+will will just 00:28:28.399 take few more seconds to deploy your a
+00:28:31.080 your factory and once it is deployed oh 00:28:34.080 it\'s
+done nice now I can simply go to 00:28:37.360 Resource Group now I will
+see both the 00:28:40.080 things let me just click on 00:28:42.240
+refresh click on refresh for one more 00:28:44.519 time one more time
+yep it is there so 00:28:48.159 now we have like both the resources that
+00:28:51.080 we want okay so first thing what we\'ll 00:28:54.320 be
+doing I will simply go to Netflix 00:28:56.919 project data Lake unch
+00:28:59.159 okay just go inside this and then I will 00:29:02.840
+simply go to 00:29:04.519 Containers so this is my bronze layer
+00:29:08.120 which I\'ll be using to ingest the data 00:29:10.799 from
+the GitHub using API using API okay 00:29:15.519 so let\'s continue with
+our data Factory 00:29:18.880 because this is the tool we\'ll be using
+00:29:21.360 to inest the data into bronze so in 00:29:24.919 order to
+create a factory we will simply 00:29:27.360 go to not to create just
+kidding in 00:29:29.679 order to use the data Factory so simply
+00:29:31.320 go to your resource Group and simply 00:29:32.720 click on
+this this is your like recently 00:29:35.679 created data Factory then
+click on 00:29:37.880 launch Studio simply click on it then 00:29:41.279
+this will just launch your data Factory 00:29:44.440 workspace and you
+going to love it you 00:29:47.440 going to love it okay so we are
+finally 00:29:50.720 finally finally finally landed on your 00:29:53.960
+factory homepage okay first of all we do 00:29:57.080 not need to set up
+repos osit so just go 00:29:59.039 away so this is your homepage do not
+00:30:01.159 need to worry I will just tell you each 00:30:02.720 and
+everything really quick okay so this 00:30:05.240 is your homepage as
+you are seeing so 00:30:08.159 what we have on this homepage we have
+00:30:09.799 some templates provided by a data 00:30:12.039 Factory it
+is very easy to use like just 00:30:14.720 templates provided by them
+but in the 00:30:17.200 real world we hardly use them because we
+00:30:19.559 create our customized solution right 00:30:22.320 because
+every solution is unique so we 00:30:24.399 will not be using template
+no we will 00:30:26.440 building our own Pipelines okay then
+00:30:29.640 just just just ignore these okay then 00:30:32.720 this is
+the author tab I will skip this 00:30:34.480 one why because we will be
+building 00:30:36.720 everything inside this so I will cover
+00:30:38.399 this after covering these three buttons 00:30:41.200 okay
+this is your monitor tab so as the 00:30:43.799 name suggest this is
+your monitor 00:30:46.640 place like this is the place where you
+00:30:49.080 can actually monitor all your pipelines 00:30:51.600 all
+the failures all the successful runs 00:30:54.840 everything let me just
+click on it and 00:30:57.559 you will see some of the buttons here
+00:31:00.279 pipeline runs trigger runs change a 00:31:03.440 capture
+which is new okay so you can 00:31:05.519 actually see because in chain
+data 00:31:07.200 capture what we do this is like external 00:31:09.679
+knowledge but you can still keep it so 00:31:11.279 let\'s say this is
+your SQL database okay 00:31:14.240 and this is your Azure data Factory
+and 00:31:17.760 like this is your Azure dat Factory and 00:31:18.960
+this is your data Lake okay so what we 00:31:21.840 it will do it will
+use CDC and it will 00:31:25.519 automatically pull the data from the C
+00:31:27.919 SQL database and push the data to the 00:31:29.480 data
+Lake and you do not need to do 00:31:31.159 anything so this is CDC this
+is new then 00:31:34.240 integration run times which is a kind of
+00:31:36.279 compute you use to ingest the data do 00:31:40.039 the
+00:31:40.799 Transformations um performing any kind 00:31:43.600 of
+activity this is the kind of compute 00:31:45.519 that a factory uses so
+when I just click 00:31:47.919 on it you will see all the stuff all the
+00:31:50.200 stuff we have justo like we have just 00:31:52.720 one uh
+integration on time yes so by 00:31:55.320 default we just have one but
+if if we 00:31:58.039 want to create more we can simply go to
+00:32:00.240 self hosted you will see Zero so 00:32:03.080 actually you
+can 00:32:04.399 create a your integration runtime which 00:32:07.039 is
+in the all which is by default this 00:32:09.440 is self-hosted one
+which is used to pull 00:32:11.840 the data from the SQL servers which
+are 00:32:14.440 sitting on on Prem SQL servers or let\'s 00:32:18.039
+say your files everything then as your 00:32:20.960 ssis this is used to
+lift and shift your 00:32:24.519 existing ETL workflows because we used
+00:32:26.960 to use ssis workflows then airflow this 00:32:29.840 is new
+you can also use this feature to 00:32:33.760 lift and shift your all
+the airflow jobs 00:32:36.200 this is really new and this is amazing
+00:32:38.840 this is amazing okay then we have alerts 00:32:42.600 and
+metrics this section is used if you 00:32:44.320 want to just send the
+notification on 00:32:45.960 your pipeline failures I will just tell
+00:32:47.760 you this as well do not need to worry 00:32:49.799 then
+manage this tab is basically used 00:32:52.960 to manage everything such
+as Link 00:32:56.240 services obviously you will be aware of
+00:32:58.320 Link service that link service is a kind 00:33:00.679 of
+connection that we build with source 00:33:03.519 and con uh like
+connection with 00:33:05.600 destination so this is just a fancy name
+00:33:07.880 for connection this is just a connection 00:33:10.240 then
+integration on we already saw 00:33:12.200 Microsoft pview is a data
+governance 00:33:13.840 tool provided by aor then get 00:33:16.000
+configuration you you you would already 00:33:17.559 know this then we
+have yeah this that\'s 00:33:21.039 all that we have okay then Learning
+00:33:23.159 Center so these are some of the 00:33:25.679 documentation
+pages that ADF provid I 00:33:28.200 think they have just provided
+00:33:29.360 documentation for 5,000 pages so if you 00:33:31.799 want
+to just read just read or if you 00:33:33.760 just want to watch this
+video you will 00:33:35.200 learn everything don\'t need to worry
+00:33:37.480 because that\'s how you learn right you 00:33:39.279 cannot
+read like all the 5,000 pages 00:33:41.600 okay let me just go to manage
+tab now 00:33:43.840 why I will tell you I will tell you I 00:33:46.200
+will tell you so first of all as you 00:33:47.919 know because we are
+just starting our 00:33:49.600 project okay so this is our 00:33:53.080
+ADF this is our ADF and we have Source 00:33:59.039 such as GitHub
+00:34:01.760 yes we have files there we already saw 00:34:04.880 right
+okay very good so we have files in 00:34:07.159 GitHub we have aora
+Factory now we want 00:34:10.960 to push this data push this data to
+data 00:34:15.560 Lake okay so for that we need two 00:34:19.199
+connections very good first with GitHub 00:34:22.560 second with data
+Lake and what are 00:34:24.719 connections link service so now we\'ll be
+00:34:26.918 creating two link Link services one with 00:34:28.800 data
+L second one with GitHub okay very 00:34:32.159 good so let\'s create
+that simply click 00:34:34.159 on plus new and then simply pick so
+00:34:38.040 these are basically the connectors these 00:34:39.760 are
+basically the connectors that ADF 00:34:42.960 provides us okay very
+good so now what 00:34:45.719 is the connector in case of GitHub what
+00:34:48.280 is the connector just tell me we will be 00:34:50.918 using
+API okay and what kind of API we 00:34:54.119 can use rest API and the
+second thing 00:34:56.639 that we can use is H HTP connection so
+00:34:59.079 we have two options either use rest API 00:35:01.880 or use
+HTTP connection so here is the 00:35:04.880 thing that will be using
+we\'ll be using 00:35:06.680 HTTP connection why because if you just
+00:35:09.440 read the Microsoft documentation page 00:35:11.079 they
+have specifically mentioned this if 00:35:13.160 you want to pull data
+directly from the 00:35:15.839 URL or let\'s say from API and you do not
+00:35:18.599 have anything else you do not have 00:35:19.839 response
+you have any kind you don\'t not 00:35:21.880 have any kind of response
+or you can say 00:35:24.800 any kind of key because when you get the
+00:35:26.800 response from API you get the Json right 00:35:29.680 but
+you actually do not have any kind of 00:35:31.760 response you just have
+data then you 00:35:33.800 should use HTTP connection but if you
+00:35:36.960 are just trying to get some data using 00:35:40.119 you can
+say get method and API then you 00:35:42.160 should obviously use rest
+API okay and 00:35:45.599 in that particular scenario we use an
+00:35:47.520 activity called Web activity oh yeah 00:35:52.160 okay so
+now we will be just copying the 00:35:54.280 data so we\'ll be using
+HTTP connection I 00:35:57.040 hope you are taking taking notes because
+00:35:58.760 if you are not taking notes so I will 00:36:02.079 not
+reply on your comment okay so just 00:36:06.520 type right now that you
+are taking notes 00:36:08.880 just let me know because I will feel
+00:36:11.240 happy that you are taking notes you take 00:36:13.119 notes
+because why I\'m just telling all 00:36:15.480 the stuff in detail it is
+so easy to 00:36:17.240 just build a solution like this I\'m
+00:36:19.200 explaining everything so that you can 00:36:20.960 actually
+take notes and while you will 00:36:22.720 be sitting in the interviews
+you will 00:36:24.640 revise all those things and you will 00:36:26.319
+actually crack the interviews 00:36:28.400 bro you are a 00:36:30.240
+human you can forget the things right 00:36:34.119 you have two kinds of
+memories shortterm 00:36:36.200 and longterm so just take notes and just
+00:36:39.000 let me know in the comments that you are 00:36:40.119
+taking notes just let me know in the 00:36:41.760 comments let me know
+in the comments 00:36:43.920 right now just type just type it right
+00:36:46.240 now that you are any 00:36:47.640 notes okay so now we\'ll
+be just picking 00:36:50.480 rest API or HTTP connection I will
+00:36:52.319 simply search HTTP click on this 00:36:54.880 continue okay
+then we need to just name 00:36:57.319 our HTTP connection so I will
+simply say 00:37:01.119 GitHub simple or GitHub con that is a
+00:37:04.400 that is an abbreviation for connection 00:37:06.599 then I
+need to provide the base URL 00:37:09.040 because it makes sense I want
+to create 00:37:11.319 the connection with HTTP uh like with
+00:37:13.160 the GitHub what is the URL what is the 00:37:15.359 base
+URL I will just tell you what is 00:37:17.040 the base URL so if I just
+go here and 00:37:19.440 simply say 00:37:21.040 GitHub and uh your
+profile 00:37:25.800 repositories okay so this is is the 00:37:27.760
+repository we are using Okay makes sense 00:37:30.480 then we will
+simply go inside this 00:37:32.480 folder then we will just go inside by
+00:37:35.359 the way just to tell you okay I will 00:37:37.760 just tell
+that thing later okay let\'s 00:37:39.680 say for now we just want to
+pull this 00:37:41.560 data Netflix cast Okay Okay Okay simply
+00:37:45.520 click on 00:37:46.480 this and you will see the data okay
+now 00:37:50.480 now now now hold on hold on a lot of you 00:37:53.520
+will make mistake now so you will say 00:37:55.720 hey this is a data
+this is the URL 00:37:58.839 this is not the URL this is not the URL
+00:38:01.800 this is not the base URL this is the URL 00:38:03.960 of
+the whole page okay and if you just 00:38:07.040 want to fetch the data
+simply click on 00:38:10.200 Raw then you will see only the data on
+00:38:14.000 the whole page so this is the URL that 00:38:16.599 we want
+okay so simply get the base URL 00:38:20.200 base URLs is just till
+00:38:23.200 Doom this is the relative URL this is 00:38:26.000 the base
+URL simply copy this and simply 00:38:28.640 paste it here that\'s it
+now 00:38:31.599 authentication type we do not have any 00:38:33.000
+kind of authentication Anonymous and 00:38:35.200 test connection we
+should always test 00:38:37.400 our connection okay it is successful
+00:38:39.599 click on create very good our first 00:38:42.560 connection
+is ready now create the 00:38:44.079 second one second connection is a
+data l 00:38:46.359 so I will simply search your blob 00:38:48.359
+storage no no this is the mistake that 00:38:51.520 lot of you will do
+so we have two things 00:38:54.240 as your blob storage as your data
+Lake 00:38:57.119 storage gen two so my one request to 00:39:00.680 aure
+bro just change the icons it is so 00:39:04.359 confusing so instead of
+picking Azure 00:39:06.119 blob storage we will be picking aure
+00:39:08.200 data L Storage into okay simply search 00:39:11.079 data L
+00:39:12.760 continue now we need to name this I will 00:39:15.240
+simply say data L 00:39:18.480 connection perfect now we do not need to
+00:39:22.160 worry about authentication type because 00:39:24.119 it it
+is account key we have so many 00:39:25.880 options by the way we have
+manage 00:39:27.640 identity but if our storage account and 00:39:31.000
+data Factory are both in the same 00:39:32.599 Resource Group then we
+then we do not 00:39:34.280 need to worry about any kind of 00:39:36.000
+authentication then storage account name 00:39:38.359 now we need to
+pick which storage 00:39:39.680 account we need 00:39:41.240 to uh
+choose like in order to actually 00:39:44.960 dump the data so I will
+simply 00:39:47.720 pick uh what was the name of my yeah 00:39:50.480
+Netflix Project D lunch okay so in your 00:39:52.960 case you would just
+be having only one 00:39:55.079 storage account so it\'s fine so
+againest 00:39:58.079 connection okay connection successful 00:40:00.000
+click on create perfect perfect perfect 00:40:02.680 our both the
+connections are ready okay 00:40:04.640 now we will go to author tab so
+00:40:06.800 basically this is your AJ data Factory 00:40:09.240 this is
+the area of AJ data Factory 00:40:11.520 where you\'ll be actually
+creating all 00:40:12.880 the things so as you can see pipelines
+00:40:15.599 and it is showing zero because you do 00:40:16.960 not have
+anything then CDC it is in 00:40:20.200 preview what are data sets
+don\'t worry 00:40:22.520 you will be creating data sets right now
+00:40:24.359 then data flows data flows is a kind of 00:40:27.040 data
+transformation solution within ADF 00:40:30.880 so what it does it
+provides you the low 00:40:33.800 no code option to just perform all the
+00:40:36.800 Transformations so in real life we use 00:40:39.839 park
+right in real life we use data 00:40:42.319 flows as well it totally
+depends what 00:40:45.040 kind of solution your organization wants
+00:40:47.040 to use okay so behind the scenes as your 00:40:50.920 data
+Factory is actually running 00:40:54.359 spark so this is the speciality
+of 00:40:56.680 Microsoft J they try to just use the 00:40:59.920 open
+source and then they just provide 00:41:01.800 the management layer and
+then they just 00:41:03.880 provide the UI graphical user interface
+00:41:06.400 and then you do not need to worry about 00:41:08.480 code
+you can actually drag and drop and 00:41:10.440 do 00:41:12.040
+everything sorted nice then power query 00:41:15.440 by the way this is
+a new feature so this 00:41:17.359 is a kind of alternative to data
+flows 00:41:19.640 so power query is similar similar to 00:41:23.160
+power query editor in powerbi so you can 00:41:25.079 just perform all
+the Transformations 00:41:26.599 using that U this is super super super
+00:41:30.240 cool okay very good SOA just click on 00:41:33.920 this
+pipelines yeah I know you do not 00:41:35.960 have anything simply click
+on these 00:41:37.200 three dots then click on new pipeline 00:41:39.760
+okay so this is the area this is the 00:41:41.760 canvas that you\'ll be
+using to build pip 00:41:43.359 planes so these are all the activities
+00:41:46.520 that I have really no these are not the 00:41:48.880
+activities these are basically the 00:41:50.880 categories of activities
+so if I just 00:41:53.119 click on anyone let\'s say move and
+00:41:54.800 transform it will just show me copy data 00:41:57.480 data
+flow so these are two activities 00:41:59.319 that I can use to move and
+transform my 00:42:02.000 data make sense very good similarly we
+00:42:05.400 have so many different different kinds 00:42:06.640 of
+activities like iterations and 00:42:08.640 conditional don\'t worry I
+will just tell 00:42:10.640 you how to use these activities because
+00:42:12.760 these are the activities that we use in 00:42:14.359 the
+daily life okay very good very good 00:42:17.599 you will be learning a
+lot of things in 00:42:19.359 this video trust me so now it\'s actually
+00:42:23.040 uh now it\'s actually time to use one 00:42:25.240 activity
+which will be responsible to 00:42:26.760 move data what is that
+activity it is 00:42:29.079 called copy activity simply search copy
+00:42:32.119 and just drag it here so this is your 00:42:34.240 copy
+data activity now as you can see we 00:42:37.720 have some stuff here in
+the copy data 00:42:39.359 first of all name so I will simply
+00:42:40.800 rename it copy uh GitHub 00:42:45.000 data perfect
+description I don\'t want to 00:42:48.160 give any description so I will
+skip it 00:42:50.160 timeout these are like this is the 00:42:52.400
+timeout so it will say hey if your data 00:42:54.680 is not copied
+within 12 hours it means 00:42:56.920 12 12 hours then I will just throw
+an 00:42:59.440 error I will say okay because my data 00:43:01.599 will
+be copied within 12 hours retry 00:43:03.599 policy if my pipeline fails
+due to any 00:43:06.680 reason any reason it will just retry it
+00:43:09.599 how many times zero times you can just 00:43:11.800
+increase it you can simply put 10 times 00:43:14.319 it\'s up to you but
+I will simply put 00:43:16.760 zero then retry interval after how much
+00:43:20.800 seconds after how many seconds it should 00:43:22.800 just
+redrive 30 seconds fine then Source 00:43:26.400 okay this is the data
+set now if you 00:43:29.359 know that we have already created the
+00:43:31.640 link service right so now it\'s actually 00:43:33.440 time
+to create the data set data set is 00:43:35.200 basically the data that
+we need to pull 00:43:37.160 within the connection okay so now we
+00:43:40.240 will be creating a new data set and we 00:43:42.839 as I
+just mentioned in my video I\'ll be 00:43:44.640 creating a
+parameterized data set okay 00:43:47.319 so just be with me you will
+know 00:43:48.760 everything what is a parameterized data 00:43:50.440
+set and how we can just create it so 00:43:53.200 first of all simply
+click on plus new 00:43:56.640 then 00:43:57.599 data set is for source
+so what is our 00:43:59.880 source it is GitHub so again HTTP
+00:44:01.800 connection click on continue then what 00:44:04.559 is the
+format of the data CSV very good 00:44:06.839 click on continue then you
+need to name 00:44:10.240 I will simply say DS for data set and I
+00:44:12.319 will simply say GitHub wow now link 00:44:16.640 service
+now we have already created a 00:44:19.079 link service so we do not
+need to click 00:44:20.520 on plus new but if you would have not
+00:44:23.599 created the link service you can create 00:44:25.319 from
+this step as well but I think you 00:44:28.200 should always create link
+service 00:44:29.800 beforehand it is really really really 00:44:32.480
+convenient trust me then click on this 00:44:35.880 okay then it is
+saying relative URL just 00:44:38.839 provide me the relative URL okay
+what is 00:44:41.800 the relative URL I just mentioned okay 00:44:44.280
+it is this one the rest of the link okay 00:44:47.200 but I will not
+provide it like this 00:44:49.040 obviously I can just provide it like
+00:44:50.319 this I can simply copy it and I can 00:44:53.319 simply
+paste it here but I will not do 00:44:56.160 it why 00:44:57.680 because
+Mr 00:44:59.880 bro Miss Mrs bro so I promised you that 00:45:04.400 I
+will create a dynamic pipeline okay so 00:45:06.319 for that do not put
+anything here right 00:45:09.200 now I will just tell you why simply
+00:45:12.000 remove it and go to 00:45:14.160 Advanced Okay click on
+open this data 00:45:17.920 set okay what just appeared okay this is
+00:45:22.200 your area where you can actually edit 00:45:24.640 your
+data set okay so this is data set 00:45:27.680 that we created yes now
+what we will 00:45:30.359 doing we will simply go to parameters we
+00:45:33.720 will create a parameter and what will be 00:45:36.480 the
+parameter I will call it as file 00:45:39.359 name perfect now what I
+will do I will 00:45:43.280 go to connection I will simply click on
+00:45:46.000 relative URL and click on ADD Dynamic 00:45:48.800 content
+click on it now we have the 00:45:50.839 option to put the dynamic
+content now 00:45:53.520 now this is the real game okay I\'m just
+00:45:56.079 telling you everything in detail so that 00:45:58.040 you
+can learn so that you can 00:46:01.200 understand okay so if you already
+know 00:46:03.400 do not feel like why this guy is just 00:46:05.920
+like explaining everything in so much of 00:46:08.240 detail bro if you
+know it\'s good so I\'m 00:46:11.520 just explaining for those who are
+not 00:46:13.319 aware of these things and if they are 00:46:15.079
+aware it\'s a good kind it\'s a kind of 00:46:18.359 revision for them
+so do not feel like 00:46:21.640 hey we already know we already know
+this 00:46:23.680 we already know that we know that you 00:46:26.200 are
+an expert you are a pro you are the 00:46:29.359 best uh data engineer
+on this planet we 00:46:31.680 know this we know this so we are just
+00:46:34.000 trying to explain so that everyone can 00:46:36.440 learn
+and if you already know the best 00:46:38.680 attitude is okay I already
+know these 00:46:40.680 things I will still go to the details so
+00:46:44.240 that actually I can revise the stuff so 00:46:47.079 it\'s
+up to you which type of attitude 00:46:49.839 you are carrying okay okay
+so by the way 00:46:53.440 love you fam I will just tell you
+00:46:55.319 everything in detail don\'t worry 00:46:57.440 don\'t worry
+don\'t worry don\'t worry okay 00:47:00.000 so this is the area this is
+called 00:47:01.480 Expression Builder this is very 00:47:02.880
+important stuff why because in the real 00:47:05.240 world you cannot
+imagine any solution 00:47:07.839 without this box without this box
+trust 00:47:10.760 me so what I will do I will simply go to 00:47:13.280
+my link okay I will simply copy it again 00:47:16.480 I will come back
+to my data Factory I 00:47:18.160 will paste it here lamba you are
+trying 00:47:21.960 to become smart I\'m already smart I 00:47:24.960
+guess okay by the way jokes about 00:47:27.640 I\'m not trying to become
+a smart person 00:47:29.800 so the thing is I have to copy this uh
+00:47:33.720 link but trust me I will not use this as 00:47:36.240 it is
+trust me just hold on so if you 00:47:38.960 will observe this link our
+all the files 00:47:43.559 all the files have same link till here
+00:47:48.240 just use your IQ we have same link till 00:47:52.079 here
+but after this link we have a 00:47:55.160 different file name so what I
+will do I 00:47:56.960 will remove this okay I will remove this
+00:48:01.079 and then I will use this parameter 00:48:05.119 perfect
+perfect so as you can see some 00:48:08.280 errors don\'t worry these
+are not errors 00:48:10.760 you simply need to remove this at the
+00:48:12.319 rate from here and just put it 00:48:15.119 here then put
+curly braces y so if you 00:48:19.160 are aware of any programming
+language 00:48:20.640 you would have or let\'s say python you
+00:48:22.640 would have used F strings where you just 00:48:24.760
+combine string with variables so this is 00:48:28.079 the same thing
+this is your 00:48:30.240 text and this is your variable so it is
+00:48:33.520 saying hey do not treat it like the 00:48:35.680 whole text
+this is not the whole text 00:48:38.520 this is the variable okay so now
+simply 00:48:41.440 click on okay okay now you will say hey 00:48:44.359
+an lamba this is sorted we understood 00:48:46.680 this step if I just
+click on this 00:48:48.040 pipeline one you will see one 00:48:50.760
+box yes so now your question is valid I 00:48:54.200 know your question
+you are saying hey an 00:48:55.880 lamba we have created a variable so
+how 00:48:58.760 will be feeding that variable I will 00:49:00.520 just
+tell you hold on hold on because 00:49:02.880 you will say hey an lamba
+by the way you 00:49:06.079 really like take my name so many times
+00:49:09.280 okay just call me bro okay so if I just 00:49:12.240 go
+back to my repository I have 1 2 3 00:49:16.319 four five five files but
+actually we\'ll 00:49:18.920 be pulling four files because this file
+00:49:20.440 will be coming from databas so just 00:49:22.480 remove
+this so we have four files 1 2 3 00:49:25.799 4 so on lamba we need to
+pull all the 00:49:29.119 files together that is a kind of dynamic
+00:49:31.839 pipeline so how we will be feeding this 00:49:34.160 value
+four times will we be doing 00:49:37.040 manually the answer is no no no
+no no no 00:49:41.760 so we will just provide this value using
+00:49:44.720 for Loop don\'t worry okay for Loop yeah 00:49:47.599 so
+before that I will just simply go to 00:49:49.799 sync and I will simply
+click on new 00:49:51.920 because we need to just set the 00:49:53.640
+destination first okay now simply click 00:49:56.359 on plus new and I
+can do one more thing 00:49:59.839 that is a kind of you can say
+00:50:02.000 enhancement in the current solution 00:50:03.680 what\'s
+that so if I just go to my data 00:50:07.240 set click on open okay this
+is the data 00:50:09.599 set click on this Dynamic box for one
+00:50:11.079 more time I want this file name as it is 00:50:15.440 then
+I will add CSV as well why because 00:50:19.240 I will not feed CSV in
+my variable and 00:50:22.400 you will get to know why okay simply
+00:50:24.520 click on okay go to p one then go to 00:50:27.760 sync
+click on plus new then pick data L 00:50:30.960 continue and what is the
+file format you 00:50:33.079 want to pick for your destination it\'s
+00:50:35.440 CSV okay continue then what is the uh 00:50:40.280 name I
+will simply say DS 00:50:42.760 sync then link service will be data L
+00:50:45.440 connection we have already created that 00:50:47.119 so now
+it is asking me to provide the 00:50:48.960 file path file path okay I
+will not pick 00:50:52.119 that I will not pick that why same thing
+00:50:55.920 go to advance 00:50:57.640 okay open this data 00:50:59.760
+set then then then then what I will do I 00:51:03.440 will click on
+browse Okay click on 00:51:05.799 browse go to uh bronze Okay click on
+00:51:11.040 okay that\'s it do not go inside anything 00:51:13.960 now
+we know that our container is bronze 00:51:16.319 our directory we will
+feed using a 00:51:20.839 parameter I will simply create a 00:51:22.319
+parameter I will say folder name 00:51:26.760 okay folder name and one
+more thing file 00:51:29.920 name okay file name so I will simply say
+00:51:35.200 file name perfect so these are two uh 00:51:38.240
+parameters so now I will fill these 00:51:40.799 boxes using those
+parameters so this 00:51:42.880 will be my folder name perfect so this
+00:51:45.000 will be my file 00:51:47.960 name perfect perfect
+00:51:51.000 perfect perfect so now what we can do we 00:51:54.520 can
+simply go to pipeline one okay now 00:51:56.799 we have one box here and
+two boxes here 00:51:59.960 sorted sorted now we just need to feed
+00:52:02.640 these values okay so how we can do that 00:52:05.319 first
+of all I simply go to source for 00:52:06.760 one more time click on
+open and just 00:52:09.160 remove this CSV because I have created a
+00:52:12.440 dedicated uh parameter for that so it 00:52:14.799 will be
+easier for you to understand 00:52:16.240 just remove it then now I will
+just 00:52:19.960 create 00:52:21.359 a 00:52:23.119 iterative activity
+so simp simply click 00:52:25.680 on iteration 00:52:27.040 and click on
+for each and drag it here 00:52:29.640 so this is your for Loop that
+you\'ll be 00:52:31.599 running on top of this copyed activity
+00:52:33.720 okay simply expand it and then the thing 00:52:37.440 is in
+order to run this for Loop you 00:52:39.119 need to pass an array you
+need to pass 00:52:42.079 an array so how you can just pass the
+00:52:45.400 array to this for Loop so there are two 00:52:47.520 ways
+yes there are two ways so one thing 00:52:50.760 what you can do you can
+simply create a 00:52:54.079 parameter on the pipeline level okay and
+00:52:57.440 the second thing is you can use a Json 00:52:59.359 file
+but in the real life if you\'re 00:53:02.280 deploying Your solution to
+different 00:53:03.920 different moments let\'s say test and
+00:53:06.839 then prod then it will be really hard to 00:53:09.559 just
+take those files along with the 00:53:11.440 environments the best thing
+is just 00:53:12.839 create the parameter simply click on 00:53:14.720
+plus new and just create a parameter 00:53:17.319 called P array that\'s
+it and then we 00:53:22.599 will create the type as array then we
+00:53:26.000 will feed the value here then we will 00:53:28.240 feed the
+value here so how you can just 00:53:30.799 feed the value I will just
+create the 00:53:32.680 array in front of you so that you can
+00:53:34.079 actually understand how we can just 00:53:35.280 create the
+array let me just show you so 00:53:38.040 now let\'s create the array I
+want to 00:53:41.000 just show you how you can also create 00:53:42.720
+and how you can actually create the 00:53:44.079 array so first of all
+the first thing to 00:53:46.040 create an array is we will just create
+00:53:47.960 the a kind of list it\'s not a list but 00:53:50.160 you
+can just say like list is also kind 00:53:52.359 of 1D array that is
+onedimensional array 00:53:54.319 so array in this array we will create
+00:53:56.119 multi multiple dictionaries so simply 00:53:58.480 open the
+dictionary within that oops why 00:54:01.359 just I clicked on this so
+after creating 00:54:04.119 a dictionary we will simply create two
+00:54:06.559 keys one 00:54:08.119 is folder name okay and what will be
+the 00:54:13.480 name of this I will simply say there are 00:54:16.559
+like total four files right so I will 00:54:18.359 simply say cast
+category countries and 00:54:21.440 directors or let\'s say Netflix cast
+I 00:54:23.359 will just copy this okay so so simply 00:54:27.599 paste
+it here and just remove do CSV why 00:54:30.599 do you want to know my
+00:54:32.119 location then another key another key 00:54:36.400 will be
+file name okay then simply put 00:54:41.760 that name here so now did
+you understand 00:54:44.440 what I did let me just close this
+00:54:45.799 dictionary first what these ads man 00:54:49.240 these
+00:54:50.960 ads I don\'t know so let me just zoom it 00:54:54.200 a
+little bit 00:54:56.559 so if you just see we have created one
+00:54:59.000 dictionary this is our one item for one 00:55:01.119 file
+this is our folder name this is our 00:55:03.200 file name okay so
+similarly we\'ll be 00:55:05.319 creating all the entities within this
+00:55:07.760 array I\'ll simply 00:55:09.760 copy and paste it
+00:55:14.799 here what can we paste it 00:55:19.680 here oh man this
+doesn\'t allow us I 00:55:23.240 think to 00:55:24.440 paste wow wow
+such a great notepad man 00:55:28.799 let me just give five star ratings
+we 00:55:30.319 have to just use our Mouse it is not 00:55:31.920
+allowing us to use short shortcut keys 00:55:34.400 so do not forget to
+just put the comma 00:55:37.200 okay let me just copy it for one more
+00:55:40.079 time using 00:55:41.559 Mouse then comma then paste it for
+one 00:55:46.200 more time okay so let me just grab the 00:55:48.240
+another name it is category okay let me 00:55:50.160 just replace
+00:55:52.559 it category and then obviously change 00:55:55.160 the file
+name as well 00:55:57.200 category then we have I think directors
+00:55:59.920 no countries 00:56:01.599 okay then simply put countries by
+the 00:56:06.039 way they can ask you this question in 00:56:08.160 the
+interview as well so how you can 00:56:10.400 just create the array if
+you want to 00:56:13.599 just pull the values so simply say hey
+00:56:16.640 we know like how to create the 00:56:18.000 parameters so
+just keep your moue shut 00:56:21.119 no don\'t don\'t talk like this
+you are 00:56:23.960 not on SCH lamba 00:56:26.599 directors okay then I
+will simply say 00:56:30.599 directors done that\'s it now with this
+00:56:34.480 solution let me just close close the 00:56:36.760 array
+close so with this solution you 00:56:40.280 actually do not need to
+worry about 00:56:41.640 files because because because this can
+00:56:43.480 be your interview question why they will 00:56:45.480 say
+Hey you can just choose Json file 00:56:48.400 but you are not allow to
+just copy the 00:56:51.359 files within environment what you will
+00:56:53.119 do in that you will create an array and 00:56:55.160 you
+will just store that array in a 00:56:57.000 parameter okay sorted let
+me just copy 00:57:00.599 this array simply copy and let\'s go back
+00:57:05.760 to our pipeline okay so simply paste 00:57:09.200 that
+array here done done that\'s it 00:57:12.119 that\'s it now you do not
+need to manage 00:57:13.720 any kind of Json file so now we will
+00:57:15.920 simply go 00:57:17.480 to what is the array 00:57:19.880
+man P array 00:57:24.319 and P array 00:57:26.880 what is red okay
+forget it so now what 00:57:29.920 it will do we will use this array to
+00:57:32.839 provide the value to this activity okay 00:57:36.720 simply
+go to settings and I can simply 00:57:38.960 rename it 00:57:40.520 for
+all the 00:57:43.160 files simple click on settings now 00:57:46.760
+here\'s the thing how you want to just 00:57:48.359 pull the data is it
+sequential or in 00:57:50.559 parallel I will just copy the data in
+00:57:52.200 parallel okay so I will not check this 00:57:54.680 box
+then click on it click on ADD 00:57:56.839 Dynamic content and then pick
+the 00:57:59.400 parameter simple click on okay done okay 00:58:04.319
+now you will just click on this activity 00:58:07.559 CR X which is for
+cut click on 00:58:11.400 pencil paste this activity inside this
+00:58:14.160 paste this okay paste this activity so 00:58:17.200 what it
+will do it will embed your copy 00:58:19.760 activity within this
+activity okay 00:58:22.200 sorted okay very good now we can just
+00:58:25.359 fill the parameters of those boxes so 00:58:28.079 what is
+our source what is our source 00:58:31.160 our source is item this is
+the item of 00:58:34.960 the for Loop so every time the loop will
+00:58:37.039 be running it will just create the 00:58:39.680 iteration
+so let me just 00:58:42.079 explain this is equalent to 4 i in it is
+00:58:46.200 the code for python so do not worry if 00:58:48.559 you
+know any programming language you 00:58:49.839 would easily related with
+it okay so for 00:58:52.400 I in our parameter 00:58:56.240 so let\'s
+say par then if I just 00:59:00.920 say return 00:59:03.440 I return I
+what it will return what it 00:59:07.359 will return it will return the
+whole 00:59:10.160 dictionary and how many dictionaries do 00:59:12.200
+we have four so every time it will 00:59:14.319 return one dictionary
+second dictionary 00:59:16.440 third dictionary fourth dictionary So
+00:59:18.880 within that dictionary which key we want 00:59:21.039 to
+use which key we have two keys right 00:59:23.839 folder name and file
+name we will be 00:59:26.839 using simply click on it we will be
+00:59:30.160 using dot file name simple that\'s it 00:59:35.280 that\'s
+it because file name is having 00:59:37.960 the fil name. CSV that\'s
+what you want 00:59:41.400 right that\'s what you want simply click
+00:59:43.440 on okay then click on sync then this 00:59:46.720 time do
+the same thing but this time 00:59:48.400 you\'ll be picking folder name
+because 00:59:50.119 this is the folder and click okay file 00:59:53.200
+name add Dynamic content this thing 00:59:56.559 dot file name perfect
+this is fine this 01:00:00.359 is fine let me just go back to the main
+01:00:01.960 pipeline this is fine I don\'t know why 01:00:04.799 this
+is red I think due to the spaces 01:00:06.480 but I will just still run
+it because I 01:00:08.200 want to run it okay so now I know this
+01:00:11.680 pipeline will be running smoothly if we 01:00:14.599 have
+like some errors we will just 01:00:15.839 obviously uh eliminate those
+so do not 01:00:18.240 need to worry so this is our pipeline
+01:00:20.039 within this for each pipeline we have 01:00:21.960 copy
+activity but now I want to apply 01:00:24.960 data validation why so the
+thing is now 01:00:29.079 I will just show you the real time
+01:00:30.599 scenario so this is the pipeline okay I 01:00:34.319 only
+want to run this pipeline I only 01:00:38.920 want to run this pipeline
+if let me just 01:00:41.960 go back to the resource Group and
+01:00:45.880 storage account 01:00:48.960 containers raw I only want to
+run this 01:00:53.720 pipeline if I have have titles Netflix
+01:00:58.520 titles file available in this folder 01:01:01.599 only and
+only then how we can achieve 01:01:04.680 this I will just tell you so
+what I will 01:01:07.079 do I will create another pipeline it\'s
+01:01:08.760 called validation it\'s called validation 01:01:12.200 so I
+will simply pick this pipeline 01:01:13.960 activity then what I will do
+I will 01:01:16.760 create obviously rename it validation 01:01:20.119
+GitHub okay so this is the kind of data 01:01:22.440 validation step
+that we are performing 01:01:24.920 before for each and before copy
+activity 01:01:29.000 sorted very good then within this data
+01:01:31.599 validation activity simply go to 01:01:33.280 settings then
+we need to create a data 01:01:35.640 set we need to create a data set
+okay I 01:01:38.920 will simply create a new data set and I 01:01:40.720
+will simply pick data storage Gen 2 then 01:01:43.440 I will simply say
+CSV because the format 01:01:46.200 of the file will be CSV click on
+01:01:48.640 continue okay then I will simply say DS 01:01:52.240
+validation this is my data validation 01:01:53.880 data set and link
+service you already 01:01:56.760 know now I will just pick the location
+01:01:59.440 so location is 01:02:01.240 raw that\'s it that\'s it
+that\'s it if I 01:02:05.599 have files within this I want to run
+01:02:08.880 this pipeline simply C on okay okay now 01:02:13.319 now
+now now now now what it will do you 01:02:17.279 just need to wait if
+you have any kind 01:02:20.400 of file there if you have any kind of
+01:02:24.760 file Within that folder within that 01:02:28.880 folder let
+me show you the output of 01:02:30.839 this let me just deactivate this
+01:02:32.279 pipeline this for each because I only 01:02:34.440 want to
+run this one click on 01:02:36.920 debug should be a valid array I knew
+01:02:40.079 this I knew this let me just copy it and 01:02:43.240 let
+me just paste it 01:02:44.880 here oh man these ads so what\'s wrong
+01:02:48.079 with our array 01:02:51.760 uh folder name file name it\'s
+fine I 01:02:55.200 think it\'s du to the 01:02:56.799 spaces I am 99.9
+in% sure so let me just 01:03:02.079 remove the 01:03:03.279 spaces
+because the Y doesn\'t like the 01:03:08.839 spaces so just remove the
+spaces in your 01:03:11.240 case if you have any otherwise it will
+01:03:13.920 say not a valid 01:03:17.920 area 01:03:21.920 Okay simply
+remove all the all the all 01:03:25.520 these 01:03:28.279 okay let\'s
+try this one 01:03:30.279 now hey a do you like 01:03:33.480 this do you
+like this yeah it liked it 01:03:36.839 so let me just click on debug
+and click 01:03:39.760 on okay and now we just show you what it
+01:03:42.559 will 01:03:44.440 return so now this is running okay this
+01:03:47.680 validation activity is running and it 01:03:49.119 ran
+successfully why because we already 01:03:53.160 had that particular
+folder it says Exit 01:03:55.799 EXs true it says exists true very good
+01:04:00.839 very good very good very good so it says 01:04:03.480 that
+it exists right but what we want we 01:04:07.400 want file within this
+we want what we 01:04:11.119 want file within this what kind of file
+01:04:15.559 obviously we want this file which is 01:04:18.039 called
+netflix. netlix titles. CSV 01:04:21.640 simply go back here okay and
+then if you 01:04:25.319 just go go to open then just provide the
+01:04:29.119 file name as well okay now just rerun 01:04:32.920 this now
+just run 01:04:36.240 this just rerun this now you will see 01:04:39.960
+something 01:04:42.000 else now what it will do it will not be
+01:04:48.200 completed it will not be completed it 01:04:50.880 will
+only be running running running and 01:04:53.160 it will be waiting for
+the file but the 01:04:55.760 moment we will have the file in that
+01:04:57.720 folder it will run successfully it will 01:05:00.279 be
+completed it will be completed you 01:05:02.760 can just wait I\'m not
+lying you can just 01:05:04.079 wait for like 10 hours it will not be
+01:05:05.680 completed it is a validation step okay 01:05:10.119 okay
+okay okay got it so this is a kind 01:05:13.960 of validation step that
+you can 01:05:16.160 add and if you want to be very specific
+01:05:19.200 for the file you can put the file name 01:05:21.240 if you
+want like if like you want any 01:05:23.480 CSU file so what you can do
+in that 01:05:24.960 scenario let me just click on cancel 01:05:26.400
+because it will not be completed okay 01:05:28.279 cancel options cancel
+so simply click on 01:05:32.000 this activity edit it and now what you
+01:05:34.760 can do click on this browse okay and 01:05:38.279 then if
+you just go here and then you 01:05:42.119 just need to remove this then
+what you 01:05:44.599 can do you can just create a folder 01:05:47.400
+instead of creating a 01:05:48.799 file like any folder like let\'s say
+you 01:05:51.319 want to create 01:05:53.559 GitHub okay you want to
+create a GitHub 01:05:57.119 and then I can just create a folder here
+01:05:58.599 called GitHub and if that GitHub folder 01:06:01.359 will
+have any CSU file it will be 01:06:03.079 completed it will be completed
+but for 01:06:06.359 now I will just try to keep the file 01:06:09.440
+name yep as it is okay so now this is 01:06:12.960 our validation step
+and we will upload 01:06:14.680 the file very soon once this pipeline is
+01:06:16.279 completed so this is fine this is fine 01:06:18.319 what
+else I want to show you let me just 01:06:20.960 activate this click on
+activated okay 01:06:24.640 perfect now I will include an activity
+01:06:28.119 called Web activity that I was talking 01:06:30.520 about
+okay simply pull this activity 01:06:33.039 here and just put it here
+let me have 01:06:36.319 some more 01:06:37.400 space 01:06:40.880 uh
+yeah perfect now I will just show you 01:06:44.480 what it returns if
+you want to get the 01:06:47.000 metadata if you want to get the
+metadata 01:06:49.839 of our all the files how we can do that
+01:06:52.760 let me just show you simply click on 01:06:54.559 this web
+activity and then simply rename 01:06:58.160 it let\'s say 01:07:00.000
+GitHub meta 01:07:03.119 metadata okay then click on uh settings
+01:07:08.240 then it is asking us to provide the URL 01:07:10.559 what
+is the URL let me show you this is 01:07:13.400 a URL yeah this time
+this is a URL 01:07:15.839 because this is the uh you can say web
+01:07:18.480 page that you want to fetch okay simply 01:07:22.359 copy
+this okay then paste it here 01:07:27.240 okay now method we want get if
+we want 01:07:31.240 to just get the information we use get 01:07:33.160
+method in API and if you want to just 01:07:35.240 ask like if you want
+to use API to 01:07:38.160 perform any action we use post method
+01:07:40.440 okay so we will use get method 01:07:42.319 authentication
+none and Advance is fine 01:07:45.440 let me just deactivate other
+activities 01:07:48.079 okay this as well let me just run this
+01:07:50.480 web activity now let me just show you 01:07:52.960 what it
+will return let me just show you 01:07:57.240 so this is our GitHub
+01:07:59.640 metadata because there can be scenarios 01:08:01.760 it ran
+fine very good now click on this 01:08:04.000 output button this is the
+response this 01:08:07.400 is the whole response that we have
+01:08:10.960 received from this web page this is the 01:08:14.000
+response and this response has like 01:08:16.839 everything if you just
+scroll obviously 01:08:18.880 there are like so much of data okay
+01:08:22.319 see like everything is there if you just 01:08:26.600
+closely observe you will have all the 01:08:29.080 things listed here
+within this web page 01:08:33.000 you will be having all the things so
+01:08:35.319 this is the thing that we use if you 01:08:36.839 want to
+get any response any response 01:08:39.960 okay so you can just scroll
+down and if 01:08:42.520 you are interested you can just read it
+01:08:44.238 no 01:08:45.158 worries okay so this is the thing that I
+01:08:48.279 wanted to show you that how you can just 01:08:50.399 get
+the metadata of web of any API of 01:08:54.759 any any any 01:08:56.238
+API okay got it simple so that\'s why we 01:09:00.080 use HTTP
+connection when we have data in 01:09:02.120 the specific one so let\'s
+say this is 01:09:05.158 the one and if I just paste the raw URL
+01:09:08.319 let\'s say this one then you will see 01:09:10.439
+something else then you will see that 01:09:13.439 you have only data
+let me just run this 01:09:16.439 let me just run 01:09:24.000 this yeah
+let me just see the output now 01:09:27.120 this time you will see we
+have all the 01:09:30.600 data in the form of response see all the
+01:09:34.600 names like these are all the data real 01:09:38.000 data
+these are all the real data that we 01:09:40.600 have here but in the
+form of 01:09:44.799 response from the API okay so I hope I 01:09:49.198
+hope I hope now you know how to fetch 01:09:51.198 the data from the web
+from the apis so 01:09:55.480 once we have all this once we have all
+01:09:58.120 this we can simply attach this data 01:10:00.320 Maybe we
+want to just store this 01:10:01.800 information let\'s say in variable
+how 01:10:04.320 you can do that you can simply go to 01:10:06.320
+General and simply click on variables 01:10:09.600 create a variable I
+will simply say 01:10:12.040 GitHub metadata okay and I will simply
+01:10:16.040 store all the information within this 01:10:18.280 variable
+I can do that for that you will 01:10:20.480 simply pick variable set
+variable 01:10:23.800 activity okay and simply drag it here 01:10:27.600
+and let me just have some more space and 01:10:31.040 then you can
+connect this activity with 01:10:32.520 this one so this will store all
+the 01:10:34.320 information of this GitHub metadata you 01:10:36.280
+simply need to go to settings pick the 01:10:39.199 variable name this
+one that\'s it that\'s 01:10:41.760 it it is done so let\'s say we want
+to 01:10:43.719 just fet the metadata first okay then 01:10:46.120 you
+want to store the information in the 01:10:47.360 variable for our logs
+it\'s our choice 01:10:50.360 then I will simply connect this activity
+01:10:52.239 with the validation step because I\'ll be 01:10:54.199
+seeing hey do we have any file if we 01:10:57.080 have any file I
+01:10:59.159 will connect this activity with the for 01:11:02.360 each
+on the success of this meditation 01:11:04.800 activity okay simply
+activate 01:11:08.280 this simply activate this simply 01:11:11.080
+activate this as 01:11:12.800 well perfect perfect perfect perfect
+01:11:16.920 perfect and by the way this is your end 01:11:20.400 to end
+flow that you can create that you 01:11:22.640 can build okay so now
+it\'s time to 01:11:26.000 actually run this Pipeline and let\'s see
+01:11:28.360 if we have any errors we can obviously 01:11:29.880
+mitigate those errors and in order to 01:11:31.800 run this pipeline we
+should have data 01:11:33.520 here so let me just quickly upload the
+01:11:35.280 file that we want to use from this 01:11:37.040 folder okay
+so for that simply click on 01:11:39.440 upload so I have uploaded this
+file 01:11:41.800 Netflix titles. CSV so now it should see 01:11:44.639
+this file and now this pipeline should 01:11:46.639 work seamlessly okay
+are you ready to 01:11:49.920 trigger this pipeline are you ready
+01:11:51.960 let\'s trigger this pipeline before 01:11:53.440 running
+this pipeline let me just 01:11:55.840 just have some space and let me
+just 01:11:58.320 click on publish all because I want to 01:11:59.560
+save my work otherwise publishing error 01:12:02.920 user value set
+variable activity 01:12:05.159 variable value undefined who what what\'s
+01:12:07.639 that what\'s that what\'s that so settings 01:12:11.040 oh
+we didn\'t Define the value so we can 01:12:13.000 simply say output
+because we want to 01:12:14.600 save the output of this one yeah it\'s
+01:12:16.080 fine now let\'s click on validate first 01:12:18.199 it\'s
+fine okay just publish all because 01:12:20.440 you want to save all
+your changes so 01:12:21.960 simply click on publish it will just
+01:12:23.440 save all your work that you have done so 01:12:25.600 far
+so that when you will be just coming 01:12:27.360 back to complete rest
+of the pieces you 01:12:29.440 do not need to worry about starting from
+01:12:31.639 scratch okay so now let\'s click on debug 01:12:34.440
+it\'s finally time to debug the pipeline 01:12:36.920 and don\'t worry
+if we have any errors we 01:12:38.400 will debug it because that\'s the
+part of 01:12:40.400 development you are not robot even 01:12:42.480
+robots can make mistakes and if you are 01:12:44.480 just building any
+solution it\'s not like 01:12:45.920 you will just create in one go so
+do not 01:12:48.199 worry if you see errors if you see 01:12:49.480
+errors you should feel happy because 01:12:52.199 half of the time in
+your job you\'ll be 01:12:53.639 just debugging the errors that\'s it
+01:12:55.719 so you\'re just preparing yourself trust 01:12:57.320 me
+trust me it\'s not like any other 01:12:59.719 domain where you when you
+see errors you 01:13:01.639 should feel bad that you are having
+01:13:03.880 errors 01:13:04.800 no okay okay okay Ana we have one error
+01:13:07.800 okay what\'s that hey what\'s that what\'s 01:13:09.920
+that what\'s that what is the error 01:13:12.440 cannot be initial
+operated with the 01:13:13.800 value object oh I see because set
+01:13:17.040 variable activ we didn\'t actually test 01:13:18.440 it so
+that\'s why it is throwing errors 01:13:19.920 so we can simply
+deactivate or we can 01:13:21.920 simply change the variable type so it
+is 01:13:24.360 saying 01:13:25.679 variable type A String but you
+should 01:13:27.560 just keep it object so I can just pick 01:13:29.600
+object but that is not the point we want 01:13:33.239 to actually run
+these pieces this is 01:13:34.840 just for like additional stuff but
+still 01:13:37.080 you can if you want to pick string you 01:13:38.560
+can pick string otherwise you can simply 01:13:41.239 pick the object
+type as well so it\'s up 01:13:44.440 to you so if you just see the
+error it 01:13:46.639 is saying 01:13:50.320 that that the variable get
+a metadata of 01:13:53.360 time string cannot be initialized or
+01:13:55.080 updated with the value of type object so 01:13:56.840 in
+the response we are getting objects 01:13:59.440 instead of having any
+kind of string so 01:14:03.120 in order to do that we create parameters
+01:14:04.960 but obviously our main focus is to run 01:14:07.040 those
+pieces so I will simply deactivate 01:14:08.480 it my main intent was to
+store this um 01:14:11.960 information in the variable but in real
+01:14:14.840 life we obviously store some pieces of 01:14:16.880 it
+let\'s say let me just tell you 01:14:19.280 otherwise you will say Hey
+you are not 01:14:21.480 telling us the truth no that\'s not the
+01:14:23.280 thing so when I just get the response so 01:14:26.000 what
+I can do I can simply say output. 01:14:30.159 response when I will
+write this it will 01:14:31.760 just store everything let me just show
+01:14:33.159 you I just do not want to spend my time 01:14:37.280 on
+that piece so that\'s why I\'m not 01:14:39.360 showing you so but still
+if you want I 01:14:41.920 can just do it so output 01:14:45.760 dot
+response when you will write this it 01:14:48.480 will just store the
+array so it should 01:14:51.840 let\'s validate close debug click on
+okay 01:14:57.120 click on 01:14:59.520 okay now let\'s see if it
+01:15:03.600 works so get up metadata worked fine and 01:15:07.639 then
+we have this 01:15:10.560 thing yeah it worked fine I told you
+01:15:12.719 because we do not store the object we 01:15:14.320 just
+store the response okay so now it 01:15:16.679 is running our main
+pipeline which is 01:15:18.719 the focus and if we have any errors we
+01:15:20.400 will debug these 01:15:21.679 errors with Focus because now
+if I just 01:15:25.400 show you the output tab you can see that
+01:15:28.040 all the four files are being pulled 01:15:30.639 right now
+parallely because we have 01:15:33.760 picked that we want to parall run
+the 01:15:35.719 data it will save a lot of time okay you 01:15:37.880
+do not need to just depend dependent on 01:15:40.600 any other activity
+that should complete 01:15:44.360 first wow man such such such such a
+such 01:15:48.719 a great feeling after seeing all the 01:15:51.400
+greens if you also saw Greens in your 01:15:54.480 one 01:15:56.360 just
+tell me right now in the comment 01:15:58.760 just just say like we saw
+all the greens 01:16:03.360 in the pipeline and just say thank you
+01:16:06.480 to Azure not to me just kidding so our 01:16:10.960
+pipeline ran successfully now it\'s time 01:16:12.480 to actually show
+you something else 01:16:15.000 what\'s that it\'s is it the data no
+01:16:17.400 before data I will just show you 01:16:18.520 something
+else so if you just go to 01:16:19.600 monitor tab just click on
+Pipeline runs 01:16:22.960 and just click on debug you will see
+01:16:25.639 your all the pipeline runs that you have 01:16:30.520 run
+so far so first of all we use this 01:16:34.040 one then we just
+triggered this one then 01:16:36.000 succeeded succeed then this was
+failed 01:16:38.199 and then it succeeded all the time 01:16:40.080
+stamps everything is there all the Run 01:16:42.639 IDs are there and it
+is also saying that 01:16:45.400 this was triggered by a manual trigger
+01:16:48.080 not automatic trigger so this is your 01:16:51.000 monitor
+tab you can just actually come 01:16:53.280 and see all the history all
+the 01:16:56.040 logs okay very good one more thing one 01:16:59.280
+more thing one more thing simply go to 01:17:01.080 alerts and metrics
+here what you can do 01:17:04.360 let\'s say your pipeline failed and
+you 01:17:06.360 want to get the notification how you can 01:17:08.040
+get that simply click on plus new alert 01:17:09.679 Rule and here you
+can actually create 01:17:12.320 the rule and you can just send like set
+01:17:14.560 the criteria and then configure 01:17:16.840 notification
+you can just put your email 01:17:18.480 ID as 01:17:19.920 well okay so
+this is the thing that we 01:17:22.440 use in real world so if you get
+the 01:17:23.639 question in interviews how you can set 01:17:25.480 the
+let\'s say email notification if your 01:17:27.600 pipeline fails just
+say that obviously 01:17:30.480 we can use logic apps but we do not use
+01:17:32.400 logic apps now we can use but we can 01:17:35.360 also use
+alerts and metrics and we can 01:17:37.239 just create one alert rule
+just remember 01:17:39.360 this answer okay very good so now let\'s
+01:17:42.159 go to the data Lake okay now let me just 01:17:45.120 go to
+this silver uh bronze layer this 01:17:48.120 is the bronze I should see
+all the four 01:17:52.080 folders wow all the four folders and I
+01:17:54.679 should should see files in these folders 01:17:56.639 let
+me just click on anyone perfect let 01:17:59.840 me just click on the
+other one perfect 01:18:02.159 let me just click on the other one
+01:18:03.719 perfect let me click on the other one 01:18:05.320 perfect
+we just created a dynamic 01:18:07.920 pipeline end to end to end
+pipeline 01:18:10.000 Which pull data directly without using
+01:18:12.440 files without using any Json file 01:18:14.400 without
+using anything else we just P 01:18:16.760 everything using our ADF
+which can be 01:18:20.960 easily deployed to different different
+01:18:22.239 moments because we do not have any 01:18:23.520 dependency
+right we we have nothing we 01:18:26.080 have nothing and we have also
+performed 01:18:27.880 one validation step which is so cool 01:18:31.040
+this one data validation perfect perfect 01:18:34.000 perfect perfect
+and if you do not have 01:18:35.560 any file it will not be going
+forward 01:18:37.719 okay so this was all about ADF our first
+01:18:40.760 step is done now we will be creating a 01:18:42.920 data
+bricks worksspace because it\'s time 01:18:44.600 to actually Kickstart
+our data bricks 01:18:46.600 journey and we will be using first of
+01:18:48.400 all autoloader and I\'m really really 01:18:50.600 really
+excited to show you that okay do 01:18:53.280 not forget to publish all
+your changes 01:18:56.560 and now let\'s create our databas 01:18:58.239
+workspace okay so it is I think 01:19:01.679 published almost yeah so
+let\'s create 01:19:04.040 our databas so now let\'s quickly go to
+01:19:06.719 our Resource Group and now let\'s create 01:19:08.719 a
+your datab resource so simply go to 01:19:11.199 Marketplace as you know
+simply search 01:19:14.159 data 01:19:15.239 Breaks by the way data
+break service is 01:19:19.400 obviously provided by a third party part
+01:19:22.560 that is available as first party seller 01:19:24.880 which
+is data brakes so that\'s why it is 01:19:26.600 called aure Data brakes
+by the way data 01:19:29.000 braks is a different entity okay so
+01:19:31.560 simply click on aure datab breakes this 01:19:34.120 one
+and then you will see obviously the 01:19:37.400 same page then this is
+important okay so 01:19:41.480 now you need to pick the workspace name
+01:19:43.719 so I will simply say 01:19:45.679 Netflix uh ADB unch it
+should be 01:19:49.239 available yeah it is available now 01:19:51.800
+pricing deer obviously you do not need 01:19:54.120 to worry about
+pricing but still if 01:19:56.199 you\'re using p as you go p as you go
+p 01:19:58.880 as you go account so then you can simply 01:20:01.480
+pick trial what is the difference 01:20:03.920 between standard premium
+and trial so 01:20:06.480 standard will not allow you to create
+01:20:08.800 Unity catalog are we creating Unity 01:20:11.120 catalogs
+yes why because the Legacy High 01:20:15.120 meta store is not advised
+to use now so 01:20:19.719 that\'s why every company is looking for
+01:20:21.280 Unity catalog and you should know how to 01:20:23.400 work
+with data brakes using Unity 01:20:25.440 catalog you cannot imagine to
+appear for 01:20:29.280 the interviews without knowing Unity
+01:20:31.360 catalog nowadays no bro 01:20:34.960 no it\'s harsh reality
+you should know 01:20:37.800 Unity catalog so that\'s why I have added
+01:20:39.960 I have added Unity catalog in this 01:20:41.639 project
+then in premium obviously it 01:20:44.239 will have all the services
+Plus trial is 01:20:47.880 exactly the premium one but just for 14
+01:20:50.440 days and it\'s fine so simply pick trial 01:20:53.920 which
+is like 14-day free DBU so it will 01:20:56.639 not charge anything and
+if you are using 01:20:58.199 free account it\'s fine because you will
+01:21:00.280 not spend like \$200 on ADB so then 01:21:04.000 manage
+Resource Group so I will simply 01:21:05.600 say ADB or let\'s say
+Netflix or 01:21:09.920 RG managed 01:21:12.760 Netflix okay by the way
+what is manage 01:21:15.000 Resource Group this is basically the
+01:21:16.880 data pane or let\'s say control pain 01:21:19.440 where
+datab breakes will put all the VMS 01:21:22.440 all the uh data not all
+the data all the 01:21:26.760 manage data okay then click on review
+01:21:29.840 plus create yeah that\'s it then click on 01:21:32.880
+create for one more time and then it 01:21:34.560 will just deploy the
+aure data breaks 01:21:36.719 and aure data breaks is the OG is the OG
+01:21:40.679 and we will be using Unity catalog which 01:21:43.400 is
+like cherry on the cake trust me bro 01:21:46.159 trust me and we will
+be using Delta live 01:21:48.639 tables using Unity catalog so bro this
+01:21:52.320 this this part of this video is like 01:21:54.639 heart
+heart of this video heart of this 01:21:56.760 video the same way you
+are like my heart 01:21:59.560 so this this part of the video is the
+01:22:02.080 heart of the entire video because data 01:22:05.320 Works
+will be managing everything so I\'m 01:22:07.360 really really excited
+to first show you 01:22:09.880 the incremental loading in data braks
+01:22:12.159 using autoloader then when we have the 01:22:15.679 data we
+will be creating parameterized 01:22:18.600 notebooks then we will be
+creating a 01:22:22.520 notebook where we\'ll be applying so many
+01:22:24.120 transform available in ppar then we will 01:22:27.400 be
+using Delta life tables yes yes yes 01:22:31.360 so much of fun so much
+of fun so much of 01:22:33.520 fun man so it will just take I think few
+01:22:35.840 more seconds and then it will be done 01:22:39.320
+meanwhile I can just grab my shaker and 01:22:42.639 I think till then
+it will be done yeah 01:22:44.400 so I\'ll be just coming back in few
+01:22:47.760 seconds so yeah our data brakes is 01:22:51.080 deployed so
+I will simply click on go to 01:22:52.880 Resource and this is my data
+breakes 01:22:55.000 workspace so I simply click on launch 01:22:56.800
+workspace so this is your lovely 01:22:59.560 homepage of data
+01:23:01.000 Breaks by the way they have just changed 01:23:03.040 some
+colors earlier it used to be navy 01:23:06.960 blue or grayish black I
+used to like it 01:23:10.840 I don\'t know why they just remove that
+01:23:12.080 color I I love that 01:23:14.159 color 01:23:16.600 H so
+let me give you a quick overview 01:23:20.639 quick quick quick quick
+quick overview 01:23:22.560 and what\'s that 01:23:24.880 what\'s that
+over you let me just tell 01:23:26.639 you so by the way if you can see
+or if 01:23:29.760 you can observe one 01:23:31.560 thing before even
+giving you the 01:23:33.840 overview I have some things locked cql
+01:23:38.760 editor queries dashboards gen alert SQL 01:23:41.520
+Warehouse so basically they have removed 01:23:43.600 some things from
+the datab breakes 01:23:47.280 workspace if if if you\'re using free one
+01:23:50.400 but don\'t worry because we are not going 01:23:52.440 to
+use these ones these are like SQL and 01:23:54.480 points when we
+actually create that and 01:23:57.120 don\'t worry I will still show you
+that 01:23:58.800 thing how I will use my another datab 01:24:01.040
+workspace which I have the paid one so I 01:24:03.400 will just show you
+that thing but this 01:24:04.520 is not really really important for
+01:24:06.480 today\'s lecture it is just like when you 01:24:08.719
+build the data warehouse you get the SQL 01:24:11.320 endpoints
+capabilities within data I 01:24:13.960 will tell you about that don\'t
+worry bro 01:24:15.320 don\'t worry do not feel sad hey we are
+01:24:17.159 seeing locks unlam 01:24:20.560 UNL okay so first of all
+let me give you 01:24:22.920 an overview this is your workspace okay
+01:24:24.920 this a recent stab recent stab means 01:24:27.320 like
+whatever you are using currently it 01:24:29.440 will just appear in
+this Tab notebook DT 01:24:31.960 workflows everything then catalog this
+01:24:34.840 is important this is important because 01:24:36.719 we will
+be using Unity catalog and unity 01:24:39.239 catalog enables so much of
+extra stuff 01:24:42.080 within this tab okay then obviously
+01:24:44.840 workflows because we\'ll be building 01:24:46.679 workflows
+for parameterized notebooks if 01:24:48.600 you remember so this is an
+area which 01:24:51.119 we\'ll be exploring today a lot then
+01:24:53.280 compute obviously we need compute then 01:24:55.760
+Marketplace here we have Marketplace as 01:24:57.560 well like same as a
+your then this is 01:25:00.280 locked forget about that then we have
+01:25:02.639 something called DT we will be using 01:25:04.560 Delta
+life tables as well and then we 01:25:06.639 have data inje wow what is
+that let me 01:25:08.800 just click on it so this is session
+01:25:11.520 expired wow thank 01:25:13.800 you log back in session
+restored okay so 01:25:17.199 now this is the uh data injection so as
+01:25:20.520 you know that we have some connectors in 01:25:22.639 the
+your data Factory similarly they are 01:25:24.920 just trying to add
+more and more 01:25:26.280 connectors so that you can also pull
+01:25:28.199 data directly from the data brakes as 01:25:30.199 well so
+as you can see we have connector 01:25:32.960 for GitHub we have
+connector for jira 01:25:35.560 Google Drive one drive so we can pull
+01:25:37.239 data from these things for now and then 01:25:39.719
+obviously from data Lake obviously bro 01:25:42.800 obviously obviously
+obviously res stuff 01:25:45.000 are of not much use for today so first
+01:25:48.119 of all what we will be doing we will be 01:25:50.440
+creating the unity meta 01:25:52.800 store and Unity 01:25:55.679
+catalog okay so if you\'re already aware 01:25:59.320 about Unity
+catalog Unity meta store it 01:26:01.360 is fine if you are not aware I
+will 01:26:04.000 recommend you to watch my YouTube video 01:26:06.360
+which is specifically built on Unity 01:26:08.040 catalog let me just
+search okay this is 01:26:09.760 the one data breaks modern data breaks
+01:26:12.480 with unity catalog so you can watch this 01:26:14.400 video
+this is specifically built for 01:26:16.600 Unity catalog and this will
+give you 01:26:19.199 strong hands on strong hands on strong
+01:26:21.239 hands on with unity catalog but if you 01:26:23.600 will
+say hey on 01:26:25.040 we do not know much about Unity catalog
+01:26:27.199 okay and we want to complete this 01:26:28.600 project so
+my recommendation to you 01:26:30.199 would be just follow the steps
+that I\'m 01:26:32.600 doing because you can just follow as it
+01:26:34.800 is I\'m doing for Unity catalog rest of 01:26:37.119 the
+stuff are specifically for data 01:26:39.239 brakes only Unity catalog
+is just the 01:26:41.480 destination where we\'ll be storing our
+01:26:43.040 tables that\'s it but promise that you 01:26:46.760 will
+just promise me that you will be 01:26:48.840 watching this video after
+this project 01:26:50.440 it is for your benefit okay if you you
+01:26:54.440 promise me then I can continue with this 01:26:57.560
+project now okay okay pinky pinky 01:27:00.920 promise okay okay okay so
+now in order 01:27:04.520 to create Unity catalog let me just go
+01:27:08.159 back to my databas so in order to create 01:27:10.719 the
+unity catalog we first need to go to 01:27:12.760 the account console
+that is a hustle 01:27:15.760 that is the most messy part so why let
+01:27:19.719 me just click on Microsoft asure first 01:27:21.840 like
+data breaks Okay so if I just click 01:27:24.800 on this drop down I
+will see manage 01:27:26.960 Account button and this is the account
+01:27:28.719 console so what is so messy in this so 01:27:31.560 messy
+just click on your like on your 01:27:34.159 workspace you won\'t find
+this button you 01:27:36.800 won\'t find it because you first need to
+01:27:40.920 externally log to account console then 01:27:43.760 only
+you will be able to get this manage 01:27:46.040 Account button so for
+you instead of 01:27:48.920 watching the complete video for this one
+01:27:51.679 you can start this video from see I\'m so 01:27:54.960
+caring for you I have just grabbed the 01:27:57.040 particular time
+stamp from where you can 01:27:58.679 watch this video so that you can
+01:28:00.480 actually enable this manage account so 01:28:03.360 one
+promise you have already made that 01:28:04.800 you will watch this
+video after 01:28:05.960 completing this project and for now you
+01:28:08.760 just need to watch I think two to 3 01:28:10.320 minutes
+only 01:28:11.960 from 01:28:14.520 57 01:28:16.040 00 and that part of
+the video will talk 01:28:18.840 about all the things how to get that
+01:28:21.480 manage Account button in your workspace 01:28:23.280 so
+once you complete that it will hardly 01:28:25.119 take I think 2
+minutes it is not that 01:28:27.119 much of long just watch that part
+once 01:28:29.280 you do that let\'s start with our 01:28:32.280
+deployment piece so I will simply click 01:28:33.639 on this is our
+account console and as 01:28:36.360 you can see here from here we can
+just 01:28:38.840 manage everything within data braks we 01:28:40.960
+can just manage security we can just 01:28:42.920 manage access we can
+just manage 01:28:44.600 permissions everything everything 01:28:46.719
+everything everything okay okay okay 01:28:48.800 sounds good so first
+of all I will 01:28:51.119 simply go to catalog okay and here here
+01:28:54.280 you will see all my meta stores all my 01:28:57.400 meta
+stores first of all I do not want 01:29:00.000 this one but I can still
+keep it okay so 01:29:03.880 just ignore these three you will only
+01:29:05.760 see one in your case yes this is the 01:29:09.320 meta
+store that will be automatically 01:29:11.080 created by data brakes
+because they 01:29:12.600 automatically enable your Unity met
+01:29:14.800 store but we won\'t be using this one we 01:29:16.600 will
+be creating a new one because in 01:29:18.639 the real world we do not
+use a default 01:29:20.360 ones okay and as you know this is a real
+01:29:22.280 world project so that is why and one 01:29:24.880 thing to
+note you can only create one 01:29:27.000 meta store in one location so
+as you can 01:29:28.800 see all the locations all the regions
+01:29:30.600 are different that\'s why I have picked 01:29:32.360 Canada
+Central so I\'ll simply click on 01:29:34.360 this and then I will
+simply delete this 01:29:37.280 yes 01:29:38.400 bye-bye oh man I need
+to just write the 01:29:41.679 name I will simply copy it okay
+01:29:45.320 yeah okay just delete it so now it is 01:29:50.080 deleted
+now what I will do I will simply 01:29:53.000 go to my azure why an
+lamba I will just 01:29:55.320 tell you so simply go to your resource
+01:29:57.520 Group okay now you have this data braks 01:30:01.199 which
+is a different entity this is not 01:30:03.400 owned by Azure this is
+like owned by 01:30:05.639 Azure in only Azure network but as you
+01:30:08.400 will see tab brick is a different 01:30:10.760 company this
+this is a different 01:30:12.920 organization this is a different
+01:30:15.080 resource data lake is a different 01:30:17.199 resource how
+data braks will use the 01:30:19.760 data sitting inside the data Lake
+how 01:30:23.320 how it will be using something called as 01:30:27.159
+let me just create that resource it is 01:30:28.920 called access
+01:30:30.280 connector it is called access connector 01:30:32.960 just
+search it and this is your access 01:30:34.760 connector so this is a
+special kind of 01:30:36.960 connector that is created just for data
+01:30:39.239 brakes and data link yes so how it works 01:30:42.239 I
+will just show you I will simply 01:30:44.119 say access 01:30:47.320
+Netflix Netflix simply review plus 01:30:49.880 create okay so this is
+done simply click 01:30:53.119 on create so this is 01:31:01.280
+deploying simply click on go to 01:31:04.520 Resource okay so now what
+we will doing 01:31:08.159 this is my exess connector 01:31:10.360 okay
+now we will go to 01:31:12.800 home simply click on Resource Group
+01:31:15.760 simply go to your storage account now 01:31:17.960 now we
+will just allow this access 01:31:20.520 connector the contributor role
+to the 01:31:23.920 the storage account and then we will let
+01:31:27.520 me just explain that using the diagram 01:31:29.679 you
+will understand better so let\'s 01:31:32.159 say this is your uh data
+01:31:36.520 Lake okay this is your data 01:31:40.239 Lake perfect okay
+this is your data 01:31:47.480 brakes perfect so now data brakes will
+01:31:50.080 go to data Lake okay and it will say hey 01:31:52.920
+what\'s up it will say I\'m not interested 01:31:56.440 in you just tell
+me what do you want so 01:31:59.159 data will data brakes what happen
+did 01:32:02.400 you remind the love story of your school 01:32:04.920
+okay so this will say I want to use your 01:32:10.600 location use your
+date like I want to 01:32:13.840 use the location to read and write the
+01:32:15.480 data okay okay data L will say okay you 01:32:21.560 can
+only and only if 01:32:24.440 you are allowed to do to do that okay so
+01:32:29.560 this is data Lake okay and this has some 01:32:32.320 data
+let\'s say this is your data okay 01:32:36.159 now datab wants to read
+this data so 01:32:38.119 this is saying I want to read this data
+01:32:40.239 so data L is saying you can but you 01:32:44.239 should be
+allowed to do that you you 01:32:46.520 should have a kind of you can
+say ID so 01:32:49.840 that you can just show and you can then
+01:32:52.639 access the data data bre will say I do 01:32:54.960 not
+have anything I do not have anything 01:32:56.920 so data L will say
+then just go back and 01:33:00.960 I want give you any data I won\'t
+01:33:04.480 allow you to touch me or anything okay 01:33:08.480 then
+then then then then datab bricks 01:33:11.280 will say hey I have
+something so let\'s 01:33:15.040 say it will say I have something called
+01:33:18.159 access 01:33:19.320 connector access connector AC access
+01:33:21.679 connector this access connector is 01:33:25.360 allowed to
+read this data how because we 01:33:28.400 will give the permission okay
+then data 01:33:30.520 braks will go 01:33:33.320 and it will take this
+excess connector 01:33:36.840 with him with him okay so now this this
+01:33:41.239 this datab has the excess connector so 01:33:43.639 now
+this data L will say you came again 01:33:47.119 so data will say yeah
+and again it will 01:33:50.000 say that I want to use your location
+01:33:52.960 then data L will say do you have 01:33:55.560 anything do
+you have any kind of 01:33:56.960 permission then data brakes will say
+hey 01:33:59.480 yes I have this time I have access 01:34:02.199
+connector so I can use your location to 01:34:04.440 read and write data
+so this time data 01:34:06.520 Lake will say Okay proposal accepted so
+01:34:09.960 this time data L will say okay now you 01:34:11.719 can
+just use the location like for 01:34:14.320 reading and writing the data
+so this is 01:34:16.600 the architecture how data bricks reads
+01:34:19.199 and writes the data within the data link 01:34:21.880 okay
+sorted I hope that you will 01:34:24.280 understand the concept I used
+one real 01:34:26.119 life analogy so that you can understand
+01:34:29.119 otherwise you will be saying hey what 01:34:30.520 I\'m
+just saying bro 01:34:33.119 so this is life so okay so now what we
+01:34:36.280 will doing we will simply go to AAR and 01:34:38.800 we
+will simply go to our storage account 01:34:40.280 simply go to access
+control okay then 01:34:43.239 add add role then we will pick a role
+01:34:46.760 called storage blob contributor this one 01:34:51.400 click
+on next then manager select 01:34:54.679 members now you need to just
+select 01:34:57.320 the uh access connector just search 01:34:59.679
+where it is uh here just pick the access 01:35:02.920 connector for your
+use case it is access 01:35:06.239 Netflix select done review plus
+assign 01:35:09.800 now we have assigned that particular 01:35:11.639
+access connector to use the location 01:35:14.400 within the data L okay
+simply click on 01:35:16.440 review assign review plus assign done so
+01:35:19.920 now what we\'ll be doing we will simply 01:35:21.360 go to
+Resource Group simply click on 01:35:24.320 this access Netflix and copy
+this 01:35:27.239 resource ID because the second step is 01:35:29.320
+importing this resource like this 01:35:32.080 resource access connector
+into Data 01:35:33.719 brakes because data brakes is not 01:35:35.760
+allowed to touch data link but access 01:35:38.560 connector is allowed
+so data braks will 01:35:41.080 pull the access connector to touch the
+01:35:43.280 data link got it okay got it now click 01:35:47.480 on
+account console Okay click on create 01:35:50.360 meta store now we will
+create a new meta 01:35:52.639 store called Netflix FX 01:35:56.119
+Unity Unity meta store and we want to do 01:36:00.880 one more thing
+what\'s that simply go to 01:36:02.920 your storage account we will
+create one 01:36:05.520 container which will be given to meta
+01:36:08.119 store so metast store is allowed to do 01:36:10.199
+anything within that container make 01:36:12.040 sense we will not touch
+it okay click on 01:36:14.840 Create and meta 01:36:17.480 store
+01:36:19.119 simple perfect now region what is the 01:36:23.280 region
+where you want to create the 01:36:24.960 unity met store I want to
+create an 01:36:27.159 Canada 01:36:28.480 Central uh where is that
+where is that 01:36:31.119 where is that where is that yeah here
+01:36:32.520 perfect now I just need to provide the 01:36:35.199 abls
+ADLs path in the abfs file format 01:36:39.920 okay so I\'ll simply say
+container name 01:36:42.000 is meta 01:36:44.080 store okay then wait
+yeah meta 01:36:48.960 store at the rate what is my data Lake
+01:36:52.840 name let me just copy it from 01:36:56.159 here DFS do
+core. 01:37:02.639 windows.net 01:37:05.560 perfect so now you will
+saying hey an 01:37:08.040 how do you know this location it is like
+01:37:10.360 similar to abfs you just need do not 01:37:12.199 need to
+write abfs location so you can 01:37:13.760 just copy it from here now I
+want to 01:37:16.119 provide the access connector I will 01:37:17.400
+simply go 01:37:18.679 to RG and then access connector resource
+01:37:22.199 ID copy it and paste it here perfect so 01:37:25.760 now it
+can actually use that acccess 01:37:28.159 connector okay simply click
+on 01:37:30.520 create so now it will create our meta 01:37:32.800 store
+and that meta store container will 01:37:35.080 be provided to this
+particular meta 01:37:38.320 store okay so it is saying automatically
+01:37:42.159 assign new workspace no bro do not 01:37:44.080
+automatically assign I will assign it 01:37:46.159 select at least one
+skip it hooray 01:37:49.560 congratulations your meta store is
+01:37:50.960 enabled I know just go away so now we 01:37:53.960 will
+simply go to workspaces I will pick 01:37:56.199 my workspace and I will
+assign it to 01:37:58.840 this uh meta store simply go to catalog
+01:38:02.159 Netflix Unity metast store and then 01:38:04.960 workspaces
+then assign to workspace then 01:38:08.080 pick this one perfect assign
+enable now 01:38:12.480 Unity catalog is enabled on your 01:38:14.560
+workspace congratulations just remember 01:38:17.000 these steps because
+this question can be 01:38:19.080 asked in your interview just tell us
+the 01:38:20.639 steps how you can just enable the unity 01:38:22.239
+catalog so you should know this this is 01:38:24.560 a recent addition
+to the data breaks 01:38:26.360 there are high chances that you will be
+01:38:27.880 asked this question so just take notes 01:38:29.719 and
+remember the steps okay very good 01:38:32.760 now just go to
+configuration for one 01:38:34.880 more time okay now just click on this
+01:38:37.159 edit button why so this is saying that 01:38:40.599 my
+hashtag account is my admin that\'s 01:38:43.599 not the case I want to
+create 01:38:46.840 admin as my normal account which is this
+01:38:49.360 one don\'t worry just watch that part I 01:38:50.800 will
+just you will just get to know what 01:38:52.119 I\'m talking about okay
+then click on 01:38:54.520 Save perfect perfect perfect perfect let
+01:38:57.280 me just give you some additional 01:38:58.599 knowledge
+regarding admin stuff if you 01:39:01.520 just go to user management
+here you will 01:39:04.080 see all the things like all your users
+01:39:06.840 that you have within this databas 01:39:09.159 workpace so
+these are the users let\'s 01:39:11.920 say you have a new user in your
+enter ID 01:39:14.199 and you want to add that user you will
+01:39:16.040 you will simply go here add user and you 01:39:18.239 will
+add that user here that means then 01:39:21.480 that user will be
+visible 01:39:23.920 to all the data bricks workspaces which
+01:39:26.719 are registered under let\'s say this 01:39:29.360
+particular Unity catalog or let\'s say un 01:39:32.000 met St only then
+otherwise no and the 01:39:35.639 roles are account admin but I can
+01:39:38.119 obviously change it you can simply click 01:39:39.679 on it
+and you can 01:39:41.560 simply click on roles and you can simply
+01:39:44.800 say account admin billing admin 01:39:47.040 Marketplace
+admin okay or you can simply 01:39:50.520 go to users and you can see
+the roles 01:39:54.560 shown in front of them okay then once
+01:39:57.480 these users are created then you go to 01:40:00.080 your
+datab briak workspace and if you 01:40:02.040 want to assign any let\'s
+say role like 01:40:05.599 viewer role or anything you just do it
+01:40:07.880 from there let me show it will just take 01:40:09.800 two
+two minutes because I want you to 01:40:11.599 know everything okay
+click on data 01:40:13.480 breaks okay then just go to 01:40:16.199
+settings uh here settings then you will 01:40:19.080 see identity and
+access click on it then 01:40:21.239 you will see users click on manage
+01:40:24.040 then you will see all the users see I 01:40:26.520 just
+have two users here I don\'t have 01:40:28.199 the third user that I
+have created here 01:40:30.000 see if I want to add here I will simply
+01:40:32.840 go to add user then I will simply say 01:40:35.960 let\'s
+say data breaks this one and then 01:40:39.000 I will simply say add
+Okay click on 01:40:42.280 ADD then this user is added okay then I
+01:40:46.400 will simply click on these three dots 01:40:48.800 then I
+will simply click on edit or 01:40:50.560 entitlements you can simply
+click on 01:40:52.159 anything 01:40:53.719 then you will simply see all
+the 01:40:56.480 accesses that it have it has workspace 01:40:59.000
+access it has data brick SQL access it 01:41:02.080 doesn\'t have admin
+access it doesn\'t 01:41:04.199 have it doesn\'t have admin access that
+01:41:06.719 means it is not the admin of this 01:41:09.000 particular
+01:41:10.119 workspace Okay then if I just click 01:41:14.440 on manage
+for one more time click on 01:41:17.960 entitlements then you will see
+only the 01:41:20.719 roles that you should see okay I know 01:41:23.719
+this is a good one that you should know 01:41:25.840 because there are
+like two levels of 01:41:27.480 security one is at the account console
+01:41:29.599 level and when we just add any user in 01:41:31.679 the
+account console level that means 01:41:33.760 that user is qualified to
+appear to 01:41:38.360 appear in this list okay to appear in
+01:41:42.040 this list once the person can be 01:41:44.159 appeared in
+this list then we can just 01:41:46.480 assign the person with the roles
+such as 01:41:49.239 workspace access SQL Access Data SQL 01:41:52.560
+access everything then okay I know we 01:41:55.280 are not talking about
+admin access in 01:41:56.719 detail but yeah you should know about
+01:41:58.080 these fundamentals okay 01:42:00.360 simply go to account
+console by the way 01:42:02.599 account consoles work is done that\'s
+why 01:42:04.280 I was showing you these extra stuff 01:42:06.080 simply
+close this okay then simply go 01:42:09.320 back to your databas
+workspace okay 01:42:11.000 finally now if you just go to the
+01:42:13.159 catalog okay let me first refresh 01:42:17.639 it go to the
+01:42:19.760 catalog okay so here are the catalogs 01:42:22.159 now just
+click on Plus and we will 01:42:23.880 creating a new catalog create a
+catalog 01:42:25.760 and catalog name will 01:42:27.679 be Netflix by
+the way do you have 01:42:31.159 Netflix subscription I haven\'t
+purchased 01:42:33.719 Netflix subscription haven\'t I don\'t
+01:42:36.520 know maybe it was okay you got the 01:42:39.880 answer
+Netflix uh 01:42:43.320 catalog okay type standard storage 01:42:46.280
+location do we need to provide storage 01:42:47.840 location to catalog
+level I would say no 01:42:50.440 no because we have already provided
+the 01:42:51.920 location to the meta store level it is 01:42:53.639
+fine it is fine man configure 01:42:57.239 catalog okay so now it is
+saying hey who 01:43:00.280 should be having the access to this
+01:43:02.400 particular one so I would simply say all 01:43:04.480
+account users next because we just have 01:43:07.119 like one user so
+it\'s fine okay all 01:43:11.560 these admin stuff you will gain
+01:43:13.960 knowledge like along with the journey 01:43:16.639 the more
+you will be working with data 01:43:17.880 breaks you will gain this
+admin 01:43:19.440 knowledge as well because developer can 01:43:21.960
+have admin knowledge and and cannot have 01:43:24.000 admin knowledge
+it\'s a choice but when 01:43:26.520 you have admin knowledge as well
+it\'s 01:43:28.880 really really good it\'s really really 01:43:31.199
+good because then you can perform so 01:43:34.280 much of stuff and
+obviously when you are 01:43:35.880 just becoming an becoming a senior
+data 01:43:37.920 engineer you should have admin knowledge 01:43:39.840
+but if you\'re just applying with the 01:43:40.920 fresh roles it\'s not
+actually required 01:43:44.159 because you\'re a 01:43:45.199 developer
+okay now I know a lot of 01:43:48.520 people will say a lot of stuff
+regarding 01:43:50.400 this 01:43:51.440 statement your choice to it
+okay now 01:43:55.560 everything is sorted everything is 01:43:56.760
+sorted okay now we just need to go to 01:43:59.360 catalog for one more
+time this is our 01:44:01.800 catalog perfect this is our catalog so
+01:44:05.560 it is sorted it is sorted so now what 01:44:08.040 we\'ll
+be doing what we\'ll be doing now 01:44:10.760 we need to do something
+special what\'s 01:44:13.239 that we need to create external
+01:44:16.800 location why so same thing we want to 01:44:20.719 access
+data of a particular container 01:44:23.480 make sense okay so we need
+to provide 01:44:26.480 the external location so that it can
+01:44:29.159 actually go to that let me just show you 01:44:31.360 bro
+because you will understand by 01:44:32.920 seeing my diagrams I
+01:44:34.719 know okay so this is data braks okay 01:44:37.679 okay this
+is now having that cute ID 01:44:41.560 okay this is data Lake now data
+brakes 01:44:45.040 can touch it okay then do not take it 01:44:48.639
+that touch okay so I\'m clarifying before 01:44:52.239 do not take it to
+that that 01:44:57.560 touch so you have three layers bronze
+01:45:02.280 silver gold okay very good now what we 01:45:07.360 do in
+data breakes we create external 01:45:10.840 locations till container
+levels till 01:45:14.760 container levels so I will create One
+01:45:17.760 external 01:45:20.639 location for this one then one for
+this 01:45:24.080 one one for this one this way I can just 01:45:28.040
+store the data in the in these 01:45:29.840 containers and I have three
+containers 01:45:31.440 bronze silver gold I should have the
+01:45:33.239 access for these 01:45:34.760 containers make sense make
+sense now 01:45:37.800 make sense now you have my beautiful 01:45:41.280
+drawing so now you know okay very good 01:45:44.080 very good so now
+without wasting any 01:45:46.119 time let me click on external data now
+01:45:49.440 click on create external location and 01:45:52.239 before
+that 01:45:54.119 yes we need to create a credential by 01:45:56.119 the
+way it is not a new thing don\'t 01:45:57.920 worry hey an you have just
+added a new 01:45:59.360 thing no it is not a new thing 01:46:01.280
+credential is just like a gift WAP gift 01:46:04.480 wrapper that we
+will be applying on top 01:46:06.599 of connector access connector
+that\'s it 01:46:10.320 really yeah because we can just store
+01:46:11.719 multiple connectors so simply click on 01:46:13.560 create
+credential then credential name 01:46:15.960 will be on ceds and
+connector ID we 01:46:20.360 already know we already copied it
+01:46:23.679 perfect and then that\'s it just simply 01:46:26.599 say
+create so it will just create your 01:46:29.080 credential that\'s it
+you do not need to 01:46:31.119 do anything anything bro anything
+01:46:33.599 anything okay very good then just go to 01:46:37.040
+catalog Explorer for one more time now 01:46:38.400 just create external
+location create 01:46:39.800 external location and this time I will
+01:46:41.760 simply create external location for 01:46:43.239 bronze so
+I will simply say 01:46:45.560 bronze external now do you like now I
+01:46:49.119 know you are seeing the difference when 01:46:52.080 you
+act 01:46:53.480 create everything from scratch that is a 01:46:56.760
+real real time or let\'s say real world 01:47:00.199 project okay it is
+very easy to just 01:47:03.800 complete this project without Unity
+01:47:05.440 catalog I could have used uh let\'s say 01:47:08.520 maybe
+SAS tokens or let\'s say service 01:47:10.520 principal or there\'s one
+more thing like 01:47:12.800 credentials pass through it is very easy
+01:47:15.719 all these stuff I\'m doing so that you 01:47:17.560 can
+answer efficiently in your 01:47:19.040 interviews 01:47:20.239 bro
+because now you will be asked these 01:47:24.599 questions how to build
+these 01:47:27.040 things 01:47:29.960 so what to say bro what to
+01:47:33.360 say so bronze external now we need to 01:47:36.560 just
+provide the external location what 01:47:39.080 is the external location
+let me just 01:47:41.199 tell you AB 01:47:43.000 bfss then colum then
+double slash then 01:47:46.520 container name container name is bronze
+01:47:49.280 very good at the rate storage account 01:47:52.320 name so
+what is the storage account name 01:47:53.840 you can just copy it from
+01:47:55.840 here perfect 01:47:58.760 then uh dot DFS do 01:48:06.480
+core. 01:48:08.159 windows.net 01:48:09.719 okay how did I get this
+location let me 01:48:12.000 just remove it let me just show you uh
+01:48:16.520 oops see this is the demo 01:48:19.920 given abfs container
+name storage 01:48:22.320 account blah blah blah simple simple
+01:48:25.880 simple simple simple simply put the 01:48:28.320 location
+till container level only that 01:48:31.159 is the top level of you can
+say 01:48:33.800 permission that you have because when 01:48:35.320 you
+have that permission you can 01:48:37.800 hierarchically pull any data
+okay pull 01:48:42.159 any data then storage credential un 01:48:44.639
+creds that\'s it 01:48:46.639 create okay very good it is created
+01:48:49.560 let\'s create another one okay simply go 01:48:52.080 to
+external location create another one 01:48:54.520 this one will be
+silver 01:48:56.920 EXT URL will be this one and this time 01:48:59.880
+instead of bronze we will be using 01:49:02.159 Silver Perfect storage
+credential is 01:49:04.840 this one create perfect let\'s create
+01:49:07.800 another one external location create 01:49:10.119 another
+one 01:49:12.440 gold gold 01:49:14.560 EXT 01:49:16.440 location
+container is 01:49:18.639 gold credential is UN creds done 01:49:22.920
+sorted our all the credentials are ready 01:49:26.440 now let\'s create
+compute why compute is 01:49:29.520 the fundamental thing that you\'ll
+be 01:49:31.840 used that you\'ll be used that you will 01:49:33.800 be
+using to process your data okay so 01:49:37.360 let\'s quickly create a
+compute and don\'t 01:49:39.199 worry it is very simple simply click on
+01:49:41.159 create compute and we will not be 01:49:42.960 creating a
+fancy compute just pick 01:49:44.520 personal compute because that\'s
+what you 01:49:46.280 need make sure that you have Unity 01:49:48.639
+catalog written here okay very good then 01:49:51.239 performance we are
+not picking paa we 01:49:55.280 will simply pick long-term support then
+01:49:58.159 no type this is this is fine and termin 01:50:01.040 it
+after 20 01:50:02.440 minutes very good by the way by the way
+01:50:05.840 click on Advanced options and then you 01:50:08.960 will
+see something called as credentials 01:50:11.760 pass through I know it
+is disabled right 01:50:13.960 now because I have picked personal
+01:50:15.239 compute but when you pick unrestricted 01:50:17.360 you
+will see this thing and by that way 01:50:19.920 you can easily use data
+any data setting 01:50:22.080 in data l without un catalog but this is
+01:50:24.159 the Legacy solution and they are 01:50:26.520 removing this
+toggle button very soon 01:50:29.880 yeah I\'m serious they are removing
+this 01:50:31.280 button so that\'s why I didn\'t pick this 01:50:33.920
+okay 01:50:37.040 okay oh man why did I just click on 01:50:39.800
+cancel 01:50:41.440 why simply pick personal compute then 01:50:47.079
+long-term support then 20 minutes of 01:50:50.280 inactivity is fine
+then create compute 01:50:52.000 that\'s it it will take few minutes it
+01:50:54.079 will take few minutes because it will be 01:50:55.840
+creating virtual machine it will be 01:50:58.360 creating all the
+networks and now see it 01:51:03.239 is rotating so it is creating your
+01:51:06.560 cluster it will take few minutes I think 01:51:08.239 two
+to 3 to 4 minutes and once it is 01:51:10.440 ready we will begin our
+processing with 01:51:14.199 auto 01:51:16.119 lader okay and let\'s see
+once it is 01:51:19.159 completed so okay as you can see our
+01:51:21.000 cluster is ready it shows green 01:51:23.239 okay that
+means it is ready it is online 01:51:25.639 okay so now let\'s let\'s
+let\'s go to our 01:51:30.360 workspace okay let\'s click on workspace
+01:51:33.159 and create a folder okay and we will 01:51:36.679 simply
+say 01:51:38.040 Netflix 01:51:41.360 project okay simple click on
+create 01:51:44.560 perfect then within this we will create 01:51:46.599
+a notebook by the way do you need this a 01:51:50.639 notebook and like
+all these things I can 01:51:52.760 just upload in my giab repos if you
+want 01:51:55.000 by the way this is our notebook and 01:51:57.079 first
+of all I will just rename my 01:51:58.360 notebook and I will simply say
+one and 01:52:00.800 then I\'ll simply say autol loader hit 01:52:04.199
+enter by the way first of all if you 01:52:06.679 just create a notebook
+simply attach 01:52:08.159 your notebook to a cluster which is this
+01:52:09.960 one now just start doing anything okay 01:52:13.520 so
+simply this is the notebook and this 01:52:15.960 is the overview of the
+notebook that I 01:52:17.520 can give so right now as you are already
+01:52:19.599 aware of these things when you click on 01:52:21.280 these
+three lines it will be hidden and 01:52:23.280 when you just click on
+this one you will 01:52:25.199 see this stuff and this is what you
+01:52:26.960 should see this is catalog okay this is 01:52:29.679 a cell
+and this is the language button 01:52:33.280 that you can change so by
+default it is 01:52:34.840 python if you want to write your code in
+01:52:36.599 SQL you can simply click on it change it 01:52:39.000 to
+SQL markdown Scala and this 01:52:41.920 language I don\'t know what is
+this are I 01:52:45.040 don\'t know who like why people use this
+01:52:47.440 okay then what is this markdown this is 01:52:49.639 not
+any kind of language this is a 01:52:51.679 feature with the of which we
+can create 01:52:54.119 headings subheadings titles subtitles
+01:52:58.159 commment everything this makes our 01:53:01.199 notebook
+look beautiful really 01:53:09.719 yes then let\'s start with the
+markdown 01:53:12.880 then because I want to create a heading
+01:53:14.760 Okay click on this then I will simply 01:53:17.040 say
+01:53:18.400 hasht Auto or incrementally 01:53:24.960 read or let\'s say
+loading incremental 01:53:27.239 incremental data 01:53:30.320 loading
+01:53:32.170 \[Music\] 01:53:33.880 using 01:53:36.400 Auto 01:53:38.199
+loader simply run this by the way you 01:53:40.679 can run it using
+shift plus enter okay I 01:53:43.719 know these are like some basic
+stuff but 01:53:45.280 still let me just increase the size okay
+01:53:48.480 now let me just explain you the concept 01:53:51.440 of
+autoloader 01:53:53.159 you would have 01:53:54.520 seen like a lot of
+content let me just 01:53:58.079 make it really really simple and really
+01:54:00.400 quick what exactly we need to do with 01:54:02.599 the help
+of project right because that\'s 01:54:04.679 how you will learn and
+that\'s how you 01:54:06.599 will just understand it so the scenario
+01:54:09.159 is let me just go back to my data L and 01:54:12.360 this
+is my the this is my 01:54:14.320 container raw so this is the file so
+01:54:18.159 according to our project the requirement 01:54:21.000 is
+this is my file 01:54:23.560 so this came just today let\'s say
+01:54:26.079 tomorrow or next month I\'ll will be 01:54:27.760 having
+more listings for Netflix movies 01:54:31.239 then I\'ll be having a new
+file then next 01:54:34.119 month or next week I\'ll be having more
+01:54:36.679 movies so this way this folder this data 01:54:40.159 leg
+will be populating data every month 01:54:43.920 or let\'s say every
+week every week every 01:54:47.119 Sunday we\'ll be having a new CSV
+file 01:54:50.280 based on new movies new shows everything 01:54:52.400
+everything right okay sort it so 01:54:55.360 currently we just have one
+file that\'s 01:54:57.599 fine but we want to create one notebook
+01:55:00.719 in such a way that it will be 01:55:02.560 automatically
+read the data make sense 01:55:06.560 okay now let me just go back to
+the 01:55:09.440 notebook now let me just tell you how it 01:55:12.360
+will be actually performing all the 01:55:14.560 stuff and let me just
+explain you all 01:55:17.320 the stuff that will be happening behind
+01:55:19.560 the scenes okay and obviously this is 01:55:22.639 really
+important for your interviews as 01:55:23.880 well because you should
+know all the 01:55:25.520 background work okay writing code is not
+01:55:28.880 a big deal but you should know how it it 01:55:30.800 is
+actually managing all the stuff so 01:55:32.719 the thing is first of
+all autoloader 01:55:38.119 has two different ways to incrementally
+01:55:41.239 load the data one is directory 01:55:45.760 listing and
+second one is file 01:55:49.400 notifications for file notifications
+01:55:52.960 in combination with the J it will use 01:55:55.560 your
+storage events okay and for that 01:55:57.719 you need to obviously
+configure it so we 01:55:59.480 will not be using file notification
+01:56:00.840 we\'ll be using directly listing which 01:56:03.119 will be
+using something called as apis 01:56:06.719 to detect the new files so
+what 01:56:09.000 autoloader will do using this directory 01:56:11.639
+listing method so let\'s say this is your 01:56:13.639 autoloader okay
+this is your autoloader 01:56:16.760 what it will do this is your data
+01:56:19.679 Lake this is your ADLs J two okay these 01:56:23.920 are
+your 01:56:25.400 files file number one file number two 01:56:29.079
+let\'s say file number two is not here 01:56:30.520 for now okay just
+file number one and 01:56:33.800 this is 01:56:35.159 your data
+01:56:38.079 braks okay this is your data brakes and 01:56:41.480 this
+is your Target location and it can 01:56:44.000 be anything right it can
+be let\'s say 01:56:46.079 another data l or anything 01:56:49.079 okay
+what it will do what it will do let 01:56:52.119 me let me just tell you
+what it will do 01:56:53.840 so let\'s say this is your data okay this
+01:56:57.040 is your data it will use directory 01:56:59.199 listing and
+it will detect one file has 01:57:03.440 appeared okay so what it will
+do it will 01:57:06.760 read the file okay it will read this
+01:57:10.719 file it will infer the 01:57:14.520 schema of this file and
+will store the 01:57:18.280 schema of this file in a location called
+01:57:21.280 schema location 01:57:23.840 okay 01:57:26.639 in schema
+01:57:30.199 location 01:57:31.800 perfect then then then then then then
+01:57:35.360 once once it has inferred the schema 01:57:38.840 okay it
+will push this 01:57:42.239 data it will push this data into a
+01:57:45.960 Target 01:57:47.000 location okay then it will also create
+01:57:51.560 one location 01:57:54.599 called 01:57:57.400 called
+checkpoint 01:58:00.239 location and this is the 01:58:03.079 location
+from where it will get to know 01:58:06.480 that which file it needs to
+read why 01:58:10.119 because let\'s say second day a new file
+01:58:13.480 appeared but on the next day it will not 01:58:17.400 read
+the first file how because of this 01:58:21.639 location 01:58:22.760
+this location has a folder called rocks 01:58:27.280 DB rocks DB yes so
+within this rocks DB 01:58:31.480 it has like all the information
+written 01:58:33.480 like which file it needs to read and 01:58:35.639
+this way it guarantees otation which is 01:58:39.400 also uh similar to
+exactly once concept 01:58:43.360 that means it will only read the file
+01:58:45.520 only 01:58:47.159 once got it got it got it got it got it
+01:58:52.560 very good so now don\'t worry I will just 01:58:55.280 show
+you all these folders that I\'m 01:58:57.040 talking about right now
+don\'t need to 01:58:58.199 worry and the best practice is whenever
+01:59:01.000 you create the checkpoint location okay 01:59:03.320 this
+is your parent folder you have like 01:59:05.280 multiple folders within
+this you should 01:59:07.719 always create your schema location
+01:59:09.639 within this checkpoint location there\'s 01:59:11.679 no
+hard and set rule but it will allow 01:59:15.199 to easily monitor the
+stops right 01:59:20.040 then let\'s say you have a new file which
+01:59:24.960 has a new column in it that means schema 01:59:28.719
+enhancement or let\'s say schema 01:59:31.079 Evolution okay what will
+happen this 01:59:34.440 query will 01:59:35.679 break 01:59:37.199 why
+because schema is not matching but 01:59:40.280 do you know actually
+what happens when a 01:59:42.760 new column comes it is very confusing
+01:59:45.199 let me just make it clear okay so let\'s 01:59:47.840 say
+this is a new file okay and this has 01:59:50.960 a new column okay it
+will infert the 01:59:53.760 schema H it will store the schema in the
+01:59:56.960 schema location H right 02:00:00.599 but when it will be
+going to write this 02:00:04.520 data to my data 02:00:07.599 Lake okay
+it 02:00:11.079 will it will match the schema that it 02:00:16.599 has
+it what autoloader this is my 02:00:19.560 autoloader databas autoloader
+it will 02:00:22.040 match the schema of this autoloader with
+02:00:27.480 this schema location wait let me just 02:00:30.000 repeat I
+know it is confusing wait so 02:00:32.360 you will say hey an lamba when
+it infers 02:00:35.079 the schema and it writes the schema 02:00:40.040
+here W it just store the new schema in 02:00:43.480 the data brakes auto
+loader as well 02:00:45.880 no why because when it infers the schema
+02:00:50.520 for the first time 02:00:52.599 for the first time it will
+cash the 02:00:56.320 schema it will cash the schema and it 02:01:00.079
+will store it in its location sorted 02:01:03.679 when new column came
+in the new file it 02:01:08.320 will first write the schema in the
+02:01:11.560 schema location it will not immediately 02:01:14.920 fail
+no it will infer the schema it will 02:01:19.159 write the schema in the
+schema location 02:01:22.360 then at the time of writing the data to
+02:01:25.440 the data Lake to your Target location 02:01:29.360 then it
+will try to match the cached 02:01:32.159 schema with this location and
+if it sees 02:01:35.920 mismatch it will say your documentation
+02:01:39.960 or your document your file has a schema 02:01:42.719
+failure let me just validate my 02:01:45.119 statements right now so if
+you just go 02:01:47.480 to the documentation page this is your
+02:01:50.040 how does autoloaders schema Evolution 02:01:52.760 work it
+specifically mentions that when 02:01:57.360 autoloader detects a new
+column it will 02:02:00.520 not fail immediately the stream stops
+02:02:04.079 with an unknown fail exception yes yes 02:02:06.560 yes
+this is this is this is fine this is 02:02:08.119 fine but before this
+is important before 02:02:12.719 it throws this error before this
+failure 02:02:16.599 autoloader performs schema inference on
+02:02:19.480 the latest micro batch that is your new 02:02:22.520 file
+and updates the schema location 02:02:26.440 with the latest
+02:02:28.880 schema boom so even before it throws the 02:02:33.239 error
+it updates the schema location it 02:02:37.119 updates the schema
+location what does it 02:02:39.880 mean it means in it every time infers
+02:02:42.960 the schema it updates the schema in the 02:02:45.360 schema
+location but it does not enforce 02:02:48.280 or let\'s say it does not
+change the 02:02:49.800 schema of the auto autoloader every time
+02:02:52.199 it just caches it but when it fails when 02:02:56.599 we
+rerun the query it updates the cashed 02:03:00.880 schema this is a high
+level concept and 02:03:04.719 trust me watch this part again and again
+02:03:07.719 and I know this is not exactly relevant 02:03:10.880 to
+this project because this is like 02:03:13.320 something uh you can say
+Insider talks 02:03:15.960 but this is really important if you know
+02:03:17.480 these Concepts okay okay so now let\'s go 02:03:21.520 back
+data braks and let\'s actually write 02:03:24.400 the code and let me
+just show you how 02:03:26.360 you will just implement this okay so in
+02:03:28.920 order to implement this we will first of 02:03:31.280 all
+see our Netflix catalog okay so this 02:03:33.880 is our Netflix catalog
+and we do not 02:03:35.239 have any kind of schema so we will
+02:03:36.440 simply create a schema first so I will 02:03:38.599 simply
+02:03:40.119 say 02:03:41.960 create schema and schema name will be
+02:03:45.599 Netflix catalog do net schema yeah you 02:03:51.040 can
+just name it any just run it so now 02:03:53.719 we are creating a
+schema under our 02:03:55.280 catalog called Netflix catalog okay very
+02:03:57.679 good so meanwhile it is running I can 02:04:00.520 simply
+go to a documentation page and I 02:04:02.239 can simply go here and I
+can simply grab 02:04:04.599 the code so this is your code this is
+02:04:07.400 your code don\'t worry I\'ll will just 02:04:08.440 tell
+you everything and there\'s a better 02:04:10.239 way to write this code
+I will just show 02:04:11.719 you so simply go to your autoloader okay
+02:04:16.400 and 02:04:17.599 then if you don\'t know we use something
+02:04:20.199 called as Park streaming to work with 02:04:22.480
+autoloader so it will be evident when I 02:04:24.840 was just writing
+the code simply say DF 02:04:27.800 equals 02:04:29.320 and 02:04:31.520
+spark. readstream read stream is the 02:04:34.880 spark streaming API
+that is available 02:04:36.960 within bpark okay very good then we will
+02:04:41.639 say something called as format obviously 02:04:45.440 file
+formit but here we do not say CSV 02:04:48.639 we say cloud files but
+then we just add 02:04:52.880 an option and then we say do option uh
+02:04:56.679 file format equals to Cloud files. 02:05:00.360 CSV got it
+as you can see here do option 02:05:04.159 Cloud files. format what is
+the format 02:05:06.559 it is Json but in our case it is 02:05:08.760
+CSV then we specify because cloud files 02:05:11.920 format is like a
+file format for 02:05:14.440 autoloader it detects through that file
+02:05:17.719 format okay so instead of saying format 02:05:21.239 CSU we
+simply say do option Cloud files. 02:05:25.760 format okay sorted then
+what is the next 02:05:28.800 thing the next thing is defining the
+02:05:30.920 schema location so similarly we will say 02:05:32.760 do
+option Cloud files. schema location 02:05:36.480 and then we will
+provide the schema 02:05:37.760 location and I will just write the
+02:05:39.119 schema location don\'t mind okay 02:05:43.239 then just add
+the backs slash when you 02:05:45.679 are just writing multi-line code
+okay 02:05:48.199 then schema location this is your 02:05:50.719
+location this is your location and what 02:05:53.599 is the location
+what is the location I 02:05:55.840 will just Define it right now here
+using 02:05:58.239 a variable because if we just Define the 02:06:00.559
+variable we do not need to just hard 02:06:03.480 code the location
+again and again so 02:06:05.559 I\'ll simply say checkpoint 02:06:08.639
+location and what is the location we all 02:06:10.719 know AB FSS and
+container name is 02:06:15.280 bronze you can uh either put the data in
+02:06:18.920 bronze or in silver I think silver will 02:06:20.840 be
+better because silver is our 02:06:21.920 destination so we should just
+store the 02:06:24.000 checkpoint in the destination okay so
+02:06:26.199 I\'ll simply pick silver by the way it is 02:06:29.360 not
+like a kind of rule you can just 02:06:31.800 store this location
+anywhere bro 02:06:33.599 anywhere silver at the rate and what is
+02:06:36.559 the italic name let me just go and 02:06:40.639 check uh uh
+uh okay this is the 02:06:44.199 one simply put it here then. DFS do
+02:06:50.239 core Dot 02:06:52.159 windows.net 02:06:54.239 and then I
+will create one folder within 02:06:56.920 this and I will call it as
+02:07:00.079 checkpoint oops checkpoint perfect okay 02:07:03.840 this
+is done let me just run this and 02:07:05.440 now I can simply copy this
+variable name 02:07:07.960 and I can just provide it here perfect
+02:07:10.800 so this is my data by the way where is 02:07:13.360 my data
+residing right now my data is 02:07:16.159 residing in bronze so I\'ll
+simply copy 02:07:20.520 this 02:07:22.280 location paste it here and
+just put 02:07:25.880 bronze 02:07:27.040 container bronze not really
+raw raw raw 02:07:31.239 raw raw okay and just that\'s it okay
+02:07:35.239 this is your read stream when I run this 02:07:37.480
+nothing will happen see I\'m just running 02:07:39.800 it oops oops oops
+oops I forgot to add 02:07:42.719 backs slash simply say do load so what
+02:07:46.199 it will do 02:07:48.679 oops dot oops oops oops oops I
+forgot to 02:07:52.079 mention checkpoint 02:07:53.480 location okay let
+me just run this yeah 02:07:57.679 now it\'s starting fine so now
+02:08:00.719 oops what\'s that oh got it so we also 02:08:04.639 need to
+create one more external 02:08:06.239 location for raw because we have
+just 02:08:07.840 created external location for three 02:08:09.079
+things bronze silver and gold so I\'ll 02:08:11.119 simply quickly go to
+catalog uh click on 02:08:13.800 these three buttons catalog external
+02:08:16.400 location external data create external 02:08:18.119
+location and this will be raw EXT 02:08:22.040 and URL will be uh I can
+simply grab it 02:08:25.360 from another external 02:08:28.320 locations
+uh let\'s say this one I will 02:08:30.639 simply copy this okay go to
+external 02:08:33.559 locations create 02:08:35.040 one I hope you know
+why we are creating 02:08:37.320 this external location because this is
+a 02:08:38.520 new container right this is a different 02:08:41.159
+container okay 02:08:43.320 so yep so this is the one and instead of
+02:08:46.320 bronze we just need to put raw storage 02:08:49.760
+credential will be credits okay okay 02:08:51.679 perfect it hardly took
+10 seconds woo 02:08:55.719 let\'s go back to our autol loader let\'s
+02:08:58.159 rerun it it should run fine 02:09:00.960 now it should run
+fine yeah what 02:09:06.159 checkpoint location is empty by the way
+02:09:08.400 who provided this checkpoint do not 02:09:10.599 trust data
+breaks autof filler see do 02:09:13.920 not trust it every time 99.99
+times are 02:09:17.159 fine but yeah it ran successfully so as
+02:09:20.880 you can see nothing happened nothing 02:09:22.880 happened
+really yeah nothing happened so 02:09:25.599 this is spark streaming it
+has just 02:09:28.840 created the streaming query but it is 02:09:31.320
+not triggered if you want to trigger it 02:09:33.559 we need to just
+take the action how we 02:09:35.520 can simply say DF do display you
+want to 02:09:37.440 see it you want to see it let me show 02:09:39.199
+you DF dot display by the way there\'s a 02:09:43.400 better way to use
+it datab also 02:09:45.719 recommend using this I don\'t know why an
+02:09:47.559 lamba use do display simply say display 02:09:50.880 DF now
+it will initiate your streaming 02:09:53.159 query and you can see
+stream 02:09:54.840 initialization that means your streaming
+02:09:56.960 is initialized your spark streaming is 02:10:00.079
+initialized now it will be tracking new 02:10:02.920 files automatically
+and when you\'ll be 02:10:04.559 having new files it will be
+02:10:05.719 automatically Gathering the data see it 02:10:09.199 is now
+reading the data okay so now it 02:10:11.880 is just returning the data
+to us and now 02:10:14.840 you can see this is the data and you
+02:10:17.400 will see it will not stop it will not 02:10:19.760 stop why
+this is streaming 02:10:22.199 this is streaming Bro this is streaming
+02:10:24.040 it will not stop it has returned the DF 02:10:26.800 but
+still you will see it will be 02:10:30.559 rotating and you can see
+display query 02:10:33.960 you want to see something else as well
+02:10:35.360 let me just show you click on this drop 02:10:37.079 down
+this is your graph this is the data 02:10:40.199 you can see here your
+processing rate 02:10:42.800 was around 1K something and your data
+02:10:45.119 was input rate was 5K 02:10:48.040 something this is your
+realtime graph if 02:10:50.639 you will upload more CSU files you will
+02:10:52.320 see it going up again this is cool right 02:10:55.719 this
+is cool yeah I know this is your 02:10:57.400 real time data this is
+your real time 02:10:58.920 data but now we need to write this data
+02:11:02.320 so what we will be doing we will doing 02:11:05.639 now
+what we will be doing we will be 02:11:08.079 writing this data to a
+location what is 02:11:11.599 the location it is bronze obviously
+02:11:14.880 because we are just injesting the data 02:11:16.119 into
+the Bron zone right okay so in 02:11:18.800 order to write the data
+simply go to 02:11:20.440 documentation and we just need to copy
+02:11:23.040 this code now this 02:11:25.719 one so simply write this
+code 02:11:28.840 here and I will simply add my DF here 02:11:32.440
+this is the good way to create the query 02:11:34.920 you should not
+include read and write 02:11:36.559 both in the query if you learning
+right 02:11:39.599 then what are the things that we need to 02:11:41.239
+specify first of all checkpoint location 02:11:44.239 checkpoint
+location for sure so we 02:11:46.239 simply say dot option checkpoint
+02:11:47.520 location is this one checkpoint path in 02:11:50.119 our
+case it is checkpoint 02:11:52.199 location instead of path very good
+now 02:11:55.880 this is trigger this is trigger and what 02:11:58.920
+is this available now equals to true 02:12:01.360 what is this by the
+way we have like 02:12:02.719 different different types of triggers I
+02:12:04.960 personally recommend using processing 02:12:06.800 name
+instead of available now because 02:12:08.719 available now will just
+bulk load your 02:12:11.480 data will load your data in 02:12:14.079
+bulk okay and it will just complete it 02:12:17.079 and it will stop
+that\'s it but I want to 02:12:19.679 run my query in continuation then
+I\'ll 02:12:21.960 be using processing time and I can 02:12:24.159
+manually provide processing time equals 02:12:25.840 to 10 seconds 5
+Seconds 3 seconds 02:12:28.719 anything and if I do not put anything it
+02:12:31.559 will take I think 0.5 milliseconds if 02:12:34.199 I\'m not
+wrong but yeah this is a 02:12:36.679 number okay so I will just simply
+change 02:12:39.000 it and I\'ll simply say processing 02:12:44.400 time
+I think it is processing processing 02:12:46.840 time or something like
+that because I\'m 02:12:48.480 not sure if we want to add underscore
+02:12:51.360 processing and processing time do we 02:12:53.599 have
+anything oh we will just correct it 02:12:55.520 don\'t need to worry if
+we see something 02:12:57.079 else equals to 10 seconds let\'s say okay
+02:13:04.040 then it is saying let me just add back 02:13:08.360 slash
+backs slash back slash and backs 02:13:12.320 slash now it is saying two
+table first 02:13:16.000 of all we do not need to write two table
+02:13:18.480 because we are not storing this data to 02:13:19.880 a
+table we will simply say do start okay 02:13:23.119 and now we will be
+providing the 02:13:24.440 location what is the location location
+02:13:27.520 is 02:13:28.400 simple location is AB 02:13:31.239 FSS then
+02:13:33.599 bronze at 02:13:35.400 theate dat of oh nice this is nice
+it 02:13:38.880 has autofill correctly this time now I 02:13:41.639 will
+create a folder and I will simply 02:13:43.400 say uh titles or let\'s
+say Netflix 02:13:47.440 titles Netflix titles make sense makes
+02:13:51.679 sense yeah perfect obviously we do not 02:13:53.960 need to
+put it here so I will simply run 02:13:55.920 this 02:13:56.800 now so
+yeah it is not processing time so 02:14:00.239 I will simply say
+diagnose error I just 02:14:02.079 need to verify what is the key we use
+02:14:05.559 for it yeah it is without uh underscore 02:14:08.400 okay
+perfect processing time 10 seconds 02:14:10.520 perfect I can simply
+copy it from here 02:14:12.719 as 02:14:14.280 well okay 02:14:17.079
+perfect perfect I knew like we hardly 02:14:20.840 use underscores with
+bpark we just use 02:14:23.480 small alphabet and capital alphabet
+02:14:25.719 combination okay oh wow my quer is 02:14:28.280 initialized
+as you can see now it has 02:14:30.960 started writing my data to my
+desired 02:14:33.639 location okay to my desired location 02:14:36.280
+very good so now as I can see that this 02:14:38.800 data is being
+return to my desired 02:14:41.360 location and again if I just click on
+02:14:45.159 this graph you will see it is going up 02:14:48.559 right
+why because it has like a lot of 02:14:50.520 data to write but after
+some time it 02:14:52.159 will go down why because it has it
+02:14:53.840 doesn\'t have like much data to write see 02:14:58.199 I\'m
+not an astrologer I\'m not an 02:14:59.760 astrologer don\'t worry I\'m
+not an 02:15:01.119 astrologer I\'m just telling you okay now
+02:15:03.880 this query will not be stopped now you 02:15:06.400 know
+the reason because this is 02:15:08.199 streaming okay very good so this
+is fine 02:15:12.320 we have successfully loaded incremental
+02:15:15.199 data pipeline so now we do not worry if 02:15:18.719 we
+let\'s say get any files anytime it 02:15:22.000 will be just pulling
+the data and 02:15:24.199 pushing the data to your location okay
+02:15:27.719 now I will take few more minutes to just 02:15:30.280
+actually show you all those folders that 02:15:32.320 I was talking
+about before because my 02:15:34.960 duty is to just let you know
+everything 02:15:38.040 everything it is not like hey my 02:15:40.119
+notebook is done my code is done shut up 02:15:43.599 no this is an
+lambas data fam they they 02:15:47.079 will know everything everything
+02:15:49.639 everything everything okay so I will 02:15:51.480 simply
+first of all I will just let it 02:15:53.800 be running do not do it in
+your case let 02:15:56.400 me just stop it because I know you will
+02:15:57.880 forget it and you should not do it so 02:16:00.280 simply
+click on interrupt okay otherwise 02:16:02.440 this cluster will be
+running and you 02:16:04.079 will get a long Bill if you\'re using
+02:16:05.480 free account obviously you will not but 02:16:06.800 still
+if you\'re working in an 02:16:08.159 organization and you do it they
+will say 02:16:10.960 hey bro this month we will not be able
+02:16:14.119 to give you the salary because you ran 02:16:16.400 the
+02:16:17.400 Clusters okay so simply click on 02:16:19.440 interrupt
+because we do not have like 02:16:21.040 new data for now Okay click on
+interrupt 02:16:23.880 click on cancellation yes we want to 02:16:25.760
+cancel it okay then just click on cancel 02:16:29.840 here as well
+because this is also an 02:16:31.520 action Okay click on this now you
+do not 02:16:35.879 need to cancel on this streaming query 02:16:37.718
+because this doesn\'t get 02:16:39.478 initiated until and unless we hit
+an 02:16:42.160 action DF do display is an action DF do 02:16:45.959
+show is an action DF do collect is an 02:16:48.760 action DF do write is
+an action 02:16:51.478 another interation note it down okay 02:16:54.959
+simply go to your data Lake because we 02:16:57.359 want to see amazing
+stuff okay simply 02:16:59.478 click on bronze simply go to Netflix
+02:17:03.200 titles this time okay simply go inside 02:17:07.000 this
+okay 02:17:09.040 perfect this is your data this is your 02:17:14.679
+data and this is in the pocket for like 02:17:17.558 Delta format why
+why why why because we 02:17:21.599 didn\'t Define any particular kind
+of 02:17:24.478 let\'s say format and by default it just 02:17:26.478
+writes the data to the delta look like 02:17:28.959 Delta 02:17:29.959
+format okay okay okay okay and I think 02:17:33.920 it is good
+02:17:35.000 right yeah because we just writing the 02:17:37.240 data to
+the Delta 02:17:39.160 format okay so 02:17:42.040 now just go to the
+silver 02:17:45.200 container and this is our checkpoint 02:17:48.160
+this is our checkpoint for what for our 02:17:50.280 streaming table
+02:17:51.359 just open this 02:17:58.280 you you will see 1 2 3 4 these
+are the 02:18:03.080 four main folders okay by the way the 02:18:08.160
+schemas okay and the sources basically 02:18:11.799 is for 02:18:13.040
+your new files rocks DB let me just open 02:18:16.478 the sources and
+you will see something 02:18:20.040 called I think in offsets wait in
+02:18:23.760 schemas in 02:18:25.679 commits no it is in sources okay
+just 02:18:28.398 click on zero then you will simply see 02:18:30.920
+rocks DB this is the folder responsible 02:18:35.718 for your em potency
+or exactly once 02:18:39.558 architecture from where it knows hey
+02:18:42.879 which file it needs to run next it which 02:18:44.920 file
+it needs to pull next click on it 02:18:47.799 you will see all the zip
+files all the 02:18:49.920 logs all the blogs these are like
+02:18:51.599 maintained by apis then I will just show 02:18:53.920 you
+one more thing click on checkpoint 02:18:56.200 and click on schemas so
+this is your 02:18:58.040 schema file this is your 02:19:00.200 schema
+this is your schema you will see 02:19:03.398 everything see duration
+season 02:19:08.080 nullable 02:19:09.718 name 02:19:11.240 then
+metadata date added so these are 02:19:14.000 all the columns so let\'s
+say you have 02:19:17.160 another file with different schema it
+02:19:18.879 will create one more file one 02:19:21.398 with like having
+this schema plus new 02:19:24.478 columns and it will always add new
+02:19:26.398 columns at the end of the file okay 02:19:29.000 don\'t
+worry you do not need to worry 02:19:30.718 about these things that\'s
+why we have 02:19:32.638 autol loader it will take care of all
+02:19:34.718 those stuff for you all those 02:19:36.959 stuff and we
+have created an external 02:19:39.519 table we have not created the
+manage 02:19:40.879 table why because we have provided the 02:19:44.478
+location here see this is an external 02:19:47.359 table not external
+table like external 02:19:49.600 data external Delta Lake anything you
+02:19:51.560 can say and you when you just go to your 02:19:55.280
+documentation you will see that they are 02:19:57.439 just talking about
+manage table you can 02:19:59.680 just create the manage table because
+it 02:20:01.319 is saying two 02:20:03.520 table okay but when you just
+provide the 02:20:06.479 location it creates the external table
+02:20:08.760 not the managed 02:20:10.720 table okay got it got it got
+it so this 02:20:14.280 was all about your auto loader and now
+02:20:18.479 we have finally have bronze data let me 02:20:20.800 just
+go to the 02:20:22.640 slides so now you can see that according
+02:20:25.760 to this uh architecture we have 02:20:28.280 successfully
+completed this 02:20:31.200 phase and now we\'ll be just using or
+02:20:34.800 let\'s say going to the silver Zone and 02:20:36.399 we\'ll
+be just using so much of different 02:20:38.479 stop and let me just
+show you how to 02:20:40.120 create parameterized notebooks how to
+02:20:42.280 use workflows everything let\'s see so 02:20:44.840 now
+let\'s create our second notebook 02:20:46.760 which will be your silver
+notebook let\'s 02:20:49.399 create that and this is a speci notebook
+02:20:51.120 trust me because we\'ll be using a 02:20:52.319 combination
+of workflows let me just 02:20:54.600 give you a highlight bro this this
+is 02:20:56.720 the workflow see is it good we\'ll create 02:20:59.399 a
+new workflow bro don\'t worry don\'t 02:21:01.200 worry don\'t worry so
+let\'s create a new 02:21:03.800 new notebook simply go to workspace
+02:21:06.080 Netflix project create notebook okay 02:21:10.200 perfect
+so so so so so so simply connect 02:21:14.640 your notebook with a
+cluster obviously 02:21:16.200 you should okay so now what we will be
+02:21:19.399 doing we we will first of all rename our 02:21:21.840
+notebook and I will simply say to Silver 02:21:25.080 okay make sense
+okay now I will simply 02:21:27.560 create a markdown okay and I will
+simply 02:21:30.800 say 02:21:32.840 silver notebook 02:21:35.880
+mapping mapping files or let\'s say 02:21:37.880 lookup files lookup
+02:21:40.160 tables okay because we\'ll be creating 02:21:42.399 two
+notebooks in silver one will be like 02:21:46.040 all the mapping files
+and second one 02:21:47.760 will be the um titles that is the m data
+02:21:51.359 okay so now I will just tell you a lot 02:21:53.640 of
+stuff in this notebook what\'s that 02:21:56.520 first of all let me
+just read the data 02:21:59.680 and just to show you how you can just
+02:22:01.479 read the data and how it will be just 02:22:03.520 looking
+like so DF equals 02:22:08.000 spark. read. format and the format is
+02:22:12.399 CSV okay 02:22:15.479 then dot 02:22:17.680 option header
+true obviously 02:22:22.000 okay then I\'ll simply say do option in
+02:22:24.640 for schema true perfect then I will 02:22:27.080 simply say
+what else that\'s it yeah then 02:22:30.120 I\'ll will just provide the
+location it 02:22:31.439 is AB FSS the data is in 02:22:35.080 bronze
+and 02:22:37.040 then what man what are you suggesting me 02:22:40.000
+what is DB demos my storage account 02:22:42.800 location is I think
+02:22:45.960 Netflix Netflix DL 02:22:49.280 unch okay okay perfect then
+do DFS yeah 02:22:54.640 very good ratings. CSV okay now bro oh
+02:23:01.040 man we datab break if you\'re just 02:23:03.680 watching
+this video if you\'re just what 02:23:05.800 yeah you can watch this
+video If you 02:23:07.479 watching this video just provide us a
+02:23:08.920 button to turn off the recommendations 02:23:10.840 because
+when we are just preparing the 02:23:12.160 tutorials for our lovely
+data famam we 02:23:14.040 do not need to show the recommendations
+02:23:15.720 every time just a feedback for you just 02:23:17.840 take
+it positively I love you a lot okay 02:23:20.920 so now we just need to
+provide the 02:23:22.359 location and we already know one of the
+02:23:24.600 folder name is Netflix 02:23:28.439 cast let me just remove
+it otherwise 02:23:31.640 this will be a controversial topic this
+02:23:33.080 is not that word okay let\'s say 02:23:38.120 directors
+okay let me just run 02:23:41.560 this let me just run 02:23:44.600 this
+okay I think location is wrong uh 02:23:50.000 and configuration value
+detected okay 02:23:52.720 bronze at Netflix DL I think storage
+02:23:56.359 account name is wrong yeah Netflix 02:23:58.840 project
+dunch Netflix project 02:24:03.399 project let me just run 02:24:06.000
+it yeah it ran fine let me just show you 02:24:08.920 the data DF do
+display I want to use do 02:24:13.279 display I want to use and I will
+use it 02:24:15.800 okay first of all this is your data this
+02:24:18.240 is the overview of data okay okay and as 02:24:21.640 you
+can see that in the mapping files in 02:24:24.200 the lookup tables we
+do not have much 02:24:26.800 stuff to transform the data by the way I
+02:24:30.359 designed it in such a way so that you 02:24:32.200 can
+actually utilize parameterized 02:24:34.080 notebooks you can actually
+use workflows 02:24:35.840 you can actually use utility so that is
+02:24:38.160 a part of project so according to this 02:24:40.479
+scenario we do not have any particular 02:24:44.040 let\'s say a kind of
+transformation to 02:24:47.040 perform so in this particular scenario
+02:24:49.920 we will be as it is pushing this data or 02:24:53.720
+let\'s say pushing this the CSV files to 02:24:56.840 the gold layer or
+let\'s say uh silver 02:24:59.800 layer not gold layer silver layer as
+it 02:25:01.680 is why why don\'t worry we will be just 02:25:05.479
+performing five Spar transformation on 02:25:06.920 top of the master
+data a lot of 02:25:09.319 transformation do not worry about that
+02:25:10.840 but this is a special case where I 02:25:12.960 removed all
+the transformation scenarios 02:25:15.479 why so that you can learn one
+most 02:25:18.720 important realtime 02:25:26.319 scenario what\'s that
+let me just show 02:25:29.000 you so the scenario is scenario is
+02:25:33.040 scenario 02:25:34.800 is this is the file that I have read
+02:25:37.720 okay sorted this is the data sorted okay 02:25:41.520 now I
+will be writing this data okay 02:25:43.279 should I just write the code
+okay let me 02:25:44.760 just write the code for you DF do write
+02:25:47.479 do format format should be in Delta it 02:25:50.800 it is
+fine because we should just use 02:25:52.279 Delta as much as we can
+then the mode 02:25:55.920 will 02:25:56.840 be um overwrite or append
+let\'s say 02:26:00.479 append okay by the way if you are not
+02:26:02.720 aware of append modes let me just 02:26:04.279 quickly
+complete the code I will just 02:26:05.720 tell you append modes as like
+all the 02:26:07.319 modes as well it is really important 02:26:09.479
+from the interview perspective as well 02:26:11.160 okay don\'t worry
+then I will simply say 02:26:15.960 uh do 02:26:17.240 option path
+because I want to provide 02:26:21.279 the path 02:26:23.279 okay
+02:26:24.920 yes so path will be not bronze it will 02:26:29.720 be
+02:26:31.120 silver 02:26:32.920 perfect perfect and folder will be same
+02:26:36.319 yeah I want the the folder will be same 02:26:38.359 and
+then I will simply say do save 02:26:42.640 as table no no no no just do
+save 02:26:47.279 perfect so I can simply run this command 02:26:50.479
+let me just run it for you and you will 02:26:52.600 say hey anlama
+what\'s so special in this 02:26:54.439 command we already know like it
+will 02:26:56.560 just write the data in Delta format and 02:26:58.880
+now you will go to Silver container and 02:27:01.640 you will just show
+02:27:03.240 off Delta what is the folder name man 02:27:07.520 hey man
+do not trust data bricks autof 02:27:10.520 fillers bro who told you to
+create Delta 02:27:13.319 be and B man who okay it\'s fine because
+02:27:16.720 I was I wanted to delete that so let me 02:27:19.160 show
+you this is a folder within that I 02:27:21.200 have Netflix directors
+and within that I 02:27:23.439 have data in the Delta format sorted
+02:27:25.840 sorted so this is my data what\'s so 02:27:28.760 special
+in this code an lamba like okay 02:27:31.680 you just told us to perform
+right 02:27:33.800 operations okay okay okay by the way by 02:27:35.840
+the way before just uh telling that 02:27:38.160 thing I need to just
+discuss the output 02:27:39.800 mode so basically we have four types of
+02:27:42.040 output modes uh modes we have such as 02:27:47.439 aend
+okay that we just used and then we 02:27:49.920 have 02:27:51.760
+overwrite uh okay then we have uh 02:27:56.960 error then we have ignore
+okay so these 02:28:00.399 are like four different different types
+02:28:01.760 of modes so it can be an interview 02:28:03.760 question
+like what are what what what 02:28:05.120 are the differences between
+these four 02:28:06.840 or like what is the key difference 02:28:08.200
+between all these four so difference 02:28:10.040 very simple so let\'s
+say you have a data 02:28:13.359 Lake okay 02:28:15.439 oops
+02:28:17.920 oops Yeah so you have have a data 02:28:21.040 Lake okay
+and within this data Lake you 02:28:23.760 have a file which is already
+02:28:26.279 there okay this is a location any 02:28:28.399 location any
+folder okay now you just 02:28:30.760 trying to write this data which
+data DF 02:28:33.720 that we have just created okay and you 02:28:35.600
+used append mode you used append mode 02:28:39.399 and in this folder
+there\'s already this 02:28:41.560 file what this will do this will
+02:28:45.279 silently go and attach let\'s say add 02:28:51.399 another
+02:28:52.479 file 02:28:55.240 simple simple this will just add the
+02:28:59.160 file in the 02:29:01.040 location okay simple so this is a
+kind 02:29:04.399 of Ideal student of the class like ideal 02:29:07.960
+or let\'s say the most favorite student 02:29:10.279 of the class not
+favorite student of the 02:29:12.240 class favorite student of the
+teacher 02:29:14.080 not the class because back benches are 02:29:16.080
+the the favorite student of the class 02:29:18.399 like h lamba by the
+way I was not the 02:29:20.880 back bencher okay I 02:29:23.680 was yeah
+so this is your PIN okay then 02:29:28.359 this is fine the override
+command is 02:29:30.880 like really really really violent what
+02:29:34.600 what it will do it will simply go to 02:29:37.200 this
+location and it will just kick this 02:29:39.640 out it will say hey go
+away and this 02:29:43.279 will replace this file with the new one
+02:29:47.479 okay so this is really really violent 02:29:49.200 don\'t
+be like overrate 02:29:51.399 command yeah by the way you should in
+02:29:53.960 some 02:29:55.200 scenarios so then error this is the most
+02:29:59.240 complaining command this will just 02:30:02.120 complain
+that\'s it what it will do it 02:30:04.640 will go to the location and
+it will see 02:30:09.240 hey there\'s a file already there so it
+02:30:10.960 will just start complaining it will just 02:30:12.560 throw
+error hey there\'s already a file 02:30:15.120 why you just telling me
+to write this 02:30:17.960 data blah blah blah blah blah like cry
+02:30:20.240 baby okay so this is like a cry baby of 02:30:24.080 the
+02:30:24.880 class then we have another command 02:30:27.160 called
+ignore this this is the lost lost 02:30:29.640 student of the class this
+guy doesn\'t 02:30:32.840 know anything this guy doesn\'t need to
+02:30:35.279 know anything no you can say fights no 02:30:40.200
+conspiracies nothing nothing no relation 02:30:44.160 to the class to
+the world nothing so 02:30:47.080 what it will do by the way not not
+that 02:30:50.439 relation like relation like common 02:30:52.279
+relation like relation like with friends 02:30:56.160 like normal
+relations right so ignore 02:30:59.720 ignore ignore ignore command what
+what 02:31:01.720 it will do it will just go to the 02:31:03.040
+location and it will see hey there\'s a 02:31:06.640 file so what it
+will do it will do 02:31:09.760 nothing it will just go away it will not
+02:31:12.680 throw any error it will not replace the 02:31:15.600 data
+it will not add the data it will 02:31:18.279 just go away so so this is
+just the like 02:31:21.160 dumbest command I don\'t know why they
+02:31:22.640 have added I know why they have added 02:31:24.279 because
+they want they do not want to 02:31:26.120 break the code every time so
+obviously 02:31:28.600 if they have added there\'s a use case
+02:31:30.080 for it but yeah this was just a quick 02:31:33.160 analogy
+for 02:31:35.160 you okay simple okay now let\'s talk 02:31:37.960 about
+the about the real game okay so 02:31:40.680 this is fine this is fine
+this is fine 02:31:42.600 so we read the data okay we display the
+02:31:44.720 data we wrote the data perfect now I 02:31:47.640 have
+three more files will I be doing 02:31:50.120 the same stuff again and
+again will I be 02:31:51.880 writing the code again and again no
+02:31:54.640 let\'s say I have 300 files okay let\'s 02:31:57.319 say I
+have like at least 20 files will I 02:31:59.640 be writing the code
+again and again no I 02:32:02.319 will create parameters let me just
+tell 02:32:04.279 you what do I mean so first of all I 02:32:07.319 will
+create another cell I will create 02:32:09.880 parameters and how we can
+just create 02:32:11.960 parameters in data breaks there\'s a
+02:32:13.880 utility called widgets so I simply write 02:32:16.720
+dbutils 02:32:18.319 dot widgets do text because this will be
+02:32:22.040 your text data type then I will just 02:32:24.080 name it I
+will name it as let\'s say 02:32:27.920 Source folder simple what will
+be the 02:32:32.240 default value of it I will simply say 02:32:34.880
+XYZ simple 02:32:37.560 okay or let\'s say Netflix directors
+02:32:42.279 because we can just provide a valid you 02:32:44.560 can
+say value it is optional don\'t worry 02:32:46.960 Netflix 02:32:48.600
+directors same simple I will create 02:32:51.920 another widget another
+parameter for 02:32:54.520 Destination simple DB 02:32:58.359 utils do
+widgets. text Target folder and 02:33:03.120 what will be my target
+folder obviously 02:33:04.880 of the same name correct very good so I
+02:33:08.040 will simply say 02:33:10.600 Netflix 02:33:12.399 directors
+this is my default value I 02:33:14.600 will just provide this value
+through a 02:33:16.520 for uh through a workflow okay so these
+02:33:19.520 are my parameters let me just add one 02:33:21.439 markdown
+so that you can actually 02:33:23.200 understand it when you will be
+referring 02:33:24.439 this notebook if I provide it I will 02:33:27.240
+provide it I\'m so so so so possessive 02:33:29.800 for you so
+percentage MD then I will 02:33:33.240 simply say 02:33:35.399
+parameters very good these are my 02:33:38.439 parameters okay then I
+will create 02:33:40.200 another cell I will simply say variables
+02:33:43.479 why because I will store these 02:33:45.479 parameters in
+my variables or let\'s say 02:33:48.240 these are the parameters I want
+to hold 02:33:50.600 this value right this is the value this
+02:33:53.840 is the value bro what you\'re doing this 02:33:56.720 is
+the value Netflix directors right 02:33:59.479 this is a default value
+what if I will 02:34:02.800 be just creating a new value let me just
+02:34:05.560 tell you what do I mean wait hold on 02:34:07.200 hold on
+hold on so I will simply say 02:34:10.479 where Source folder equals to
+there\'s 02:34:15.040 another utility similar to it it\'s 02:34:17.000
+called just get so dbutils 02:34:19.960 widgets doget instead of text
+like 02:34:22.479 instead of any data type simply pick up 02:34:25.560
+uh like pick it up then 02:34:28.000 where Target 02:34:31.040 folder
+perfect similarly 02:34:34.680 DBS dot widgets. getet Target folder
+02:34:38.200 simple let me just run this command let 02:34:39.760 me
+just show you and before that I can 02:34:41.960 simply create
+02:34:44.680 markdown and 02:34:46.800 variables okay perfect let me
+just run 02:34:49.200 this you will see something 02:34:51.880 see the
+moment that I have run this cell 02:34:55.120 I can see these two boxes
+bro I can see 02:34:57.680 these two boxes right so what is the
+02:35:00.720 default value Netflix directors what is 02:35:02.640 the
+default value for this Netflix 02:35:04.080 directors sort it sorted now
+if I want 02:35:07.560 to store this value I will simply run
+02:35:09.560 this 02:35:10.800 command sorted if I just print the value
+02:35:14.240 let\'s say print where Source folder what 02:35:18.720 what
+what what what I will get what I 02:35:20.520 will get Netflix directors
+perfect so I 02:35:24.920 want to create a workflow in such a way
+02:35:27.960 that I will provide the value to these 02:35:30.240
+parameters through the pipeline through 02:35:33.000 the 02:35:33.760
+workflow okay let\'s say I want to give 02:35:37.000 it here let\'s say
+Netflix blah blah okay 02:35:41.439 let me just provide this value now
+if I 02:35:45.120 just run this if I just run this if I 02:35:48.880
+just run this again I will see Netflix 02:35:50.840 blah 02:35:52.160
+blah what what does it mean what does it 02:35:55.640 mean I can
+actually run my notebook 02:35:58.520 using this let\'s remove it
+because this 02:36:01.399 this this is 02:36:03.880 nonsense okay I hope
+now you know we do 02:36:07.439 not need to print it here I just wanted
+02:36:08.920 to show 02:36:10.120 you got it very good so I will make a
+02:36:15.080 change in my code I will use these 02:36:17.479 variables
+in my code V Source folders I 02:36:21.600 will simply paste it
+02:36:23.160 here simple and we will be using FST 02:36:25.600 string
+because this is a variable so 02:36:27.880 curly 02:36:29.040 braces
+very good very good can we run 02:36:32.000 this now yes let me just
+show 02:36:35.479 you it ran fine should we display it 02:36:39.960 yes
+see same results very good now in 02:36:44.399 the syn what we\'ll be
+02:36:46.800 doing Target path or let\'s say the 02:36:49.680 target
+folder same F 02:36:52.760 string curly 02:36:55.920 braces sorted
+should we run it Target 02:36:59.600 folder yes not Target folder it is
+V 02:37:02.000 Target 02:37:03.640 folder this data braks auto
+suggestion 02:37:06.080 is 02:37:08.960 like okay let me just run
+02:37:14.800 this perfect let me just validate it let 02:37:17.600 me
+just go to Silver 02:37:20.279 see where Target folder okay I didn\'t
+02:37:22.560 use FST string oh I used FST string wait 02:37:25.160 wait
+wait what happened man where Target 02:37:30.640 folder 02:37:32.399 uh
+02:37:33.960 oh I use F string here I need to use F 02:37:36.960 string
+here I was like why why it 02:37:38.800 created the folder with that
+name okay 02:37:42.560 okay let me just validate the data 02:37:44.600
+perfect I have the folder here perfect 02:37:47.760 that\'s what I want
+that\'s what I want 02:37:50.720 very good very good now let me just
+02:37:53.439 remove all the folders not all just 02:37:56.760 Delta and
+these ones because you\'ll be 02:37:58.640 recreating these folders
+using workflow 02:38:01.439 now you know what you are trying to do
+02:38:03.680 now our next step is we need to provide 02:38:06.200 these
+values these values using a 02:38:09.720 workflow sort it but in order
+to provide 02:38:13.920 these values from a workflow we should
+02:38:16.960 have a mapping file we should have a 02:38:19.760 mapping
+notebook we should have a lookup 02:38:22.960 notebook anything you want
+to say you 02:38:24.920 can call it in which it will be holding
+02:38:28.200 those values I will just tell you how it 02:38:30.640 works
+so let me just try to create a 02:38:33.000 diagram for you so this is
+our main 02:38:36.840 notebook which is this notebook okay 02:38:39.560
+very good 02:38:42.000 main 02:38:43.720 notebook okay this is main
+notebook we 02:38:46.680 will be 02:38:48.080 creating one lookup
+02:38:51.960 notebook okay and in this we will store 02:38:55.000 the
+array we will store the array the 02:38:57.560 same way we created the
+array in ADF now 02:39:00.200 we will be creating that array in lookup
+02:39:03.040 yes by the way all those who are 02:39:06.040 thinking hey
+why we doing this thing we 02:39:08.000 can just do this thing in ADF
+bro I want 02:39:11.160 you to learn each technology thoroughly
+02:39:14.680 I know we can do this stuff in ADF we 02:39:17.080 can
+simply create data notebook activity 02:39:19.840 in ADF and we can just
+pass the 02:39:21.640 parameters from there I want you to 02:39:23.920
+learn data braks workflows as well okay 02:39:28.040 so just do not try
+to be cool hey we can 02:39:30.439 do this we can do that you can do
+02:39:32.960 anything I know I know I\'m just trying 02:39:36.120 to
+help others who are just trying to 02:39:37.600 learn this technology if
+you want to 02:39:40.359 be a cool 02:39:42.840 guy so I don\'t know
+what to say because 02:39:46.000 I don\'t 02:39:47.000 say bad things so
+02:39:50.319 now lookup activity okay so lookup 02:39:52.520 activity it
+is not a kind of activity it 02:39:54.200 is just kind of lookup
+notebook okay so 02:39:56.920 within this lookup notebook we will be
+02:39:58.279 storing the array perfect within this 02:40:01.640 array we
+will add one more statement it 02:40:04.040 is called dbutils do jobs
+jobs so this 02:40:10.640 is a kind 02:40:12.439 of statement or let\'s
+say a kind of 02:40:15.240 utility or let\'s say kind of yeah
+02:40:17.520 utility jobs utilities that we have 02:40:20.040 this will
+make sure that output of this 02:40:23.520 notebook can be used in this
+notebook 02:40:26.520 yes I can just show you if it is 02:40:27.760
+available here like I can simply say uh 02:40:32.439 dbutils do
+02:40:36.600 jobs oops or I can simply say DB utils 02:40:41.520 jobs
+02:40:43.439 so this is the used task values to pass 02:40:46.840
+information between tasks task is 02:40:49.359 nothing but just an
+activity in the 02:40:51.920 workflow okay so it is saying you should
+02:40:54.680 always use task values in order to pass 02:40:57.760 the
+information between the 02:40:59.359 notebooks sorted so if we just go
+here 02:41:02.800 we will simply see this is the kind of 02:41:05.479
+statement that we need to write don\'t 02:41:06.880 worry I will just
+tell you everything 02:41:07.880 I\'m just giving you an overview this
+is 02:41:10.279 the uh task values we will set the value 02:41:13.200 as
+key because this will be the value 02:41:15.760 we\'ll be using in order
+to pull the 02:41:18.160 information from a different different
+02:41:19.800 note and what will be the output this 02:41:22.840 will be
+the output value equals to beams 02:41:24.760 or value can be anything
+in our case it 02:41:26.439 will be array it will be the 02:41:29.840
+array got it got it got it got it got it 02:41:33.399 let\'s create that
+notebook because now 02:41:35.680 it\'s time to actually do that so this
+is 02:41:37.200 a notebook that we need to parameterize 02:41:38.920
+okay got it let\'s do that simply go to 02:41:42.640 workspace I\'m so
+thirsty 02:41:46.560 man I\'m just trying to make sure that 02:41:49.680
+you are grasping all the information so 02:41:52.479 that you can just
+crack your interviews 02:41:54.359 man just be competitive you are my
+data 02:41:56.560 fan you are my loyal data F you are a 02:42:01.160
+winner do you know this you are a winner 02:42:04.200 you are my data F
+so simply click on 02:42:08.000 Create and by the way just comment just
+02:42:12.560 just just put a comment down right now 02:42:14.960 and
+just write 02:42:17.080 that V are your data F just just just
+02:42:20.040 write right write this comment right now 02:42:22.279 and I
+will see like who will comment I 02:42:24.640 will see then I will see
+like the 02:42:26.800 efforts that I\'m making is really worth
+02:42:29.040 it or not I will see this I will see 02:42:33.840 this
+because love should be reciprocated 02:42:38.080 right 02:42:40.520 yeah
+okay notebook so this is the third 02:42:47.880 notebook oh my
+02:42:52.560 okay focus third and in this one what 02:42:56.600 we\'ll
+be doing we will simply name it as 02:42:58.439 lookup 02:43:01.319
+notebook lookup notebook perfect so what 02:43:03.840 I will be doing
+I\'ll simply first of all 02:43:05.720 attach this cluster okay so first
+of all 02:43:08.439 I will set the value of the array so I 02:43:10.920
+will simply create the array I will 02:43:12.399 simply say percentage
+markdown I will 02:43:15.319 simply say array array parameter
+02:43:20.800 okay I will simply 02:43:22.680 say uh files is a kind of
+erray that I 02:43:26.520 want to create makes sense and within
+02:43:29.000 this we have just two things such as 02:43:32.040 Target
+folder I think or Source folder 02:43:34.560 yeah Source folder and
+Target folder so 02:43:37.279 in first scenario The Source folder is
+02:43:39.960 uh Netflix directories 02:43:43.840 directors okay then in
+second case 02:43:47.840 Target 02:43:50.800 folder it is Netflix same
+thing same 02:43:56.439 thing same thing and let me just 02:43:59.080
+validate 02:44:00.920 this let me just create a duplicate tab
+02:44:04.680 here let me just open the second 02:44:08.319 notebook okay
+let me just see the 02:44:10.560 spelling and all Source folder is fine
+02:44:13.080 Target folder is fine and this is the 02:44:15.800 spelling
+okay Source folder Target 02:44:18.200 folder spelling directors fine
+okay so 02:44:20.720 this is my first entity this is my 02:44:23.040
+second entity let me just copy 02:44:26.399 it or let me just copy this
+whole code 02:44:29.479 it will be 02:44:30.760 better yeah so second
+time what we have 02:44:35.120 what we have in bronze what what what we
+02:44:37.600 have like other three files what are 02:44:40.520 those
+this is bronze so Netflix 02:44:43.120 directors are done then cast
+category 02:44:46.720 countries cast category countries let me
+02:44:48.760 just quickly put it 02:44:51.080 here C 02:44:55.640 cats
+okay 02:45:02.040 then 02:45:04.880 countries 02:45:08.920 okay
+countries 02:45:11.920 perfect and then we 02:45:14.800 have category
+perfect and countries okay 02:45:18.200 category 02:45:21.920 so this is
+my array right this is my 02:45:24.200 array so what I will do I will
+create 02:45:27.600 one utility let me just create a 02:45:30.040
+markdown for 02:45:31.960 you job 02:45:36.040 utility to return the
+02:45:39.880 array perfect so it is called DB utils 02:45:44.680 dot job
+jobs dot task TK 02:45:51.359 values or you can simply go to
+02:45:53.640 documentation page do not get confused 02:45:56.240 task
+values. 02:45:59.200 set do set key equals to my array and my
+02:46:03.920 array is 02:46:05.800 files you do not need to keep the
+same 02:46:08.080 name bro no no no no no no no no no no 02:46:10.520
+you do not need to keep keep the same 02:46:12.040 name this is the key
+that we will be 02:46:14.120 using in the second notebook let me just
+02:46:16.279 keep it anything let\'s say my array do 02:46:18.760 not
+not get confused and what is the 02:46:20.920 value value is files value
+is files 02:46:23.479 because we want to return this value 02:46:25.880
+files why it is throwing error because I 02:46:27.840 didn\'t run it so
+let me just run it 02:46:30.560 first 02:46:32.720 oops error
+02:46:36.040 error error oh I didn\'t add double quote 02:46:41.359 here
+02:46:42.880 perfect perfect let\'s see let me just 02:46:45.880 run
+that by the way there\'s no uh Val of 02:46:49.160 running it here
+because you\'ll be 02:46:50.080 running it in data databas workflows now
+02:46:52.640 it is ready it is ready it is ready let 02:46:54.960 me
+show you simply go to workflows just 02:46:58.000 click on create job
+Okay click on create 02:47:01.120 job then okay this is your canvas this
+02:47:04.520 is 02:47:05.319 your data Brak data Factory if you want
+02:47:08.080 to call it but yeah this is a kind of 02:47:10.080 ETL
+framework ETL tool that we have 02:47:12.880 using data brakes and you
+should know 02:47:14.319 about this okay I\'m really excited to
+02:47:16.680 perform this 02:47:20.319 so my 02:47:22.000 bro first of
+all this is let me just 02:47:25.319 close this so this is your task so
+what 02:47:27.920 will be the first task that you need to 02:47:29.680
+perform and according to the 02:47:31.319 architecture our first task is
+lookup 02:47:34.080 notebook okay very good task name will 02:47:36.880
+be 02:47:40.160 lookup locations let\'s say okay look up 02:47:43.640
+locations very good what is the type of 02:47:46.000 activity it is
+notebook we because we 02:47:48.000 are running a notebook then it is a
+02:47:49.319 notebook okay then Source obviously 02:47:51.720 workspace
+now we need to select the 02:47:53.600 notebook just select it uh click
+on you 02:47:56.760 Netflix project uh look up notebook very
+02:48:01.040 good click on confirm very good now 02:48:04.040 which
+cluster you want to create I do 02:48:05.479 not want to create job
+cluster it will 02:48:06.880 take I think a lot of time simply pick
+02:48:09.200 your allpurpose cluster it is fast and 02:48:11.680 it is
+better dependent libraries do we 02:48:14.279 have dependent libraries
+no but do we 02:48:17.040 have parameters no in this one we do not
+02:48:19.479 have but in the next one we have okay 02:48:21.720 simply
+pick no notifications no retries 02:48:26.680 no nothing everything is
+fine in this 02:48:29.200 case okay now what I will say wait now
+02:48:33.200 I\'ll say create task so this is fine now 02:48:36.560 I
+will say add task add task click on 02:48:40.000 add task and what type
+of task you want 02:48:41.960 to create I want to create a notebook
+02:48:44.160 okay what will be the name of this 02:48:46.279 notebook I
+will simply say silver 02:48:47.479 notebook 02:48:50.680 okay silver
+notebook and what is where 02:48:52.880 is The Notebook it is this one
+two 02:48:54.880 silver okay now the cluster will be 02:48:58.359
+allpurpose cluster very good now here\'s 02:49:00.279 the thing here\'s
+the thing let me just 02:49:02.000 expand it here\'s the thing do we
+have 02:49:05.640 any kind of parameters do we have yes 02:49:08.800 see
+these are two parameters Source 02:49:10.439 folder and Target folder
+simply click on 02:49:12.439 plus key and key is Source folder and
+02:49:17.880 click on Plus one because we have 02:49:19.600 another one
+target folder it is asking 02:49:22.920 me for Value what is the value
+man I 02:49:26.200 don\'t know I do not know because I do 02:49:29.399
+not have any kind of value if I just 02:49:30.760 click on it I do not
+have anything if I 02:49:33.479 just click on this it is dynamic option
+02:49:36.680 the same thing that we have in ADF the 02:49:39.040 dynamic
+content See insert Dynamic value 02:49:41.680 reference what is this so
+this way we 02:49:44.760 can put the value the output of this
+02:49:48.200 notebook 02:49:49.840 okay but let me just pick that let me
+02:49:52.640 just tell you if I just pick this then I 02:49:55.279 will
+have all the things like job ID job 02:49:58.840 name job run ID
+obviously I do not need 02:50:01.200 all these things but I need
+something 02:50:04.399 called as 02:50:06.840 tasks. lookup 02:50:09.200
+location right and within that I have so 02:50:12.080 many things values
+I need this values 02:50:14.880 this one but I cannot put this why
+02:50:19.080 because if I just put values okay let me 02:50:23.040 just
+put it values so this is the 02:50:27.000 overall output overall output
+okay what 02:50:31.359 is the key that we have provided in that
+02:50:35.000 what is the key it is my 02:50:38.560 array so we need to
+write that key as 02:50:42.439 the output but if you are smart yes you
+02:50:46.399 are mym you are smart smarter than me 02:50:49.680 so my
+array is an array it is not a 02:50:53.600 single 02:50:54.680 value can
+this parameter hold this array 02:51:00.640 no no because this is just a
+text 02:51:04.160 variable text 02:51:05.640 parameter so how we will be
+tackling it 02:51:07.880 with this do you remember we used for
+02:51:10.720 each activity in ADF we have for each 02:51:13.479 activity
+here as well let me just tell 02:51:15.399 you just remove this
+02:51:19.239 oops I just removed the whole one let me 02:51:21.720 just
+create the parameter first of all 02:51:24.080 Source folder okay and
+yep then value 02:51:29.160 when I just pick the values what it was
+02:51:30.760 saying what it was 02:51:33.439 saying uh where is that
+values tasks dot 02:51:39.120 yeah values so what it was saying dot my
+02:51:43.720 array let me just confirm 02:51:46.640 the variable or key
+that we have created 02:51:49.439 lookup notebook we have my array yes
+we 02:51:52.239 have my array no such property my is 02:51:54.359
+reference with lookup location. val. my 02:51:58.760 value do my array
+by the way what is 02:52:01.880 this my value I didn\'t put my value
+02:52:04.600 remove it this my array now it is fine 02:52:07.319 yeah
+now it can take I was like why is 02:52:09.479 showing that my values
+okay so we know 02:52:12.399 that we cannot put it but we can use a
+02:52:14.200 loop so first of all we will just remove 02:52:16.640 it
+okay let me just remove it it is 02:52:19.640 empty yes it should be
+empty because 02:52:22.600 just click on 02:52:23.760 this and first of
+all just create task 02:52:27.720 okay first of all just create task now
+02:52:30.800 our pipeline is ready but we know that 02:52:32.840 we we
+cannot run that because we do not 02:52:34.800 have any values for the
+parameters right 02:52:36.880 one way is when we were just clicking on
+02:52:39.200 run now we need to manually feed the 02:52:41.200 values
+that\'s not our way of doing it it 02:52:43.920 is AR lambas data so
+simply click on 02:52:47.239 this and then you will see something as
+02:52:49.319 Loop over this task Loop over this task 02:52:53.040 simply
+click on 02:52:55.000 this so it has created this for each 02:52:58.479
+activity this is a for each activity bro 02:53:01.080 this is a for each
+activity for you so 02:53:03.680 this is a for each activity that datab
+02:53:05.200 has created okay and within this you 02:53:07.120 have your
+notebook okay let\'s configure 02:53:10.000 this what array we need to
+provide this 02:53:12.239 for to this for each activity what are
+02:53:14.880 let me show you if you are forgetting 02:53:16.239 bro see
+this is a for each we provided 02:53:19.120 the array right same way we
+need to 02:53:21.439 provide the array here as well so what 02:53:23.160
+is the input one way to provide the 02:53:25.479 input is simply pass
+the array 02:53:27.359 statically we do not like static stuff
+02:53:30.279 so simply go to Dynamic okay then just 02:53:34.520 pick
+values and then just pick my array 02:53:38.160 instead of my
+02:53:39.479 values perfect the moment you do this 02:53:43.520 your for
+each activity is configured 02:53:45.399 your Loop activity is
+configured now it 02:53:48.600 is done you do not need to worry about
+02:53:50.239 anything else now just click on this 02:53:52.960 inner
+activity okay now just pick the 02:53:57.239 values here now if you just
+choose this 02:54:00.040 one the dynamic content now you will see
+02:54:03.640 something else such 02:54:05.640 as the input of this
+silver notebook 02:54:09.399 which is your Loop so just find that
+02:54:12.880 thing see if you just click on wait let 02:54:16.040 me
+just remove it so if you just drag 02:54:18.200 down 02:54:19.000 it is
+saying reference Loop data when 02:54:20.720 running a task inside a
+loop you need to 02:54:23.600 reference the input data for each
+02:54:25.760 iteration and you can do this by adding 02:54:27.960 a
+parameter that uses the input 02:54:31.600 reference that uses the input
+reference 02:54:34.920 so in that we use something called as
+02:54:38.359 item at theate item braces do key name 02:54:42.720 in this
+we use something called as input 02:54:45.600 so it is giving you that
+information and 02:54:47.760 you can simply say add reference see
+02:54:51.399 input and you can simply write that 02:54:53.600 input here
+as well simply click on contr 02:54:55.960 X simply fill it and I think
+it should 02:54:59.080 be here as well so I\'m just trying to
+02:55:01.200 find out see at the top input dot what 02:55:06.319 is the
+key name what is the name bro 02:55:11.479 what is the name this is the
+name this 02:55:14.000 is the key name Source folder and Target
+02:55:16.000 folder just give it 02:55:19.600 here 02:55:21.560 oops the
+screen 02:55:23.880 man yeah so dot name just give Target 02:55:29.800
+folder perfect same thing here Dynamic 02:55:33.000 content input dot
+Source 02:55:37.160 folder perfect that\'s it that\'s it just
+02:55:43.080 click on Save task now your pipeline is 02:55:46.040 ready
+bro your pipeline is ready your 02:55:48.960 pipeline is ready just
+click on run now 02:55:51.680 and you should see click on view run it
+02:55:53.760 will just show you the pipeline run the 02:55:55.439 same
+way you see the ADF Pipeline and if 02:55:59.279 you can observe you
+will see 02:56:01.479 multiple like a kind of bunch of 02:56:03.800
+notebooks right see this 3D item by the 02:56:06.359 way this ran
+successfully okay let\'s 02:56:08.800 hope this will also run
+successfully and 02:56:11.760 this will also load our data to the
+02:56:13.680 silver layer dynamically fingers 02:56:17.080 crossed by by
+the way just kidding if we 02:56:19.800 have errors if we if we have any
+errors 02:56:21.720 we will just tackle it like this don\'t 02:56:23.239
+worry errors are good but don\'t throw it 02:56:26.680 right now because
+I\'m really tired just 02:56:28.880 kidding just throw the errors don\'t
+need 02:56:30.600 to worry 02:56:32.120 bro okay so it is just running
+all the 02:56:34.840 notebooks I think one by one okay status
+02:56:37.439 is running okay and 02:56:40.390 \[Music\] 02:56:41.920
+then yeah this is running 02:56:46.080 fine three scheduled as you can
+see 02:56:48.720 three scheduled that means one already 02:56:51.680 is
+running and three are scheduled so 02:56:54.040 they are in Q I guess
+yeah so so this is 02:56:58.399 your job ID this is your job run ID this
+02:57:01.840 is oh for 02:57:04.479 scheduled okay nice nice nice
+02:57:07.399 nice nice nice nice so this will just 02:57:10.120 take I
+think just few more seconds and 02:57:11.720 this should be done and I
+hope now you 02:57:13.920 know all the stuff let\'s say data bricks
+02:57:16.200 utilities like how we actually created 02:57:18.560 all
+these stuff so don\'t worry I will 02:57:20.399 just summarize
+everything within just 02:57:22.160 few seconds once it like
+02:57:25.640 Pro bro bro bro bro congrats if your PIN 02:57:31.720 is
+also green 02:57:33.439 congrats love you man you did it you did
+02:57:36.399 it you did it an lamba before 02:57:39.000 celebrating just
+show us the data and 02:57:40.640 just validate everything okay let me
+02:57:42.600 just go to Silver and I should just see 02:57:44.160 all
+the four 02:57:46.200 folders oh man and see Netflix cast 02:57:50.680
+category countries directors very very 02:57:53.319 very good see all
+are in Delta format 02:57:56.000 and we didn\'t run anything statically
+we 02:57:58.640 ran everything 02:58:00.520 dynamically love you so let
+me just 02:58:02.680 summarize everything like this part 02:58:03.960
+specifically for the workflows part it 02:58:05.880 will be just a quick
+revision for you so 02:58:07.720 first of all see CCC first of all we
+02:58:11.680 created our notebook which is second 02:58:13.319 silver
+okay like two silver or second 02:58:15.479 silver so this was our
+normal code let 02:58:18.720 me just yeah this was our normal code
+02:58:21.399 like spark okay then we we wanted to 02:58:25.520 write our
+data simple this one and we 02:58:28.040 figured out like instead of
+just 02:58:29.279 repeating this code we can parameterize 02:58:31.120
+it and how we can parameterize it we can 02:58:33.399 create a parameter
+with the help of 02:58:36.120 utilities so for that we have data
+02:58:38.680 dbutils do widgets so we created widgets 02:58:41.920 here
+at the top and these can be seen 02:58:44.520 here as well then we
+stored the value of 02:58:48.120 this widget in a variable and we use
+02:58:50.560 those variables in the location that\'s 02:58:52.359 it now
+our next task was to provide the 02:58:56.319 value of these widgets
+dynamically so 02:58:59.200 one way of doing it was using ADF but I
+02:59:01.640 wanted you to learn data Brakes in De 02:59:04.359 like
+thoroughly then what I did I 02:59:07.160 created a notebook called
+lookup 02:59:09.920 notebook and in which we created a 02:59:11.960
+parameter let\'s say a kind of input okay 02:59:15.439 and we just
+created an array and we have 02:59:18.760 create used one utility which
+is called 02:59:22.160 dbutils do jobs. task values. set 02:59:27.040
+because when we write this code we can 02:59:29.120 pass this
+information to the next task 02:59:31.800 or next activity in the
+workflow and 02:59:34.640 what will be the key for that this one
+02:59:37.520 this is the key that we can use and what 02:59:39.520 will
+be the output this is the output so 02:59:41.960 what we did after this
+we went to 02:59:44.279 workflows we created this new workflow
+02:59:46.520 for us and within this workflow let me 02:59:48.880 just go
+to task we first created this 02:59:52.120 notebook which is just simple
+notebook 02:59:54.319 and we know that this notebook can 02:59:56.239
+return the my array so we created this 02:59:59.279 second notebook
+which is dependent on 03:00:01.279 this one Mak sense then in parameters
+we 03:00:05.880 just added the parameters but we didn\'t 03:00:08.040
+added the values because we didn\'t have 03:00:10.160 the iterated
+values then we just created 03:00:14.520 a loop on top of it and what
+was the 03:00:17.640 array we used for this Loop we used 03:00:20.600
+something called as inputs from this 03:00:23.399 lookup locations and
+as you can see we 03:00:26.279 use Dynamic content if we just click on
+03:00:28.439 it we just see all the options available 03:00:31.520 oh I
+think it is not allowing me because 03:00:33.680 it will just ask me to
+remove it and I 03:00:35.000 do not want to remove it right now so
+03:00:36.479 when we just click on Dynamic content we 03:00:38.359 have
+some options called as jobs like 03:00:40.720 normal job task and the
+task that we are 03:00:43.439 creating inside this so we just picked
+03:00:45.560 lookup locations. values and after 03:00:49.000 values we
+just provided the key called 03:00:51.600 my array as you can see this
+is the key 03:00:55.279 so when it got the key it actually 03:00:58.760
+created the array and provided to this 03:01:01.040 Loop when we have
+this Loop we went 03:01:04.160 inside this inside this notebook okay
+03:01:07.279 then we just fill the values of these 03:01:10.720
+parameters using the output of the loop 03:01:14.520 in aure data
+Factory we use at theate 03:01:17.080 item braces is do key name in this
+we 03:01:20.319 use something called as input and input 03:01:23.880 was
+appearing at the top okay if you 03:01:27.000 just feel confused like
+where is it I 03:01:28.359 was also scrolling it down it was at the
+03:01:30.439 top and we just use uh curly braces 03:01:33.680 curly
+Braes input and this is like 03:01:35.399 automatically filled then we
+need to 03:01:37.880 just Define so basically input is your 03:01:41.600
+iteration your value of I in the loop 03:01:45.880 and what is the value
+of that Loop it is 03:01:48.200 obviously the whole dictionary like both
+03:01:50.560 the keys value both the keys value and 03:01:54.080 close
+this is the whole value within 03:01:57.040 this dictionary we just
+wanted Target 03:01:59.760 folder and Source folder 03:02:03.120
+independently this is it I hope this was 03:02:07.120 helpful I hope you
+loved it and if you 03:02:10.279 loved it bro I want your comment now
+03:02:13.439 we\'ll be saying bro we have already 03:02:14.720 commented
+like multiple times why you 03:02:16.080 just asking drop comments
+don\'t you like 03:02:19.680 can\'t you just drop multiple comments
+03:02:21.520 for me why why why why just do it right 03:02:24.880 now
+just do it right now for me for me 03:02:29.160 if you love me just do
+it right now I 03:02:31.319 want to see like who will be just
+03:02:32.520 putting multiple comments I want to see 03:02:34.840 this
+okay so this was it and now our 03:02:38.520 silver part is partially
+ready because 03:02:40.800 the second thing is we need to just
+03:02:42.319 import The Notebook um using your master 03:02:45.760 data
+and we\'ll be just performing ppar 03:02:47.520 transformation on top of
+it once it is 03:02:49.479 done then we\'ll be just creating the
+03:02:51.160 gold layer using Delta life tables 03:02:55.760 excited
+okay let\'s see the next part so 03:02:58.680 so so what\'s up what\'s
+up what\'s up now 03:03:00.640 it\'s time to actually create our silver
+03:03:04.680 notebook part two which is like we will 03:03:07.359 be
+just pulling the data and we will 03:03:09.000 apply some amazing ppar
+transformation 03:03:11.120 so that you can also learn ppar 03:03:12.720
+functions and then then we will create 03:03:15.840 our Delta life
+Tables by the way just to 03:03:17.800 give you a hint I will also use
+03:03:20.439 workflows in this uh silver notebook as 03:03:23.920 well I
+told you man I told you this will 03:03:26.160 also be parameterized and
+I will just I 03:03:28.120 have just created one realtime scenario
+03:03:30.399 just and I will just use this realtime 03:03:32.439
+scenario with you and you will learn 03:03:35.359 about this particular
+TABC workflow as 03:03:38.680 well which is if condition so let\'s
+03:03:40.520 quickly go to our workspace and let me 03:03:43.840 click
+on 03:03:45.200 workspace then Netflix project then 03:03:47.960 create
+03:03:48.920 our uh new notebook okay so 03:03:54.880 notebook so so so
+first of all connect 03:03:57.439 your cluster with your notebook okay
+03:04:01.200 then we will simply 03:04:04.359 say silver data
+03:04:12.479 transformation 03:04:14.880 perfect perfect perfect perfect
+on this 03:04:17.800 will be our notebook number four I guess
+03:04:21.279 yeah so I will simply say four silver 03:04:24.399 and what
+mark down 03:04:27.239 baby yep perfect so first of all I will
+03:04:30.479 quickly read the data sitting in bronze 03:04:33.000 and
+this time we need to pull the master 03:04:34.760 data which is Netflix
+titles okay and 03:04:38.040 just to give you a hint I have added one
+03:04:39.640 more thing into this project which was 03:04:41.479 not
+planned I will also show how you can 03:04:43.680 just build
+visualizations within data 03:04:45.720 Pricks and you can actually
+analyze your 03:04:47.960 data in the real time in data breaks
+03:04:50.319 using visualization without using any 03:04:52.080 third
+party bi tool such as Barb okay so 03:04:56.920 I will simply first of
+all pull the data 03:04:59.680 and you already know how to read the
+03:05:01.040 data okay so DF equal spark. read do 03:05:05.040 format
+and it is in 03:05:07.200 CSV then I will simply say do 03:05:11.040
+option and then header 03:05:15.479 true then option 03:05:19.479 in for
+03:05:22.600 schema 03:05:26.359 true then simply load unload apss
+bronze 03:05:32.520 at the rate 03:05:35.359 Netflix 03:05:37.319
+project DL on at yeah 03:05:42.960 DFS cod. windows.net perfect and this
+03:05:48.239 time it\'s 03:05:49.520 Netflix 03:05:51.600 titles perfect
+let me just run 03:05:56.080 this let me let me just run this
+03:05:59.399 incompatible oh we have like in Delta 03:06:02.279 format I
+remember because we used 03:06:03.920 autoloader for this so simply say
+Delta 03:06:06.880 because it is in Delta format yep thanks 03:06:09.399
+data bricks for resolving our issue so 03:06:11.600 will simply first of
+all say DF do 03:06:15.439 display D play D play play 03:06:21.000
+perfect perfect perfect perfect so this 03:06:24.920 will just give us
+the 03:06:28.040 data 03:06:29.880 mhm so this is our data this has
+03:06:33.760 duration in minutes which have some 03:06:36.160 nulls so I
+have desperately put nulls so 03:06:39.319 that you can just learn so
+much of stuff 03:06:40.840 don\'t worry don\'t worry don\'t you will
+03:06:42.479 just learn so much of stuff okay then 03:06:45.399 you have
+duration Seasons By the way if 03:06:49.399 you have just observed
+something what\'s 03:06:51.760 that all the columns are in text format
+03:06:55.720 why and even if we have some numbers so 03:06:58.560 when
+we just loaded the data from CSV 03:07:00.600 file in the CSV file all
+the columns are 03:07:03.560 set as spring columns that is why do not
+03:07:06.359 to worry my 03:07:09.160 mind okay so my check my Che so I
+was 03:07:13.479 saying that by default in CSV we have 03:07:16.600 all
+the columns listed Ed as string 03:07:19.600 columns so don\'t worry we
+will be just 03:07:21.680 applying Transformations on top of it so
+03:07:23.479 that\'s why this notebook will be having 03:07:24.840 so
+many ppar transformation so just just 03:07:27.760 hold on bro just hold
+on so first of all 03:07:30.800 we have duration minutes okay then we
+03:07:33.319 have first of all let me just close it I 03:07:34.840 I
+want more space I want more space 03:07:37.080 duration Seasons type
+title then we have 03:07:40.520 date added which is also in string
+03:07:42.399 format don\'t worry and then release year 03:07:44.720 then
+rating then description this is a 03:07:46.399 long description of of
+the movie 03:07:48.200 obviously because it is a kind of text
+03:07:51.560 that you read before watching the movies 03:07:53.600 I
+know that you do not read that text 03:07:55.239 but Netflix provides
+that text if you 03:07:57.640 want to read the description and there\'s
+03:07:59.880 a long description you can simply click 03:08:02.200 on
+this drop down to read it okay then 03:08:04.920 this is show ID show ID
+is basically 03:08:06.640 kind of you can say movie ID or any kind
+03:08:08.479 of show that is listed on Netflix okay 03:08:11.160 we have
+03:08:12.399 some abrupt data as well which doesn\'t 03:08:15.600 belong
+to this one such as has abducts 03:08:18.239 make the largest maybe they
+have just 03:08:20.439 this is a kind of corrupted data that we
+03:08:22.279 have then it is rescue data what is this 03:08:25.000 one
+we didn\'t have this column on shamba 03:08:27.960 I know so this is a
+column created by 03:08:31.239 autoloader so what it does let\'s say we
+03:08:34.000 have any kind of new columns adding in 03:08:36.520 the
+source so it creates by default the 03:08:39.920 schema Evolution mode
+is add new columns 03:08:42.399 so it just adds The Columns but if we
+03:08:44.319 just put the rescue mode uh in the 03:08:46.960 schema
+03:08:47.960 uh Evolution mode then it put all the 03:08:50.960 columns
+under this column okay do not 03:08:53.439 worry I will just drop this
+column in 03:08:54.880 this transformation so this is just 03:08:56.239
+created by the autoloader do not worry 03:08:58.760 hey what is this
+rescue data and all so 03:09:01.359 don\'t worry don\'t worry don\'t
+worry 03:09:02.880 don\'t worry okay so now you know that we
+03:09:07.720 have these columns and first of all 03:09:09.880 first of
+all first of all I will perform 03:09:13.399 transformation to get rid
+of nulls okay 03:09:16.960 first of all let\'s do that let\'s do that
+03:09:19.399 so as you can see we have null in 03:09:21.479 duration
+minutes and duration Seasons 03:09:23.920 yes so many nulls okay and we
+know that 03:09:27.800 we should not have nulls like if we have
+03:09:29.560 nulls we can just put zero instead of 03:09:31.319 null so
+I will just tell you how you can 03:09:33.080 do that and in other
+columns we do not 03:09:36.200 have much stuff okay like we do not have
+03:09:38.319 nulls so how we can just get rid of 03:09:39.600 nulls so
+there\'s a transformation it\'s 03:09:41.920 called DF equals DF dowith
+column first 03:09:45.920 of all let me just tell you 03:09:48.160 to
+with column is a function that we use 03:09:51.520 in order to create a
+new column or 03:09:54.640 modify the existing one okay dot with
+03:09:58.120 column is that function and in order to 03:10:00.319 use
+any function we need to import it 03:10:03.080 using Library so first of
+all I will 03:10:04.680 just create a library not create a 03:10:07.040
+library pull the library so from 03:10:09.800 bpark do 03:10:12.000 SQL
+do functions okay import all the 03:10:16.000 functions 03:10:17.520
+from pypar do SQL do types import all 03:10:22.640 the types simply run
+this now we can 03:10:25.120 just use any function okay so dot with
+03:10:28.239 column so if we want to modify the 03:10:30.560 column we
+can just need to put the same 03:10:33.800 column name otherwise we need
+to put the 03:10:36.399 different column name okay so here in
+03:10:38.680 the scenario I just want to modify the 03:10:40.319
+existing one so I will simply say 03:10:42.920 duration 03:10:45.399
+minutes perfect then what is the 03:10:48.040 transformation I want to
+apply what is 03:10:50.120 that transformation just tell me that so
+03:10:53.439 I want to get rid of nulls okay and we 03:10:56.040 have
+like two columns so there\'s a 03:10:57.200 better way to do that
+instead of doing 03:10:58.720 with column so simply say DF equals DF
+03:11:01.880 dot fill na yes we have this function if 03:11:05.279 you
+are aware of fill na in Panda\'s 03:11:07.479 Library it is similar to
+that one so in 03:11:09.520 this fill na function we will just
+03:11:11.160 provide the columns dictionary what do I 03:11:14.479 mean
+I will just tell you so if I just 03:11:16.760 put fil 03:11:17.760 and
+I if I just put any value here let\'s 03:11:19.720 say zero it will just
+fill zero in all 03:11:24.160 the columns wherever it will be seeing
+03:11:26.680 null but we do not want to do that we do 03:11:30.960 not
+want to do that we just want to 03:11:33.359 provide these specific
+columns where we 03:11:35.920 need to just let\'s say provide the
+03:11:38.680 values okay so in order to do that we 03:11:43.160 can
+simply say zero that is my value and 03:11:46.920 then what I can say
+subset 03:11:49.960 equals and then I can just provide the 03:11:52.359
+number of columns that I want like 03:11:54.120 duration minutes and
+duration Seasons 03:11:56.960 real time scenario let\'s say I want to
+03:11:59.840 fill nulls okay of different columns and 03:12:03.120 I
+also want to choose different values 03:12:05.560 for different column
+how I can do that 03:12:08.760 in that particular scenario you will be
+03:12:10.520 creating a 03:12:11.560 dictionary so simply go inside this
+and 03:12:15.040 simply say 03:12:17.479 duration 03:12:20.600 minutes
+duration minutes and then you 03:12:23.479 will simply say just put zero
+here okay 03:12:27.239 then you will create another key and 03:12:30.239
+this will be duration 03:12:34.319 Seasons 03:12:36.840 duration
+03:12:38.680 seasons 03:12:40.840 and then you will just provide zero
+03:12:43.279 let\'s say you want to provide one 03:12:44.920 instead of
+zero yeah duration season 03:12:48.000 okay so you can just pick one
+okay 03:12:50.600 simple let me just run it perfect so now 03:12:55.359
+I will simply say DF dot 03:13:02.160 display perfect now I do not have
+any 03:13:04.880 nulls okay this 03:13:07.200 column is just replaced by
+zero if it 03:13:10.840 column had any nulls as you can see and
+03:13:13.359 this column is replaced by one so this 03:13:15.399 way you
+can actually pass 03:13:18.560 different value to different columns in
+03:13:21.640 order to remove nulls so there are 03:13:23.760 basically
+three ways I just showed all 03:13:25.239 the three ways one is simply
+put fill 03:13:27.800 and just put any value second is one 03:13:29.920
+value for different columns the third 03:13:31.840 scenario is different
+value for 03:13:33.640 different columns so in know in this 03:13:35.239
+case we just pass a dictionary simple 03:13:37.600 sorted understood
+very good now this was 03:13:40.520 very simple now we will just perform
+03:13:42.560 another transformation where we will 03:13:44.279 just
+convert the data type of this part 03:13:47.359 column to int and
+duration Seasons as 03:13:50.880 well to int because that doesn\'t make
+03:13:52.439 any sense duration minutes should be in 03:13:54.920
+integer okay how you can do that I will 03:13:57.040 show you don\'t
+worry so I will simply 03:14:00.319 say DF equals DF do with column this
+03:14:03.000 time I\'ll be using with column because 03:14:04.359 I\'m
+just transforming one column okay 03:14:07.479 and previously I was just
+transforming 03:14:08.920 the whole data Fame so this time I
+03:14:11.160 simply say duration 03:14:13.920 minutes see it is already
+giving me the 03:14:16.200 spoiler so by the way don\'t need to
+03:14:18.160 worry I will still still type it for you 03:14:20.520 then
+I just need to define the column 03:14:23.200 name then the
+transformation so the 03:14:25.359 transformation is very simple I will
+03:14:27.120 simply pick column and what is the 03:14:29.399 column name
+it is duration 03:14:32.760 minutes okay then I will simply say dot
+03:14:36.279 cast there\'s a function dot cast then 03:14:39.640 when we
+say dot cast now we need to just 03:14:42.200 type the which kind like
+which data type 03:14:44.640 we need to assign to this column it is
+03:14:47.080 integer type so simply 03:14:48.960 say integer type and
+this is an API so 03:14:52.960 we\'ll be using these 03:14:54.880 braces
+simple why it is giving me this 03:14:58.600 thing call why why why it
+should not 03:15:02.080 give me this this warning I don\'t know I
+03:15:04.760 will still run it because I know this is 03:15:06.600 fine
+yeah I know this huh we are not 03:15:10.399 afraid of your warnings
+okay now I also 03:15:13.880 told you that I will still create like C
+03:15:17.160 this column as well so now what I will 03:15:19.120 do
+instead of instead of creating a new 03:15:24.120 line of code I can
+still use multiple 03:15:26.880 with column statements within the same
+03:15:29.120 transformation how I will simply create 03:15:31.680 next
+line okay then I will simply write 03:15:34.800 dot with column so this
+way you can 03:15:36.960 perform multiple Transformations within
+03:15:39.479 one transformation okay so dot with 03:15:42.199 column
+then same thing here so now I 03:15:44.800 will simply run it okay okay
+now let\'s 03:15:47.640 see 03:15:49.120 display instead of display I
+will simply 03:15:51.239 say DF do print schema because I want to
+03:15:53.279 see the schema of DF so this is a 03:15:55.319 function
+okay and I hope that you are 03:15:57.760 taking notes see now this is
+changed to 03:16:00.640 integer instead of string very good let
+03:16:03.920 me just print the display 03:16:10.120 command so this is
+the DF okay so now 03:16:13.600 what we will be doing we will
+03:16:17.680 fetch the titles okay what do I mean so 03:16:21.040 as you
+can see that we have a title 03:16:22.399 column okay and within this
+title column 03:16:25.560 we have title and then we have a 03:16:28.120
+separator column so this is the kind of 03:16:32.199 requirement that
+you can imagine that we 03:16:33.840 just want to fetch all the values
+all 03:16:37.120 the titles before colon we do not want 03:16:41.560 the
+value after col we do not want that 03:16:45.080 okay so obviously in
+all the movies we 03:16:47.439 do not have that colon thing but yeah
+03:16:49.880 and oh we have this movie as well 03:16:52.640 garbage okay
+so like in some as you can 03:16:57.520 see monzone we have this colon
+so maybe 03:17:01.880 we have an we have we have a requirement
+03:17:04.319 that we just need to pull data from this 03:17:08.319
+column just before the colon just before 03:17:11.160 the colon okay so
+how we can just do 03:17:13.800 that basically we have a transformation
+03:17:16.359 function split so I will simply go to my 03:17:19.160 DF DF
+do with column okay and I this 03:17:22.880 time I will create a new
+column and I 03:17:24.520 can just name it as let\'s 03:17:26.760 say uh
+03:17:29.800 title or short title let\'s say Okay 03:17:33.359 short
+title then I will simply use 03:17:35.720 function called 03:17:37.000
+split then I just need to pick the 03:17:39.359 column which is title
+okay then I will 03:17:43.040 be just telling what will be my
+03:17:44.960 delimeter what will be my separate it is 03:17:47.720 colon
+okay it is fine so what it will do 03:17:51.359 it will separate the
+data and it will 03:17:53.880 put all the values of that column in a
+03:17:56.479 list we do not want that we just want 03:17:59.399 first
+element of the list so what is the 03:18:02.279 first element of the
+list it is zeroth 03:18:04.720 element so that is why we will just put
+03:18:06.800 zero and that\'s fine so I will simply 03:18:09.560 say DF
+dot 03:18:13.600 display so I can just check the new 03:18:16.760 colum
+it should be at the end perfect I 03:18:19.680 have all the values
+before colon before 03:18:23.439 colon that\'s it we do not have
+anything 03:18:26.520 else we just have values before colon 03:18:30.680
+similarly similarly similarly similarly 03:18:33.479 we need to just
+grab the first element 03:18:37.479 of the rating column but this time
+our 03:18:40.760 separator is hyphen so I want you to 03:18:42.399 just
+try this transformation with me 03:18:44.239 quickly so DF equals DF do
+with 03:18:49.000 column and then I\'ll simply say rating 03:18:51.479
+because I want to transform this column 03:18:52.960 I\'m not creating a
+new one 03:18:55.479 okay then I will simply 03:18:58.840 say
+03:19:00.560 split then column of rating perfect then 03:19:06.760 after
+this this time my separator is 03:19:09.000 hyphen and I want first
+element again 03:19:13.279 perfect tf. display perfect perfect
+03:19:16.399 perfect 03:19:18.479 and as you can see I got only the
+03:19:22.399 initial elements very good very good 03:19:24.319 very good
+now what we\'ll be doing next 03:19:26.920 next thing is really really
+really good 03:19:30.080 I want to create a conditional column
+03:19:33.520 okay conditional column what do I mean 03:19:35.640 so this
+is the kind of type that you can 03:19:37.160 see right so this has
+movie TV show 03:19:41.720 movie TV show so basically this column
+03:19:45.120 just has I think just two values movie 03:19:47.479 and TV
+show I want to create a 03:19:50.399 conditional column and I want to
+say if 03:19:54.439 my column is returning a value which is 03:19:56.720
+movie then just print zero otherwise 03:20:00.120 print one so this is a
+kind of flag that 03:20:02.160 you create in real world when you just
+03:20:03.600 want to flag the values for all the 03:20:06.040 movies
+okay for this we will be creating 03:20:08.600 we will be using a
+special function it 03:20:10.520 is called case when statements in spark
+03:20:14.040 we do not call it as case when statement 03:20:15.920 we
+call it as when otherwise statement 03:20:18.040 okay so let me just
+show you how you can 03:20:19.640 just do that so I will creating a new
+03:20:22.319 column DF do with column and this will 03:20:25.520 be
+called as flag or let\'s say uh type 03:20:29.920 flag okay then I will
+be using when 03:20:35.960 condition column of 03:20:39.239 type equals
+to equals to movie and movie 03:20:43.880 is in I think lower case let
+me just 03:20:46.399 check 03:20:47.199 no in normal phase like normal
+normal 03:20:51.080 case movie TV show Okay then if it is 03:20:56.720
+equals to equals to by the way what kind 03:20:59.479 of definition is
+03:21:01.640 this column 03:21:04.199 type then equals to equals to
+03:21:09.680 movie so this is my when this is my when 03:21:15.199 so
+when it is this 03:21:17.120 when it is equals to movie let me first
+03:21:19.399 complete it if it is equals to movie 03:21:23.279 then
+03:21:25.439 return then return 03:21:28.120 one perfect this is my when
+statement 03:21:31.880 otherwise 03:21:34.680 otherwise otherwise return
+zero now you 03:21:38.120 will say hey an lamba this is fine this
+03:21:40.439 is fine because in this scenario we just 03:21:42.960 had
+two cases what if we have like 03:21:46.160 multip cases let me just
+tell you in 03:21:48.600 that particular scenario you will write
+03:21:50.279 multiple when statements so let me just 03:21:52.359 go to
+next line to make it easy for you 03:21:55.040 to understand we will
+simply write do 03:21:58.760 when then again column type equals to TV
+03:22:01.520 show then give two 03:22:04.199 otherwise if we have any
+third value or 03:22:06.640 any new value then give zero that makes
+03:22:09.160 sense okay now I\'ll simply display this 03:22:12.840 value
+display 03:22:15.080 DF perfect 03:22:17.680 as you can see it is
+patching the 03:22:19.279 results and I should see my flag column
+03:22:22.520 11 1 21 21 21 and if we have any 03:22:25.880 suspicious
+value it will be marked as 03:22:27.760 zero so then we can just fetch
+our data 03:22:31.520 which are zero right very good very good
+03:22:35.239 very good very good now I want to just 03:22:39.160 show
+another powerful function that we 03:22:41.399 use in 03:22:43.080 bpar
+what is that what is that what is 03:22:45.520 that so basically
+03:22:47.279 this is duration in minutes right what 03:22:49.319 if I
+want to rank this data based on 03:22:53.080 duration minutes obviously
+this is a 03:22:54.720 real time scenario bro like this is a
+03:22:56.920 very common scenario where you just need 03:22:58.600 to
+rank your 03:22:59.680 data you will say hey I can simply use
+03:23:02.520 sort function you can but I don\'t want 03:23:04.800 to use
+that because I want to give a 03:23:06.840 rank I want to give a
+03:23:09.040 rank I want to see like which row will 03:23:12.080 be
+first second then if they have like 03:23:14.279 same values they should
+have same uh you 03:23:17.000 can say values like same values for rank
+03:23:19.960 in that particular scenario we\'ll be 03:23:21.399 using
+something called as window 03:23:23.399 functions we have window
+functions in 03:23:26.160 ppar as well yes we do have and don\'t
+03:23:29.359 worry if you are not familiar with 03:23:30.680 window
+functions ppar and you are 03:23:32.160 familiar with window functions
+in SQL I 03:23:35.319 will just tell you an alternative for 03:23:36.800
+that as well first of all I will just 03:23:38.160 perform like create
+the window functions 03:23:40.600 in ppar then I will just tell you the
+03:23:42.120 alternative for you if you want to just 03:23:43.760
+perform window function in SQL that\'s it 03:23:46.160 and don\'t worry
+you do not need to 03:23:47.199 switch any notebook it will be done in
+03:23:48.920 this notebook okay so how we can just 03:23:51.640 perform
+window function this first of 03:23:53.040 all we need to import window
+03:23:56.000 function from 03:23:59.080 pypar do SQL do 03:24:02.960
+window do window import window 03:24:06.279 perfect 03:24:07.960 Oops
+03:24:09.680 I messed up with the spelling okay 03:24:13.080 perfect so
+we have imported the window 03:24:15.040 function so now what we will be
+doing we 03:24:16.920 will create a new column it\'s called 03:24:19.920
+with column and I will call it as 03:24:23.120 duration 03:24:25.399
+ranking perfect perfect then what I will 03:24:28.800 do so do not give
+us spoilers man this 03:24:33.199 Auto suggestion dat please include one
+03:24:36.040 button so as we write window function 03:24:39.120 equel
+similarly we need to write it here 03:24:41.680 exactly similar so I\'ll
+be using a 03:24:43.520 function called dense rank so I\'ll 03:24:45.800
+simply write dense rank braces then what 03:24:50.439 we do after
+writing dense rank we use 03:24:52.920 over Command right similarly will
+be 03:24:54.800 using dot over 03:24:57.640 oops dot over then when we
+write over 03:25:02.680 command then we need to just Define the
+03:25:05.399 Partition by column and order by column 03:25:08.239 right
+so within this we have to write 03:25:11.000 window. partition. order
+03:25:14.279 by okay instead of directly writing 03:25:16.640 Partition
+by so we\'ll simply write 03:25:18.800 window do Partition by and what
+will be 03:25:23.520 my Partition by in this scenario there 03:25:24.960
+will be no Partition by so we\'ll simply 03:25:26.840 remove it in our
+case we just have order 03:25:29.640 by okay and order by will be based
+on I 03:25:33.319 think same column 03:25:36.239 duration duration
+minutes perfect and 03:25:41.760 that\'s it that\'s it that\'s it so now
+it 03:25:44.080 will just rank the data in the ascending 03:25:46.040
+order 03:25:46.880 but if we just want to rank this data in 03:25:49.080
+the descending order we have to use 03:25:51.960 descending okay so now
+what we can do we 03:25:54.760 can simply say dot 03:25:58.279 DEC dot
+DEC and let\'s see if it 03:26:03.120 works Windows spec object oh yeah
+I knew 03:26:06.120 it because it doesn\'t understand this DC
+03:26:09.239 so what we can do I think we can use 03:26:12.160 here yeah
+DSC 03:26:14.920 here so attempting to fix what\'s man 03:26:19.000 what
+oh one braces was missing because 03:26:21.199 of this thing so if you
+can see we open 03:26:24.680 with this braas but we didn\'t close it
+03:26:26.399 so accept and run yeah it fine it is 03:26:29.279 fine so
+let me just display the 03:26:32.800 data 03:26:34.479 uh 03:26:37.080
+perfect 03:26:38.680 oops oh again spelling mistake just 03:26:41.520
+ignore okay so now this is done let me 03:26:44.040 show you the result
+that is main thing 03:26:46.239 see 03:26:47.960 ranking this is my
+ranking based on the 03:26:51.120 duration wow and you will see
+something 03:26:54.199 special if you have like same ranking
+03:26:56.120 see if you have like same duration it 03:26:58.399 will be
+having same ranking 90 90 90 90 03:27:01.560 90 and the next ranking
+will be 89 but 03:27:04.800 that is not the case in rank function no
+03:27:09.160 so this is a difference between Rank and 03:27:10.600 dense
+rank so that\'s why I always prefer 03:27:12.199 using dense rank
+function it gives us 03:27:14.239 the true ranking of the data it\'s not
+03:27:16.720 about rank function gives a pseudo 03:27:19.080 ranking of
+the data but it will not tell 03:27:21.560 you the exact rank of the
+data so what 03:27:23.680 it will do let\'s say we have 10 values
+03:27:25.359 of 90 so the next rank will not be 89 it 03:27:27.840 will
+be like 03:27:29.120 80 make sense yeah so now as I just 03:27:33.319
+mentioned that I will just also mention 03:27:35.279 about alternativ so
+let\'s say you do not 03:27:37.960 know about window function in ppar so
+03:27:40.199 what you can do you can use SQL how what 03:27:42.760 you
+will do you will simply say DF 03:27:45.080 equals 03:27:46.960 spark.
+SQL and that\'s it now you can 03:27:52.160 simply write 03:27:54.600
+anything let\'s say you are writing 03:27:57.000 multi-line code so now
+you can just 03:27:58.439 write anything between these braces
+03:28:01.319 anything it will be treated as like your 03:28:04.560
+normal table like normal SQL command but 03:28:08.000 in order to do
+this where you have like 03:28:10.520 table like where is the table
+because 03:28:12.239 you\'ll be applying select s from where
+03:28:13.880 is your from so for that you will be 03:28:17.120
+converting your DF into a temporary view 03:28:20.600 okay let me just
+convert it so TF 03:28:25.120 tot create or replace Temp View and I
+03:28:29.080 can simply name it as let\'s say Temp 03:28:31.760 View now
+you can use this as a table now 03:28:35.560 you can simply write let\'s
+say select Ax 03:28:38.040 from Temp 03:28:39.880 View so now this is
+your view see it it 03:28:44.840 ran it ran and you can also display it
+03:28:47.720 let me just show you DF do 03:28:50.239 display you will
+simply see that data 03:28:52.640 because you\'re using select test from
+03:28:54.199 temp VI 03:28:55.960 see this is it this is for spark SQL
+and 03:29:01.319 one interview question that you can get 03:29:04.040 is
+regarding this VI that\'s why I have 03:29:06.399 included this thing so
+let\'s say you are 03:29:09.439 using Temp View in this notebook can you
+03:29:12.640 use this view in other notebook the 03:29:15.160 answer is
+no no why because these are 03:29:20.479 only notebook scoped uh you can
+say 03:29:23.439 views these cannot be used outside of 03:29:25.960 the
+03:29:26.640 notebooks okay second thing second thing 03:29:31.040
+second thing second thing or let\'s say 03:29:32.479 these are like
+session 03:29:34.000 scoped okay no no no these are not 03:29:36.359
+session scoped these are like just 03:29:37.479 notebook scop the second
+thing is if 03:29:40.080 they want you to answer that we have to
+03:29:42.800 use this view outside of this notebook 03:29:44.920 how we
+can just do that then you will be 03:29:46.760 creating something called
+as temp Global 03:29:49.279 views so let me just write it for you DF
+03:29:53.080 do create or replace Global Temp View 03:29:56.840 see oh I
+just forgot to put the 03:30:00.560 name global view now you can just
+use 03:30:04.439 this now you can just use 03:30:07.199 this now you can
+use this view Outside 03:30:10.439 The Notebook but it will be
+terminated 03:30:13.160 if your session is 03:30:14.960 closed so these
+are session scoped VI 03:30:18.840 views okay so in order to use this
+you 03:30:21.439 have to use a special let\'s say keyword 03:30:25.399
+and it is 03:30:28.080 called global. global view I hardly use
+03:30:31.560 these views so 03:30:35.199 yeah 03:30:36.720 so what\'s
+wrong with can not be oh I 03:30:40.840 think the keyword is something
+different 03:30:42.720 I think it is 03:30:44.239 temp uh I remember
+that we use a special 03:30:47.800 keyword for 03:30:50.560 it oh man
+what is a 03:30:54.399 keyword give me the 03:30:58.319 keyword yeah
+Global Temp see it is a 03:31:01.239 combination I use Global then I use
+temp 03:31:04.560 actually it is Global Temp the 03:31:06.319
+combination of 03:31:08.239 both so just run this now only you can
+03:31:11.560 use this particular view okay just 03:31:14.720 remember
+this thing this is really 03:31:16.640 really 03:31:17.560 important
+okay very good very good very 03:31:20.399 good now we will see
+something very very 03:31:23.279 important in the world of data
+03:31:24.760 transformation and we cannot we cannot 03:31:27.680 we
+cannot complete our solution without 03:31:30.399 that what is that it
+is called Data 03:31:32.120 aggregations obviously we need to
+03:31:33.760 aggregate our data so I will just 03:31:36.439 aggregate my
+data based on the scenario 03:31:39.279 what the scenario is I want to
+know how 03:31:43.479 many movies do I have and how many TV 03:31:46.800
+show that that I have within this data 03:31:49.840 movie and TV shows
+okay and how we can 03:31:52.760 just do that we will simply use a
+03:31:55.920 function called DF equals DF do group by 03:32:00.479 okay
+now I just need to pick the column 03:32:02.760 the column is type okay
+column is type 03:32:07.080 just ignore the spoiler then we need to
+03:32:09.760 write Ag and after writing AG we will be 03:32:13.600
+writing the column name and before that 03:32:16.120 we can just put the
+aggregation that we 03:32:18.080 want to perform let\'s say I want to
+03:32:19.199 perform count so count braces then that 03:32:22.279 column
+so oh it is already written count 03:32:27.479 of actually I will put
+acks yes because 03:32:30.760 I just want to I don\'t want to put the
+03:32:34.399 order by yeah that\'s it and then what I 03:32:37.680 will
+do I will simply provide the alas 03:32:40.640 as well and I will simply
+say count or 03:32:44.319 let\'s say total count 03:32:48.160 okay very
+good then I will simply say 03:32:50.640 display 03:32:54.640 DF perfect
+so we have TV shows 1969 Wow 03:33:00.640 movies 4265 we have one null
+value and 03:33:03.880 one corrupted data 03:33:06.279 1944 so that\'s
+why we created what flag 03:33:11.279 so this 1944 will get the zero
+flag if 03:33:14.439 you remember we created the flag here 03:33:16.800
+for TV and show see so we will be having 03:33:19.800 one record with
+zero value in this see 03:33:22.880 two values are zero so that is the
+flag 03:33:25.080 that we use in the real world to fetch 03:33:26.680
+out the bad records or let\'s say 03:33:29.120 corrupted records see now
+I will also 03:33:33.399 show you something special that I 03:33:35.520
+promised so if you want to visualize 03:33:37.960 this data within this
+notebook how you 03:33:39.960 can do that simply click on plus button
+03:33:42.520 like you can obviously see the data in 03:33:44.800 tabular
+form right but sometimes we need 03:33:46.439 to categorize our data it
+makes more s 03:33:49.120 when it makes more sense when we just
+03:33:50.920 actually see the data in the form of 03:33:52.319
+visualizations click on plus button then 03:33:55.199 click on
+visualization then see this is 03:33:58.880 your area where you can
+actually build 03:34:01.479 visualizations based on your query
+03:34:03.840 result okay so this is obviously giving 03:34:07.199 us a
+bar chart but what you can do you 03:34:09.840 can simply pick pie chart
+and this is 03:34:12.319 much much much better than the tabular
+03:34:15.359 view and much better than let\'s say your 03:34:18.800 bar
+chart so this makes sense right so 03:34:21.359 if you want to include
+this 03:34:22.600 visualization you can simply click on 03:34:24.600
+Save and see here you will get the 03:34:27.479 visualization within the
+notebook so 03:34:29.920 this is the kind of Big Data analysis
+03:34:31.399 that you can perform using 03:34:34.080 ppar got it got it
+got it and obviously 03:34:38.399 you have like tab table view obviously
+03:34:40.520 that you can just see and make some 03:34:42.880 decisions
+and visualization are better 03:34:46.760 are better okay so this is
+this is this 03:34:51.000 is all about silver notebook and now I\'m
+03:34:53.800 finally writing this data to my silver 03:34:58.680 layer
+okay so how we can just write the 03:35:01.120 data so what I will do I
+will not write 03:35:03.560 this data because this is DF this is
+03:35:05.920 just DF so this is just like aggregated 03:35:08.920 data
+but we need to just write the real 03:35:10.680 data so what I will do I
+will simply 03:35:14.279 rename this DF and I will simply say DF
+03:35:18.640 visualization okay and obviously now it 03:35:21.199 is
+created so I can just rerun all the 03:35:23.760 code no need to
+03:35:26.520 worry so this will just run all the code 03:35:30.720 yeah
+that\'s 03:35:31.960 it so just let me know once it is done 03:35:34.880
+yeah done so now I will just write this 03:35:36.880 data this
+03:35:38.439 one why is showing null in duration 03:35:42.040 minutes is
+it something wrong 03:35:46.880 uh uh uh ef. 03:35:50.880 display oh
+because we have zero okay 03:35:54.199 okay okay I was like why I\'m
+seeing 03:35:56.199 zeros because I was just using the drill
+03:35:59.560 down version of the data okay so now we 03:36:01.600 can
+just create this so this way we will 03:36:03.880 not affect our real
+data frame okay so 03:36:07.600 now I will simply write the data EF dot
+03:36:11.239 write do format and format will be Delta 03:36:14.160 as
+you know then do uh mode and you 03:36:19.120 already know the modes so
+this time I\'ll 03:36:21.199 be using overwrite then obviously the
+03:36:23.960 option for 03:36:25.840 path and the path will be silver at
+03:36:30.960 theate 03:36:33.399 Netflix 03:36:35.520 project dl. DFS
+03:36:39.080 docor just give me some yeah perfect so 03:36:43.120 now
+this will be saved in Netflix titles 03:36:46.840 folder very good very
+very very good 03:36:51.199 Netflix titles folder simple 03:36:55.080
+sorted and trust me it is so so so so so 03:37:01.000 good let me just
+run this command and 03:37:03.160 before that I just need to write do
+03:37:06.040 save okay oops what\'s 03:37:09.920 wrong 03:37:12.199 uh
+03:37:14.120 silver what\'s the the error wait wait 03:37:16.640 wait
+wait 03:37:18.319 wait path must be 03:37:21.399 absolute what is this
+path man Netflix 03:37:25.160 project dl. dfsco windows.net Netflix
+03:37:31.239 titles do 03:37:34.439 save is there any typo in the
+03:37:41.640 spelling oh oh man why I how I can just 03:37:46.279 forget
+this how I can just forget this 03:37:49.840 oh 03:37:50.960 man such a
+silly 03:37:54.359 mistake okay okay okay now it is writing 03:37:57.000
+the data for us in silver 03:38:00.239 layer uh yes it has finally done
+that so 03:38:05.120 now I can simply go here and I can 03:38:07.279
+simply go to my containers and in the 03:38:10.040 silver I should see
+this folder very 03:38:13.279 good perfect perfect perfect so now we
+03:38:15.800 have all the data ready in the silver 03:38:18.080 layer
+all the data transformed and I 03:38:20.560 want to just show you one
+more thing one 03:38:23.120 more thing one more thing one more thing
+03:38:24.680 yes I have to what\'s that so I will be 03:38:27.920
+creating a special requirement for this 03:38:30.800 one what\'s that
+let me just tell you I 03:38:34.120 will go to workflows 03:38:36.080
+okay and before going to work yeah just 03:38:39.399 let\'s go to
+workflow so what I want to 03:38:40.880 do I want to run my this
+notebook like 03:38:44.040 that we have just created for master
+03:38:46.560 data and I only want to run this 03:38:48.760 notebook on
+the weekends or let\'s say on 03:38:51.040 Sunday only okay how we can
+just do that 03:38:54.520 and for that I will be using workflows
+03:38:56.600 okay so for that if you want to achieve 03:38:59.080 that
+so we will simply create a notebook 03:39:02.399 another lookup notebook
+for master dat 03:39:05.479 okay so I\'ll simply go to here and I
+03:39:08.319 will simply create one more notebook 03:39:09.840 it\'s
+called four lookup notebook no not 03:39:12.800 four five five lookup
+notebook okay and 03:39:17.319 I will simply rename 03:39:18.720 it
+because I want 03:39:21.479 to tell you everything related to
+03:39:24.359 workflows as well so there\'s very 03:39:25.880 important
+activity which is if condition 03:39:27.479 so I will tell you how you
+can just work 03:39:29.120 with that it will hardly take few
+03:39:30.319 minutes to cover that so we should cover 03:39:32.840 that
+look up notebook so what is the 03:39:35.880 scenario in the previous
+scenario we 03:39:38.600 just created the array but what we are
+03:39:40.640 creating in this form so the thing is 03:39:43.439 this is
+a lookup notebook which will 03:39:45.600 return the let\'s say this is
+the output 03:39:48.160 okay of this notebook this will return
+03:39:50.600 the day number day number what is the 03:39:54.680 number 1
+2 3 4 5 6 7 any week day okay 03:39:58.800 let\'s say it returns seven
+let\'s say it 03:40:02.199 returns seven and how we can just return
+03:40:04.520 the value using db. jobs. task values do 03:40:09.920 set
+right we just perform this okay so 03:40:14.720 we will just pass on
+this value to our 03:40:17.920 main notebook now the question is how we
+03:40:20.479 can just assign this value how so for 03:40:23.680 this we
+will create a parameter let me 03:40:26.359 quickly create the parameter
+uh now you 03:40:28.279 know how to create the parameter it\'s
+03:40:29.640 dbutils do 03:40:32.800 widgets. text and this will be my
+03:40:36.279 weekday okay and then the default value 03:40:39.880 will
+be let\'s 03:40:41.000 say uh 7 let\'s say let\'s say 03:40:46.640 7 m
+yeah let\'s say 03:40:51.080 7 this is the default value let me just
+03:40:53.560 run 03:40:55.439 this okay let\'s say this is the default
+03:40:58.600 value okay very good so now I will just 03:41:02.279 store
+this value okay 03:41:05.319 where equals V is just like variable so
+03:41:09.279 I will simply say get do we day and I 03:41:11.520 will
+just convert this value into int 03:41:15.439 okay and let me just print
+it as well 03:41:19.880 for you so that you can 03:41:22.239 see and I
+can simply print the type of 03:41:27.600 it yeah it\'s sent very good
+let me just 03:41:30.199 remove it now okay so now we know that
+03:41:32.640 this is variable okay now we will simply 03:41:34.600 say
+dbutils 03:41:36.960 dot 03:41:38.600 chobs dot task values. set now we
+need 03:41:42.760 to set the value what will be the key 03:41:45.279 key
+will 03:41:47.120 be what will the name I can simply 03:41:50.439 say
+weak 03:41:54.159 output okay weak output perfect and then 03:41:58.239
+I will simply say value 03:42:00.199 equals V value equals to where Okay
+so 03:42:05.000 this will just give me variable as 1 2 3 03:42:08.720 4
+5 67 by default it has seven but we 03:42:11.560 will just put the value
+in the run time 03:42:15.239 name to this parameter and how we will
+03:42:18.479 be getting the parameter value for this 03:42:20.439 one we
+have some date functions 03:42:21.880 available when we run the pipeline
+03:42:23.359 because I know you\'ll be thinking hey um 03:42:26.359 we
+have some parameters for the other 03:42:29.040 one so that makes sense
+because we can 03:42:30.640 just use a lookup notebook to pass the
+03:42:33.040 parameters to the other notebook so this 03:42:35.159 is a
+lookup notebook in itself how this 03:42:37.600 parameter will get the
+value this will 03:42:39.159 get the value in the runtime I will show
+03:42:40.680 you don\'t worry so let me simply go to 03:42:43.040
+workflows click on create job okay 03:42:47.800 then task name will be
+let\'s 03:42:50.680 say uh weekday 03:42:53.880 lookup very good then
+path will be this 03:42:58.880 one very good now now now now now
+03:43:03.199 now what was 03:43:05.520 the what was the parameter name
+let me 03:43:08.479 just confirm what was the parameter 03:43:11.600
+name parameter name is weekday okay 03:43:14.439 perfect so now I will
+create a parameter 03:43:16.840 obviously it\'s called weekday now the
+03:43:19.960 value is let me show you from where will 03:43:21.479 you
+get the values click on Dynamic 03:43:23.159 content and just search ISO
+date this 03:43:27.560 will give me the date but what I want I
+03:43:30.359 want weekday simply pick weekday perfect 03:43:34.399 so
+whatever weekday is today it will 03:43:37.840 just give the number 1 2
+3 4 5 6 7 03:43:40.880 perfect and this parameter will go 03:43:43.920
+inside this one okay this parameter will 03:43:47.000 go inside this
+variable perfect and this 03:43:49.600 will throw this variable in the
+output 03:43:52.560 simple and what is the key weak output 03:43:56.359
+simple now I will simply say create 03:44:00.319 task okay then I will
+just add another 03:44:02.920 task what is that my main one so I can
+03:44:06.960 simply say 03:44:09.279 silver Master 03:44:12.880 data
+okay take the notebook which is I 03:44:16.920 think fourth one yes
+confirm then what 03:44:21.720 we will do actually not yes we need to
+03:44:25.920 delete it why let me just tell you 03:44:28.640 because we
+need to apply an if condition 03:44:30.479 first simply say uh F El
+condition yes 03:44:35.640 this is my if week day this is the name
+03:44:40.319 of my activity this is if else condition 03:44:43.239 okay
+now we just need to Define the 03:44:45.880 condition what will be the
+condition 03:44:48.720 condition will be output of this should
+03:44:51.199 be equals to equals to 03:44:53.399 7 okay let me pick that
+output of this 03:44:58.680 task which is called 03:45:00.600 weekday
+where is that 03:45:03.000 task uh week lookup weekday lookup week
+03:45:07.359 yeah here and my value 03:45:10.279 is weak 03:45:12.479
+output if you remember see we have this 03:45:15.840 weak output key we
+will simply say this 03:45:19.239 equals to equals to 7 then if it is
+true 03:45:23.479 if it is true then just 03:45:28.800 create save
+03:45:31.319 task Okay then if it is 03:45:34.640 true then run my
+notebook see it is 03:45:37.479 attached to True by default we can just
+03:45:39.199 change it 03:45:40.520 simply uh click on this depends on
+true 03:45:43.439 and you can also attach it with false 03:45:45.560 so
+this is true now I will simply say 03:45:49.279 silver Master
+03:45:51.479 data just watch this part again if you 03:45:53.800 didn\'t
+understand by the way there\'s not 03:45:55.199 nothing special in it
+but still you 03:45:56.600 should watch it and and and job cluster
+03:46:00.040 no we want to use H Lomas cluster and 03:46:03.760 this
+will run do we have any dependency 03:46:05.359 any parameters inside
+this no we do not 03:46:07.279 have anything okay very good then wait
+03:46:10.680 wait wait wait this is fine create 03:46:13.680 task create
+create 03:46:18.279 task create task very good now what it 03:46:22.040
+will do first of all let me 03:46:25.359 just click on Save and continue
+is my 03:46:28.680 Internet working why is not saving 03:46:35.159 it it
+is hanged or 03:46:38.080 what oh I didn\'t pick the notebook silly
+03:46:41.760 Sly 03:46:42.960 Sly for confirm okay so by the way what
+03:46:46.720 I was trying to do I was just trying to 03:46:48.319 change
+the cluster of it from job 03:46:49.720 cluster to normal cluster
+otherwise 03:46:51.800 would take a lot of time so I will just
+03:46:54.760 do it right now simply go 03:46:57.800 here and pick the
+cluster as an lambas 03:47:01.560 cluster very 03:47:03.760 good and do
+we have any cluster I don\'t 03:47:05.960 think so because this is just
+a 03:47:07.760 condition okay now what you will say you 03:47:10.159
+will say hey if we want to attach any 03:47:12.560 notebook in the false
+can we do that yes 03:47:16.239 and for that you can pick any notebook
+03:47:18.560 you can even okay there\'s another real 03:47:20.960 time
+scenario let\'s say this week day is 03:47:23.359 not 7 what is that
+let\'s say it is 6 4 3 03:47:28.159 5 1 zero so you want to display that
+in 03:47:32.439 the pipeline how you can just do that so 03:47:35.319
+there\'s a function there\'s a utility let 03:47:36.760 me just create
+another 03:47:38.319 notebook so we will simply go to 03:47:41.239
+workspace okay then we will create 03:47:43.840 another notebook and and
+it will be just 03:47:45.640 oneliner notebook that\'s it what I will
+03:47:48.080 do I will simply print something it is 03:47:50.040 called
+dbutils 03:47:51.800 do 03:47:54.159 wigets dot get this time I\'m not
+setting 03:47:57.159 anything I\'m getting the value 03:48:00.040 get
+get simple by the way 03:48:06.040 DBS do 03:48:08.279 widgets do getet
+simple we get the value 03:48:12.279 similarly we have something else
+what 03:48:15.279 we have something called db. job. task 03:48:19.439
+values. G get which will get the value 03:48:24.279 of any notebook
+which is returning the 03:48:27.120 data as an output let me repeat so
+our 03:48:30.840 lookup notebook is throwing one output 03:48:33.439
+okay we can even use that value in our 03:48:37.000 in our any connected
+notebook any 03:48:39.720 notebook which is connected to that
+03:48:41.920 one okay so I will simply say DB dot 03:48:47.800 jobs.
+task values let me just connect my 03:48:52.600 cluster okay perfect
+task 03:48:56.560 values okay then dot 03:49:00.520 get why it is not
+providing me the auto 03:49:02.800 suggestion why it is allowing me to
+03:49:04.720 write the whole code how so now we just 03:49:07.399 need
+to Define two things inside this as 03:49:09.319 you can see in the
+hover over one is 03:49:11.399 Task key and second is key task key
+03:49:14.880 means task name and what is the task 03:49:18.000 name I
+can simply check here what is a 03:49:20.560 task name what is the task
+name task 03:49:24.279 name 03:49:25.319 is Task name 03:49:28.479 is
+this one week day lookup weekday 03:49:33.199 lookup so this is the task
+name as you 03:49:35.840 can see task key and key so I will 03:49:38.520
+simply say task 03:49:43.040 key equals 03:49:45.359 week day lookup
+simple and what is the 03:49:51.199 key what is the key that it is
+returning 03:49:54.560 as an output it 03:49:56.800 is weak output as
+you can see it here uh 03:50:01.600 here weak output simply write it
+here 03:50:04.159 simple E 03:50:06.239 equals weak 03:50:08.960 output
+okay so now what it will do it 03:50:12.000 will simply print this or
+you can simply 03:50:14.800 save it in variable let\'s say where and
+03:50:17.199 you can simply print it why did I use 03:50:19.560 this I
+will just tell you don\'t worry 03:50:22.120 this is ready simply go to
+your job add 03:50:25.159 task notebook and this is automatically
+03:50:28.640 attached to true but we do not want to 03:50:30.560 attach
+it to true we want to attach it 03:50:32.800 to false so simply pick the
+dependency 03:50:36.199 first of all cancel it pick the 03:50:38.120
+dependency as false simple as you can 03:50:40.600 see now path is this
+one this is 03:50:44.080 Untitled don\'t worry I didn\'t name it it
+03:50:46.560 it doesn\'t matter okay then this is will 03:50:50.080 this
+will be false notebook okay perfect 03:50:54.040 makes sense then
+everything is fine 03:50:57.080 create task so this is your end to
+03:50:59.040 endend pipeline for 03:51:01.640 your for your silver
+Master data this is 03:51:06.359 your n2n pipeline what it will do it
+03:51:08.920 will simply see weekday lookup it has a 03:51:11.640
+parameter which is it which it is 03:51:13.199 returning and what is the
+value current 03:51:15.359 value it is taking for 03:51:17.760 from ISO
+time current time okay then it 03:51:22.199 is comparing if it is equals
+to equal 7 03:51:24.040 then run this otherwise simply run this
+03:51:25.960 notebook let me just click on run now 03:51:27.760 because
+today is not Sunday today is not 03:51:30.319 Sunday I know today Sunday
+but today is 03:51:32.560 not Sunday today is not Sunday here so
+03:51:36.520 what does it mean it will simply run 03:51:38.840 this
+notebook so I wanted to run this 03:51:40.720 notebook in front of you
+that\'s why I 03:51:43.040 created one notebook okay so do we have
+03:51:47.279 any run 03:51:49.720 now oh it is running 03:51:53.439 okay
+03:51:55.479 so if I just go to my 03:51:58.640 workflows if I just go
+here I can see 03:52:02.880 runs so this is the run that is 03:52:05.319
+currently 03:52:06.359 running and by the way this is false 03:52:09.080
+don\'t worry it is failed let me just 03:52:11.840 check what
+03:52:13.279 happened no no task with weak output oh 03:52:16.800 wow
+output an lamba what is output it is 03:52:22.040 output okay no worries
+it happens what 03:52:24.800 happens it happens okay let me just
+03:52:27.680 repair task when we just click on repair 03:52:29.279 task
+it reruns the pipeline from there 03:52:31.720 okay so simply click on
+repair 03:52:34.600 run and View Run for one more time and 03:52:37.120
+let\'s see if it runs it successfully or 03:52:39.080 not because this
+ran successfully this 03:52:40.800 ran successfully this will not run
+03:52:42.319 because today is not Sunday I want to 03:52:43.680 see
+which day is today that\'s why I 03:52:46.319 created that notebook pure
+real time 03:52:49.319 scenarios bro 03:52:51.199 pure making efforts so
+that you can 03:52:53.600 learn see now it is succeeded now what I
+03:52:55.560 will do I will simply click on this this 03:52:58.720 is
+the output it says 03:53:01.880 six got 03:53:04.359 it very good I know
+I know I know that 03:53:09.800 you didn\'t get 100% of 03:53:12.359 it
+that is why it is Data break bro it 03:53:15.120 is not that much
+03:53:17.120 easy still watch this part 03:53:21.680 again even if you
+understood everything 03:53:24.800 it\'s my recommendation rewatch this
+part 03:53:27.080 again it is for your 03:53:29.080 benefit it is for
+your benefit trust me 03:53:32.159 trust me trust me trust me so our
+silver 03:53:34.600 layer is completed now I\'m really 03:53:36.479
+excited to tell you about Delta live 03:53:38.640 tables because we are
+just creating now 03:53:40.399 our gold layer and we will be creating
+03:53:42.600 Delta live tables for it so are you 03:53:45.319 ready for
+it let me just show you how 03:53:47.319 you can just deal with Delta
+life tables 03:53:49.080 and go let\'s create our last notebook
+03:53:53.760 and which is really really special it is 03:53:55.600 like
+Delta life tables notebook so I 03:53:57.159 will simply create notebook
+and this 03:54:00.159 will be my seventh as DLT 03:54:05.239 notebook
+perfect let me attach my 03:54:07.760 cluster by the way it is of no use
+03:54:09.319 because we cannot use our normal cluster 03:54:13.120 in
+order to work with DT have to use job 03:54:15.040 cluster so do not
+worry I will just talk 03:54:16.880 about everything right now so let me
+03:54:19.720 just close this cluster because it is 03:54:21.399
+generally of no use so let me just click 03:54:23.159 on terminate okay
+so let me just take 03:54:25.840 you to the DT page DLT data breaks okay
+03:54:29.479 so this is the page DLT Tables by the 03:54:32.920 way just
+to give you a quick overview 03:54:35.000 DLT is a declarative ETL
+framework which 03:54:39.120 means it is an ETL framework by the
+03:54:41.640 definition it is so common like the 03:54:44.520 thing is
+in ETL framework in declarative 03:54:48.040 ETL framework you do not
+need to 03:54:49.960 actually worry about the how steps you 03:54:52.920
+just need to worry about what steps so 03:54:56.159 you just need to
+Define what you need to 03:54:58.040 create DT will take care of
+everything 03:55:01.359 on its own and it will just perform all
+03:55:04.080 the necessary operations all the 03:55:06.000 necessary
+task behind the scenes you do 03:55:08.120 not need to worry about
+anything that\'s 03:55:10.199 why it is a gamechanging right
+03:55:12.000 gamechanging you can say not invention 03:55:15.760 but
+yeah gamechanging Edition in the 03:55:17.479 world of data engineering
+domain and it 03:55:19.600 is really really really cool so there
+03:55:22.159 are basically three pillars in dtdt life 03:55:25.520
+tables and before talking about them I 03:55:28.439 have created a
+dedicated video on Delta 03:55:30.279 life tables as well let me just
+show you 03:55:32.800 where is that video oh okay so my latest
+03:55:35.479 video is on Delta life tables it is like 03:55:37.800 four
+hours long video which will tell 03:55:40.960 every every Everything
+related to Delta 03:55:44.520 life tables so if you want to know
+03:55:47.000 everything about Delta life tables you 03:55:48.359 just
+need to click on this video and 03:55:50.439 this video will take care
+of everything 03:55:53.319 okay so in this project we\'ll be just
+03:55:55.359 implementing all those stuff we will not 03:55:57.120 be
+talking about all those stuff in 03:55:58.439 detail because those stuff
+actually 03:56:00.760 require a deep conversation which is 03:56:03.399
+there in this video so you have to have 03:56:05.439 to have to watch
+this video if you want 03:56:07.399 to understand Delta life tables in
+03:56:08.840 detail I cannot say Hey you can just 03:56:10.960 implement
+the steps no Delta life tables 03:56:12.920 is totally different so
+it\'s time to 03:56:14.760 actually watch this video in order to
+03:56:16.960 continue with this video and yeah that\'s 03:56:20.120 it
+it is what it is so let me just tell 03:56:23.680 you how we can just do
+like still you 03:56:25.720 can just understand some of the concepts
+03:56:27.720 but yeah if you want to deeply 03:56:29.640 understand all
+the things then you 03:56:30.840 should watch this video okay okay
+sorted 03:56:33.520 sorted sorted sorted so let me just go 03:56:37.840
+to a different documentation which is 03:56:40.000 this one what is
+Delta life tables so 03:56:41.840 basically they are like three pillars
+03:56:43.600 okay one is streaming table streaming 03:56:47.520 table is
+basically a table that we 03:56:49.159 created in autol loader as well
+it is 03:56:50.720 similar to d one because we use spark 03:56:53.520
+streaming okay one thing is this then we 03:56:57.000 have something
+called as materialized 03:56:58.840 view materialized view is just a
+view 03:57:02.000 which holds your query plus your data as 03:57:05.720
+well okay then the third thing that we 03:57:09.040 have in Delta life
+table is 03:57:11.560 view this is a view so view will just 03:57:15.520
+hold the query that\'s it by the way we 03:57:17.600 have two kinds of
+views in Delta life 03:57:19.040 tables one is normal view second is
+03:57:20.960 streaming view so we can just create two 03:57:23.239 times
+of view two types of views okay 03:57:25.880 okay so these are like
+three building 03:57:27.319 blocks for Delta live tables and then we
+03:57:29.920 have like the whole documentation for 03:57:32.000 this and
+if you just want to search 03:57:34.479 specific things such as let\'s
+say data 03:57:37.080 quality you can simply come here and 03:57:39.399
+don\'t worry I will just tell you this in 03:57:41.680 detail this is
+the data quality 03:57:45.199 which is also known as expectations in
+03:57:47.560 Delta life tables so this is the 03:57:49.920 expectation
+that have three major 03:57:52.319 pillars what are those first of all
+one 03:57:56.040 second is fail third is drop so if you 03:57:59.239
+just look at the diagram it is clear 03:58:01.199 that one is one drop
+and fail let me 03:58:04.760 just explain quickly what are these so
+03:58:07.399 basically when we create any streaming 03:58:09.520 table
+any view any materialized view we 03:58:13.239 set some rules
+03:58:14.840 some data checks data quality checks 03:58:18.359 okay data
+constraints whatever you want 03:58:20.640 to say let\'s say we have in
+SQL not null 03:58:25.279 primary key like these kinds of 03:58:27.040
+constraints so similarly we have 03:58:28.399 constraints here as well
+so we apply 03:58:31.120 constraints on top of Delta table like
+03:58:33.720 streaming table mat views and Views if 03:58:38.080 the
+rules that we are defining if they 03:58:40.880 fail to pass those views
+we have three 03:58:43.479 options one is 03:58:45.960 war we just warn
+them and we feed the 03:58:50.279 data into the Target location which is
+03:58:53.279 this one 03:58:55.040 okay if it fails and we have
+specified 03:58:58.800 just drop the records then it will as
+03:59:01.920 you can see dashed line so it will 03:59:05.120 simply put
+only that data which is 03:59:09.199 passed and which is not failed
+according 03:59:11.960 to the rules so it will just drop the
+03:59:13.600 records third thing is really really 03:59:16.239 really
+dangerous it will simply fail the 03:59:19.359 flow it will simply fail
+the flow that\'s 03:59:22.439 it if your data is not obeying
+03:59:25.439 the let\'s say values right it will 03:59:29.920 simply
+fail 03:59:32.239 it okay okay okay okay I hope you have 03:59:37.920
+understood some of the concepts because 03:59:39.800 now it\'s time to
+actually Implement 03:59:41.279 these and you will understand don\'t
+03:59:42.479 worry just be with me don\'t worry okay 03:59:45.880 so
+let\'s create our DT 03:59:48.040 notebook so in order to create the DT
+03:59:51.319 notebook I will simply create the 03:59:52.680 heading
+first of 03:59:54.000 all DT notebook gold 03:59:58.439 ler simple
+simple simple simple okay so 04:00:02.560 first of all like as we know
+we have 04:00:04.600 like four tables four or five five yeah
+04:00:08.159 five tables in our silver layer okay 04:00:12.239 yeah we
+have five tables so what I will 04:00:14.279 do I will meanwhile open
+the 04:00:17.439 notebook for let\'s say anyone let\'s say 04:00:20.520
+for four silver okay okay so this is a 04:00:24.319 notebook so that I
+can I can actually 04:00:26.080 see the data if I want to apply any
+04:00:27.840 constraints because I will be using 04:00:29.479 everything
+so first of all what I will 04:00:32.040 do I will create the streaming
+table or 04:00:35.520 let\'s say streaming tables on top of all
+04:00:38.479 the Delta tables that we have in silver 04:00:41.600 make
+sense okay how we can just do that 04:00:44.000 it is very simple you
+first of all need 04:00:46.199 to use the you have like two options
+04:00:48.439 either use python or SQL in dld I prefer 04:00:51.319 using
+python so I\'m just building the 04:00:52.840 same stuff in Python you
+can just build 04:00:54.760 the same stuff in SQL it\'s up to you uh
+04:00:57.120 you will see like python is much better 04:00:59.479 just
+personal choice so first of all we 04:01:02.080 need to use a decorator
+it is called DT 04:01:05.080 okay then I will simply say table this
+04:01:07.520 is the kind of not tail it is table and 04:01:11.080 I
+would like to show this thing here as 04:01:13.159 well 04:01:15.760 so
+04:01:19.120 tutorials uh do we have any sample code 04:01:22.520 uh yes
+is this a sample 04:01:25.040 \[Music\] 04:01:26.800 code uh yes yeah
+this is a sample code 04:01:31.120 so we first of all write dt. table
+okay 04:01:36.640 dt. table first first thing is this one 04:01:39.520
+okay then we create the function in 04:01:42.640 which we create the
+streaming table 04:01:45.640 streaming data frame and then we return
+04:01:48.600 the same as you can 04:01:50.800 see okay by the way we
+have so many 04:01:54.600 other options as well available in this
+04:01:56.319 particular function so if it is 04:01:59.840 available
+04:02:02.359 here if not it is fine I will just tell 04:02:04.520 you in
+my notebook I\'m just checking if 04:02:06.439 they do have useful for
+04:02:10.399 you uh uh 04:02:12.479 uh develop pipelines maybe
+04:02:15.680 here so basically this is the SQL uh API 04:02:20.279 but
+we are just referring the python 04:02:22.760 one so python 04:02:29.319
+Basics okay I will just tell you in my 04:02:31.319 notebook don\'t
+worry don\'t worry don\'t 04:02:34.880 worry basically I wanted to just
+show 04:02:37.040 you so much of other Stu as well uh you 04:02:39.680
+will not feel left out don\'t 04:02:42.560 worry uh uh where is that one
+so here it 04:02:46.359 is under Python language reference so
+04:02:48.479 basically when we just write Delta dt. 04:02:50.840 table
+we get these much of options when 04:02:54.800 we just write it the best
+one or let\'s 04:02:56.880 say the common one is name because from
+04:02:59.520 this one we can actually name our table 04:03:02.040 not
+really there are like other ways as 04:03:03.560 well but I just wanted
+to show you this 04:03:05.439 and the second most important one is
+04:03:07.080 this table properties because within 04:03:09.199 this
+table properties we can just pass 04:03:11.359 so many properties using
+key value pairs 04:03:14.120 and when you just see the table
+04:03:15.520 properties you can simply go to DT 04:03:20.239 do table
+properties and you will see all 04:03:23.319 the properties listed here
+that you can 04:03:26.399 pass in the key value pairs okay do not
+04:03:29.279 worry about that I will just tell you 04:03:30.720
+everything so now now now now this is 04:03:34.439 our first table so
+let\'s keep it very 04:03:36.040 simple when we just write dt. table we
+04:03:39.680 have first of all the option is to name 04:03:42.399 our
+table so what whatever name I will 04:03:44.960 provide to this table
+okay whatever name 04:03:47.840 it will just pick that name okay so
+04:03:50.359 let\'s say I\'m just reading Netflix 04:03:52.720 directors
+I will simply 04:03:54.840 say um let\'s say 04:03:59.000 goldcore
+Netflix 04:04:02.880 directors simple okay very good Netflix
+04:04:06.800 gold Netflix directors or I will not 04:04:10.159 simply
+say it like gold because I will 04:04:13.000 obviously create cre One
+streaming view 04:04:15.760 first or let\'s say streaming table and
+04:04:18.319 then I can just perform some other stuff 04:04:20.760 or
+let\'s keep it as it is okay it\'s fine 04:04:22.439 because it is just
+a mapping table so 04:04:24.880 let\'s keep it simple then then I will
+04:04:27.319 just create a function okay DF and then 04:04:32.279 I can
+just name it anything let\'s say I 04:04:34.640 will simply say my
+function okay but 04:04:38.840 let\'s say if I didn\'t provide the name
+04:04:41.600 here then what ever my function name 04:04:45.279 will be
+it will take the name as its 04:04:47.960 table 04:04:49.199 name are
+you getting my point so it will 04:04:52.080 just create a table using
+this name if 04:04:54.399 you will not provide the name here okay
+04:04:56.399 so it\'s better to provide the name here 04:04:58.680 or
+it\'s your choice if you just provide 04:05:00.479 the name here as the
+function name so I 04:05:02.279 will just show you both the ways don\'t
+04:05:03.479 worry once it is done I will simply 04:05:05.399 create my
+data frame which is DF equals 04:05:08.560 spark. read stream why read
+stream 04:05:11.520 because this is a streaming table that I
+04:05:12.880 want to create okay read stream and then 04:05:16.399 I
+just need to provide the location from 04:05:18.120 where I want to
+stream like read the 04:05:19.680 data it is AB 04:05:22.640 FSS then
+04:05:25.040 silver at theate um what is 04:05:30.399 the storage
+account name it\'s 04:05:33.080 Netflix 04:05:35.199 project dot no not
+DOT 04:05:38.640 dunch then. DFS do core. windows. net 04:05:44.880 and
+within 04:05:46.080 this Netflix 04:05:49.600 directors perfect yes and
+now we will 04:05:52.960 simply return DF that\'s it this is your
+04:05:56.560 Delta life table man this is your Delta 04:05:58.600 life
+table yes that\'s 04:06:01.359 it that\'s 04:06:03.600 it really yeah so
+what it will do it 04:06:07.479 will 04:06:09.080 automatically create
+this table okay and 04:06:12.399 it will automatically incrementally
+read 04:06:15.080 this data from this location this is 04:06:17.399 your
+Delta live table do not make it 04:06:19.439 complicated bro do not make
+it 04:06:20.920 complicated so similarly I can just 04:06:22.960 create
+other four tables as well okay I 04:06:25.199 will simply copy the code
+and I will 04:06:27.120 simply paste it my in my other 04:06:30.800 cell
+so I will simply say this time gold 04:06:33.920 Netflix directors and
+this time I will 04:06:36.080 simply say cost okay and obviously this
+04:06:38.960 will be 04:06:40.399 cost and now you\'ll be saying an why
+are 04:06:43.199 we not 04:06:44.199 running this data we cannot grow we
+04:06:46.359 cannot we have to use job cluster I will 04:06:48.120 just
+show you don\'t worry so this is my 04:06:49.760 second 04:06:50.680
+table then this is my third table which 04:06:54.640 is let\'s say third
+table was I think 04:06:57.720 countries yeah so this is 04:07:02.319
+countries perfect then another 04:07:05.760 one this 04:07:08.279 is I
+think 04:07:10.399 category very good 04:07:15.000 very good very good
+very good so these 04:07:16.479 are your four tables four tables okay so
+04:07:20.800 now what I will 04:07:22.560 do we all know that we have
+one common 04:07:27.279 column in all these tables what is that
+04:07:30.640 it is show ID so now I will create a 04:07:34.000 rule
+which is also called as 04:07:36.239 expectations that I will apply on
+all 04:07:39.119 these tables how we can do that let me 04:07:41.439
+just show you so so I will simply create 04:07:44.880 the expectation so
+for that we first 04:07:46.960 need to create the dictionary so
+04:07:48.680 dictionary will be let\'s say um mapping 04:07:52.680 or
+let\'s say look up table 04:07:54.840 look tables yeah look tables rules
+04:07:59.040 simple then create a dictionary then I 04:08:01.840 will
+simply say rule one and you can 04:08:04.560 just put anything like rule
+one rule 04:08:06.600 blah blah rule bro anything then I will
+04:08:09.279 simply say show 04:08:12.159 ID is 04:08:15.520 not null
+this is my rule this is my rule 04:08:21.239 that I want to apply on all
+the tables 04:08:24.600 so how I can just apply that so you 04:08:27.600
+simply need to first of all obviously 04:08:29.399 you do not need to
+run it okay so just 04:08:31.199 remember this is your dictionary that
+04:08:33.439 you\'ll be passing so simply copy this 04:08:34.920 name
+look tables rules so before 04:08:38.399 creating the DF you will simply
+create 04:08:40.520 something called as 04:08:41.840 dt. expect
+04:08:44.319 all why because you\'re using a 04:08:46.319 dictionary
+with having multiple keys if 04:08:48.920 you do not use dictionary if
+you just 04:08:50.479 use text like only this one then you 04:08:53.680
+just can write expect let me show you 04:08:56.800 so if you go to
+expectations here in 04:09:00.359 this documentation page where is that
+04:09:03.439 expectation yeah data quality so in this 04:09:07.199 they
+have used expect why because they 04:09:10.560 have directly written the
+rule that 04:09:13.399 that\'s it so I can just show you that as
+04:09:15.880 well but I simply like using dictionary 04:09:18.680
+because you can just Define multiple 04:09:20.080 rules within that okay
+is it working 04:09:23.600 okay simple so I can simply 04:09:27.159 say
+rules and then I will simply say 04:09:30.319 expect all okay so now the
+thing is 04:09:33.239 there are three ways expect 04:09:35.319 all
+expect all or drop expect all or 04:09:39.520 fail an lamba why didn\'t
+you tell expect 04:09:43.040 all or one because you said like we have
+04:09:45.479 three one is one so by default we get 04:09:48.359 one as
+the like you can say by default 04:09:51.279 um version of expectation
+so if they are 04:09:54.359 writing just expert expect that means
+04:09:56.880 they are writing expect or War 04:09:59.840 automatically
+let me just scroll down a 04:10:02.800 little bit so you can say if they
+are 04:10:04.520 using any other method see they have 04:10:06.920 drop
+so this is the way to write drop 04:10:10.159 this is a way to write
+fail this is a 04:10:12.399 way to write one because this is a
+04:10:14.000 default 04:10:15.000 one if you just still write expect
+04:10:17.840 uncore or one it will not be wrong but 04:10:21.119
+obviously it doesn\'t make any sense 04:10:22.560 because it is by
+default why you will be 04:10:24.159 just wasting your time okay so here
+04:10:27.000 they\'re using expect I\'m using expect 04:10:28.920 all
+okay so simply say expect all or 04:10:33.520 fail not fail or drop
+because I just 04:10:36.319 want to drop those records I don\'t want
+04:10:38.399 to fail now I just need to provide the 04:10:41.520
+dictionary I need to provide the 04:10:43.800 in which I have the rule
+okay simply 04:10:46.239 pick this dictionary that\'s it what does
+04:10:49.319 it mean so let\'s say I have another rule 04:10:52.640 rule
+04:10:53.680 two so if any of these rules 04:10:57.760 fail then it will
+just drop the records 04:11:01.119 okay this is so cool right you can
+just 04:11:03.479 put quality checks on your tables this 04:11:05.159 is
+so cool by the way for now it just 04:11:07.720 have like one column one
+specific column 04:11:09.680 so I will simply copy and paste this
+04:11:12.359 rule on top of every table and as I just 04:11:16.359
+promised I will simply show you using 04:11:18.600 expect as well so now
+this time I will 04:11:21.920 simply remove all function so I will
+04:11:24.239 simply say expect or drop so now I just 04:11:26.040 need
+to copy this rule as hardcoded one 04:11:29.760 as you can see in the
+documentation page 04:11:31.279 as well they have just hardcoded it
+04:11:33.359 where is that see PR is greater than 04:11:35.399 zero
+that\'s 04:11:37.880 it that\'s it 04:11:40.279 see rule name and it\'s
+condition so I 04:11:45.720 just need to pick this one rule name and
+04:11:48.199 condition that\'s it rule name and 04:11:52.319 condition
+that\'s it this also works this 04:11:54.840 also works trust me simple
+so these are 04:11:58.319 your four tables that you have created
+04:12:00.800 now fifth one is really really 04:12:02.279 interesting why
+I will just show you 04:12:04.600 some tweaks as well in this that\'s
+why 04:12:05.960 it is interesting so let\'s create that 04:12:09.359
+one so I\'ll will simply say DT so what I 04:12:12.359 will do I will
+create one streaming 04:12:14.680 table first of all so dt. table okay
+and 04:12:18.520 I will not provide name here I will 04:12:20.040 simply
+say DF okay and I will simply say 04:12:24.080 gold uh 04:12:26.880
+Netflix 04:12:28.479 titles so as you can see I have not 04:12:30.560
+provided name here so it will just take 04:12:31.920 the name from this
+function okay then I 04:12:34.319 will simply say DF equals spark I can
+04:12:36.720 simply copy this from 04:12:38.080 \[Music\] 04:12:41.080
+here very good 04:12:45.920 I think I just need to write more stuff
+04:12:48.840 such as dot 04:12:51.760 format 04:12:54.040 Delta yeah
+then I just need to write 04:12:57.040 load yeah it\'s fine let me just
+correct 04:12:59.960 this 04:13:00.920 in all the functions 04:13:05.520
+above yeah perfect 04:13:09.080 then perfect then 04:13:13.319 perfect
+04:13:14.439 yeah yeah it\'s perfect so here as well I 04:13:18.080 will
+simply pick this 04:13:21.040 one 04:13:22.720 so and this time I just
+need to pick 04:13:25.199 Netflix titles 04:13:27.880 okay make sense
+now I will simply say 04:13:31.199 return DF now this is the thing I do
+not 04:13:35.439 want to directly create a 04:13:38.680 table H this is
+interesting now I do not 04:13:42.640 want to directly create a table on
+top 04:13:44.560 of it I will simply say 04:13:46.880 stage this is my
+staging table for gold 04:13:49.960 as well this is just to show you
+that 04:13:52.279 you can create multiple layers within 04:13:54.439 the
+ETL framework within the let\'s say 04:13:58.359 DT within layers yes so
+this is my 04:14:01.600 staging layer okay so now I will simply
+04:14:04.600 go to the next line now I will use this 04:14:08.040 table
+as my source how I can just do 04:14:11.560 that let me just show you I
+will simply 04:14:13.159 create another streaming table on top of
+04:14:14.560 it dt. table okay and this time I will 04:14:18.319 simply
+say DF gold and this will be my 04:14:22.680 not staging but this will
+be my let\'s 04:14:25.960 say transformed let\'s say transformed
+04:14:29.479 okay transformed and then 04:14:33.239 Netflix 04:14:34.760
+titles perfect very good or I can just 04:14:38.640 create a view as
+well just to show you 04:14:40.159 that we can also create views so let
+me 04:14:41.960 just create a view this this is fine 04:14:43.520 let\'s
+create a streaming view okay so 04:14:45.960 now I will simply use DF
+equals spark. 04:14:50.199 readstream 04:14:52.920 dot 04:14:55.319
+format do we need to write format 04:14:59.239 no really yes we will
+simply write dot 04:15:03.479 table why and how and where is the table
+04:15:07.159 we have not created this table this 04:15:08.680 table is
+not ready what you doing 04:15:11.960 so I\'ll be running this pipeline
+so in 04:15:15.279 DT we can use the notebooks within the 04:15:19.199
+tables using live keyword using live 04:15:23.840 keyword so I will
+simply say read 04:15:25.279 stream. table now live dot table name
+04:15:30.920 and what is the table name this 04:15:33.080 one okay got
+it got it so this time I\'m 04:15:39.000 just reading this data
+streaming data 04:15:41.800 which is created here 04:15:43.640 okay so
+now once I do that let\'s say I 04:15:47.359 want to apply some
+04:15:50.000 transformation I want to add one column 04:15:52.560 let\'s
+say DF equals DF do with 04:15:57.479 column okay and then I want to
+create a 04:16:00.840 column called new 04:16:02.479 flag okay and I
+will simply say 04:16:05.800 lit one this is just a constant okay
+04:16:08.600 then I want to create return 04:16:11.279 DF return DF this
+this is a kind of 04:16:13.560 transformation that I forgot to apply
+04:16:15.760 before and now I want to create that so 04:16:17.640 dld
+allows me to do that and I just need 04:16:19.840 to don\'t worry I I do
+not need to worry 04:16:22.040 about anything okay so obviously if we
+04:16:24.439 are using any function we will be just 04:16:26.000
+importing the libraries 04:16:28.720 from by. SQL do Import in estx yeah
+it 04:16:34.000 should fine it should be fine okay so 04:16:36.159 now
+this is my view this is my streaming 04:16:38.680 view now I will create
+my final gold 04:16:41.920 table using this view got it so this
+04:16:46.159 time I will simply say at dt. table so 04:16:50.560 this is
+a streaming table okay I know I 04:16:53.720 know I know this is not
+easy I know but 04:16:56.840 it is really really really really really
+04:17:00.640 really handy and it is really really 04:17:03.439 really
+important for interviews that\'s 04:17:05.319 why I told you just watch
+my Delta live 04:17:07.600 tables video and if you are able to
+04:17:10.159 understand let\'s say 10% of the stuff it 04:17:12.560 is a
+good sign that means you are 04:17:14.479 understanding the concepts
+okay and once 04:17:17.040 you understand these Concepts let\'s say
+04:17:18.800 10% of it if you watch that video after 04:17:22.000 that
+it will be double beneficial 04:17:23.800 because you would already know
+a lot of 04:17:25.600 stuff the ground base will be already 04:17:28.279
+ready for you okay so just be positive 04:17:31.920 just be with me just
+try to grasp the 04:17:34.199 concept okay very good be positive then
+04:17:38.279 I will simply create the function the 04:17:39.880 final
+one which is called gold 04:17:44.760 Netflix 04:17:46.920 titles okay
+very good and obviously I\'ll 04:17:50.319 simply create the DF equals
+04:17:53.119 spark. readstream Dot and what will my 04:17:56.319 table
+name this one this one trans 04:17:59.640 Netflix titles okay perfect
+and 04:18:02.720 obviously I just need to return 04:18:05.279 this
+return DF this time I will be 04:18:08.279 creating expectations okay
+for this one 04:18:11.800 and this one will be really really harsh
+04:18:15.720 okay because this is my master data okay 04:18:18.720 so I
+cannot compromise anything so I\'ll 04:18:21.760 simply say okay let\'s
+compromise for now 04:18:24.560 but then I will just show you to how it
+04:18:26.439 fails or how it drops the data I will 04:18:28.560 just
+show you everything okay okay okay 04:18:31.439 okay so in order to
+create the 04:18:33.319 expectation I will simply say uh 04:18:37.880
+master master data 04:18:40.199 rules okay then simp create the rules
+04:18:44.000 and the rule will be let\'s say rule one 04:18:45.920 new
+flag is null null not null bro 04:18:50.760 null not uh if it is it
+should be not 04:18:54.800 null it should not be null okay it
+04:18:57.080 should not be null and what is my rule 04:18:59.279 number
+two the rule number two 04:19:02.040 is uh show ID which is also the
+primary 04:19:05.439 key for this show ID is also not null 04:19:08.119
+let\'s say okay and this is my these are 04:19:11.840 my rules so I will
+simply apply here and 04:19:13.840 now you already know how to apply
+that 04:19:15.239 dt. expect all 04:19:19.239 or drop 04:19:22.279
+simple then I will just show you the 04:19:24.800 rule called fail as
+well don\'t worry 04:19:27.040 okay so these are my rules and I will
+04:19:29.840 just intentionally fail one rule and 04:19:33.520 then I
+show you how it works so this is 04:19:35.880 done this is done that\'s
+all that\'s all 04:19:38.520 yeah that\'s all so simply click on DT
+04:19:41.319 because now it will be just running this 04:19:43.399 Delta
+life table pipeline in data bricks 04:19:47.040 okay so now it\'s
+actually time to run 04:19:48.800 this pipon that we have created and
+once 04:19:50.680 it is created you will see everything 04:19:52.359
+automatically created bro everything 04:19:54.239 automatically created
+okay and again 04:19:57.239 there are like so many uh let\'s say
+04:19:59.840 properties here let\'s say table 04:20:01.279 properties
+and all there so much of 04:20:02.840 stuff you can simply use key value
+pairs 04:20:05.399 to define those properties you can 04:20:06.840
+obviously check this documentation page 04:20:09.080 and yeah that\'s it
+by the way we do not 04:20:11.720 use table properties like all the
+table 04:20:13.640 properties we hardly use two to three 04:20:15.399
+that\'s it so do not need to worry okay 04:20:17.640 okay okay okay so
+now I\'ll simply go to 04:20:20.080 Delta life tables okay now I\'ll
+create a 04:20:22.159 pipeline new pipeline what will be the
+04:20:24.560 pipeline name I will simply say DT 04:20:28.319 gold just
+focus just focus on this part 04:20:32.080 because it is very important
+otherwise 04:20:34.000 you will not be able to run DD pipelines
+04:20:35.560 I\'m not kidding because you do not have 04:20:37.640 like
+OTA to run those pipelines really 04:20:41.720 yeah and I will tell you
+the reason as 04:20:44.600 okay so just be with me then just pick
+04:20:48.159 the triggered one instead of continuous 04:20:50.960 what
+is the path of this notebook simply 04:20:53.040 pick the 7th DT
+04:20:55.000 notebook okay then the this is important 04:20:59.239 we
+are using Unity catalog so simply 04:21:00.760 pick Unity catalog and
+then just pick a 04:21:02.880 catalog our catalog is Netflix catalog
+04:21:04.960 now the schema now we will say an lamba 04:21:08.080 which
+schema we should pick you actually 04:21:10.479 do not need to worry
+about schema 04:21:11.640 because it will be just using a new
+04:21:13.040 schema every time not necessarily but 04:21:15.960 when
+you\'re just creating a new DT 04:21:17.319 pipeline you should just
+just give a new 04:21:18.800 schema I\'ll simply 04:21:20.800 say
+04:21:22.640 DT 04:21:24.960 schema okay cluster policy it is
+04:21:28.000 important enhance Auto scaling no pick 04:21:30.439 size
+one by the way you cannot enhance I 04:21:32.800 will tell you why so
+this is not done 04:21:35.080 hold on just go down worker type is DS3
+04:21:39.319 V2 this is DS3 V2 y if you will not like 04:21:42.840 this
+your your pipeline will I\'m so sure 04:21:45.600 it will fail why
+because this particular 04:21:49.119 node contains four 04:21:53.399 CES
+this driver node will contain four 04:21:57.359 CES total 04:21:59.960
+eight you have a Kota of 10 04:22:03.960 CES you cannot run more than 10
+cores at 04:22:07.600 once so if you just pick let\'s say 04:22:10.640
+V4 it will contain 60 course and then 04:22:13.920 your pipeline will
+fail and you will 04:22:15.319 have the error called you are exceeding
+04:22:17.680 the limit of quota and blah blah blah 04:22:20.119 this is
+the reason and one more thing by 04:22:23.600 the way I have already
+terminated my 04:22:26.640 compute if it would be running then also
+04:22:30.600 it would throw error why because my 04:22:32.920 compute is
+also using four cores and 04:22:35.479 this is this this has eight codes
+this 04:22:38.720 is exceeding the limit of 10 codes so if 04:22:41.520
+you want to run d pipelines you should 04:22:44.199 turn off your
+compute your allpurpose 04:22:46.119 compute okay just keep this thing
+in 04:22:48.840 your 04:22:49.680 mind yeah just simply click on Create
+04:22:54.080 and then you will see it is created not 04:22:56.920 really
+it will be created when you will 04:22:59.359 click on start okay simply
+click on 04:23:01.600 start and now you will see it is started
+04:23:05.680 it is now creating your DT pipeline your 04:23:08.760 all
+the ETL 04:23:10.720 automatically okay and at this step at 04:23:13.840
+this step waiting for resources it will 04:23:15.640 hardly take I think
+it not I think it 04:23:18.159 will take more it will at least take six
+04:23:19.840 to seven minutes because it creates your 04:23:22.119
+cluster and is job cluster so it takes a 04:23:24.159 lot of time okay
+because every time it 04:23:26.359 is creating new VMS so it will take
+at 04:23:28.640 least six to seven minutes once it is 04:23:30.760 ready
+then it will go to setting up 04:23:32.640 tables and it will just
+create the flow 04:23:35.040 and if we have any errors obviously we
+04:23:36.880 need to First debug it and then only we 04:23:38.640 will
+be able to see the pipeline okay so 04:23:42.040 let\'s wait PA for 6 to
+7 minutes and 04:23:43.840 once it is ready we are all set to
+04:23:47.159 complete our project and don\'t worry I 04:23:49.479 will
+also show you how you can just use 04:23:51.760 SQL warehouses like
+within the data 04:23:54.080 break as you can see it is here you can
+04:23:57.640 simply use SQL end points if you want to 04:23:59.680 query
+anything within SQL table and till 04:24:02.560 the time it is creating
+let me just 04:24:04.319 share that inside with you maybe it can
+04:24:05.840 be asked in interviews what is a SQL 04:24:08.319 Warehouse
+what is SQL Warehouse if you 04:24:10.279 just click on it what is SQL
+Warehouse 04:24:12.960 it is already 04:24:14.439 there Ser as starter
+Warehouse what is 04:24:17.159 that what is this create SQL Warehouse
+04:24:20.359 basically basically basically basically 04:24:24.040 SQL
+warehouses just recently renamed 04:24:26.680 earlier it was called as
+SQL end points 04:24:29.279 now it is called SQL Warehouse so
+04:24:31.600 basically SQL Warehouse is a special 04:24:33.439 kind of
+compute which is optimized to 04:24:36.080 perform SQL workloads
+04:24:39.199 only got it so let\'s say you are using 04:24:42.439 your
+normal compute to perform ppar 04:24:43.960 Transformations and
+everything this this 04:24:46.640 type of compute this compute is
+04:24:48.760 specifically designed for those who want 04:24:51.520 to
+run SQL queries on top of your 04:24:54.600 data and who can be those
+people data 04:24:57.560 analysts data scientists bi developers
+04:25:00.960 who are just connecting their bi reports 04:25:02.840 on
+top of your SQL Warehouse so they 04:25:05.600 have optimize SQL engines
+and one of 04:25:08.760 their great features that I do like the
+04:25:11.279 most is SQL caching like they caches the 04:25:14.760 query
+within the you can say memory and 04:25:17.840 if your data is not
+changing they do not 04:25:19.960 recompute the data they just give you
+04:25:22.119 the results from the cached results this 04:25:24.680 is
+one of the best features that I I do 04:25:27.040 like about SQL
+Warehouse so this is a 04:25:29.920 kind of special compute that it uses
+to 04:25:32.399 optimize the query results if you\'re 04:25:35.119 just
+using the SQL workloads and when do 04:25:37.479 we use SQL workloads bi
+reporting SQL 04:25:40.520 queries running analyzing data and all
+04:25:43.119 so in order to do that you should always 04:25:46.279
+always always create this kind of 04:25:49.520 compute or let\'s say you
+should always 04:25:51.840 use this this this this one this compute
+04:25:55.760 which is called like SQL 04:25:58.119 Warehouse okay sorted
+sorted and there 04:26:02.199 are like I think two kinds of scaling
+04:26:03.680 within this SQL Warehouse compute one is 04:26:05.960
+vertical scaling and one is horizontal 04:26:07.680 scaling so when we
+say horiz vertical 04:26:10.119 scaling we just add the number of
+04:26:11.880 machine 04:26:13.720 okay and parall if I\'m not wrong it
+can 04:26:16.560 only run 10 request at a time so if you 04:26:19.520
+want to run more request then we what we 04:26:22.239 do we horizontally
+scale the cluster we 04:26:25.680 let\'s say this is one cluster these
+are 04:26:27.680 machines then we just add a second 04:26:29.880 cluster
+to parall run the data okay so 04:26:33.920 this is all this all comes
+under like 04:26:36.199 this SQL Warehouse so there is a special
+04:26:37.760 kind of compute that we have for SQL 04:26:41.040 workloads
+okay okay okay okay sorted so 04:26:44.960 I just wanted to show you
+this so if you 04:26:46.359 want to run anything you can simply
+04:26:47.640 create your SQL Warehouse I have already 04:26:49.159
+created one and I have used size is 04:26:51.760 small so I think we
+have accs as well 04:26:54.640 that is extra small so yeah then we can
+04:26:58.640 just turn it on and then when we will 04:27:00.159 just
+running the SQL queries Tu tuck Tu 04:27:02.080 it will just give you
+the results really 04:27:03.560 really really quick as compared to using
+04:27:05.359 your allp purpose cluster because 04:27:07.520 allpurpose
+cluster is managing all the 04:27:09.520 stuff within data break like
+your p 04:27:12.159 Transformations your workflows 04:27:14.479
+everything but SQL this SQL Warehouse is 04:27:17.840 specifically
+designed to just handle SQL 04:27:19.880 workloads nothing else so this
+is a kind 04:27:22.800 of special child who is like over 04:27:26.479
+pampered so this is like that okay let\'s 04:27:29.960 see if we have
+Delta live table ready 04:27:32.680 let me just click on it okay five
+04:27:35.119 minutes are done so I think it will be 04:27:36.560 just
+completed within few more seconds 04:27:39.439 and it will just give us
+the results 04:27:46.760 H let\'s see let\'s see let\'s 04:27:52.920 see
+okay waiting for 04:27:58.880 resources started by API call 04:28:01.760
+see and trust me Delta by the way Delta 04:28:05.640 life tables are
+still in preview like a 04:28:07.080 lot of features are still in
+preview and 04:28:08.680 I think we cannot even create external
+04:28:10.279 tables using Delta life tables I tried 04:28:12.640
+creating external tables it was showing 04:28:14.040 some errors then I
+just take the 04:28:15.439 documentation and I didn\'t find anything
+04:28:17.000 related to external tables using path 04:28:18.640 and all
+they have just put the path but 04:28:20.399 when I just put the part it
+throws ER so 04:28:21.960 I think it is still in preview they are
+04:28:23.720 enhancing it is a new feature so that\'s 04:28:25.800 why
+it is really important to learn as 04:28:27.520 soon as possible to
+become an outlayer 04:28:30.239 in the crowd okay so it\'s up to you how
+04:28:33.080 you want to see yourself in the crowd 04:28:35.159 how you
+want to see yourself in the 04:28:37.680 mirror it\'s all up to you so
+it is done 04:28:41.080 waiting for resources is done and now it
+04:28:42.840 is initializing and now it will just set 04:28:44.880 up
+the tables if we do not have any 04:28:46.640 errors if we do have
+errors then it will 04:28:48.800 just say hey just fix those
+04:28:51.159 errors 04:28:52.880 see okay what is the error let me click
+04:28:55.520 on it so it is saying rule I oh man oh 04:28:59.960 man oh
+man oh man such a such a such a 04:29:02.199 silly mistake I have used
+colon instead 04:29:04.279 of comma let me just remove that oh man
+04:29:07.439 so now it is a good thing now if you 04:29:09.439 just go
+back to your notebook go to 04:29:11.239 recents click on your DT
+notebook now 04:29:14.040 you can attach your cluster do you know
+04:29:15.439 this yes simply click on this one and 04:29:18.159 instead
+of attaching this one you will 04:29:19.560 attach this dld pipeline
+this is your 04:29:22.000 cluster click on connect so now it will
+04:29:25.239 be debugging your code in real time okay 04:29:29.199 very
+good so I will simply correct that 04:29:32.359 mistake first of all
+which is this one 04:29:34.920 where is that where is that where is
+04:29:36.239 that where\'s that yeah here so we just 04:29:39.040 need
+to use comma if we are using this 04:29:41.520 like Direct rule I don\'t
+like this I 04:29:43.720 like using dictionaries so now I\'ll
+04:29:45.359 simply click on validate now you\'ll say 04:29:47.080 ANL
+do we need to wait again for 7 04:29:49.720 minutes no because your
+cluster is hot 04:29:52.960 and running so it will directly go to
+04:29:55.000 initializing instead of waiting for 04:29:57.479 resources
+that\'s why we always create 04:29:59.600 our job cluster in development
+mode 04:30:01.399 instead of production mode okay let\'s 04:30:04.640
+see if it passes the test or it throws 04:30:08.319 some more errors
+let\'s see let\'s see 04:30:11.080 let\'s see I am really really really
+04:30:13.880 hungry man we have errors let\'s debug 04:30:17.319 that
+okay let\'s go to DT event log what 04:30:20.520 is 04:30:21.680 failed
+uh 04:30:25.080 DF 04:30:26.960 what what are you saying man DF staging
+04:30:31.159 oh did we mention something wrong in the 04:30:37.279
+staging in the staging in the staging it 04:30:40.760 is throwing some
+errors here in the 04:30:44.520 staging uh oh man orang lambar just
+04:30:49.040 provide the braces man what are you 04:30:51.640 doing this
+is a 04:30:53.600 function 04:30:55.399 yeah so just a silly mistake let
+me 04:30:58.319 click on validate for one more 04:31:00.399 time I think
+it should be fine now 04:31:03.720 that\'s 04:31:04.960 my wipe that\'s
+my gut feeling because my 04:31:09.960 gut is right now 04:31:14.560
+hungry oh 04:31:16.520 man what what what hey we do not have
+04:31:19.720 anything in the event 04:31:21.119 log 04:31:23.840 what
+04:31:25.840 what where\'s the 04:31:30.720 error oh there are so many
+04:31:34.279 errors let\'s see what is that one 04:31:39.199 so show ID
+cannot be resolved did you 04:31:41.920 mean one oh again Sil mistake I
+just I 04:31:47.439 didn\'t put underscore so we can simply 04:31:49.680
+put 04:31:50.560 underscore that\'s fine yeah because 04:31:53.319
+that\'s why I think I opened the data 04:31:55.479 frame but I didn\'t
+look at it yeah we 04:31:57.920 have underscore so not not an error
+04:32:00.000 don\'t worry just a silly mistake silly 04:32:02.159
+mistakes are not errors so I will simply 04:32:04.640 say show
+04:32:05.880 ID like this then do we have anything 04:32:10.680 else uh
+uh yes here as well show ID do 04:32:14.760 we have anything
+04:32:17.080 else 04:32:19.359 uh yes 04:32:21.720 here do we have
+anything else no just 04:32:24.760 click on validate hey bro don\'t give
+me 04:32:27.520 errors 04:32:28.800 now please please please
+04:32:33.800 please 04:32:36.600 please oh man what are your plans for
+04:32:39.560 Sunday man what are your plans what are 04:32:44.239 plans
+perfect our DT is ready can you 04:32:48.439 see it we have so many
+tables that\'s why 04:32:50.359 you cannot see it see table number one
+04:32:52.359 let me just zoom it a little bit 04:32:55.040 see table
+number one 2 3 and two are 04:32:58.199 above okay and this is the flow
+that you 04:33:00.800 can see streaming 04:33:03.000 table View and then
+again streaming 04:33:06.160 table so what it is doing it is creating
+04:33:07.719 a streaming table then creating a 04:33:09.480 streaming
+view then on top of streaming 04:33:11.160 table similarly here we have
+streaming 04:33:13.359 tables 1 2 3 directly streaming tables
+04:33:16.958 because we do not have any 04:33:17.680 Transformations and
+nothing so we are 04:33:19.160 directly creating streaming tables
+04:33:20.639 That\'s it man that\'s it this is your 04:33:23.561
+validation step you have completed that 04:33:25.561 now you can just
+run your pipeline you 04:33:26.958 can simply click on start simple then
+it 04:33:30.359 will just create the whole flow and it 04:33:32.039 will
+run all the pipelines so you have 04:33:34.000 two options either you
+want to look at 04:33:35.879 the pipeline runs here or you can simply
+04:33:37.719 go to dldt pipelines and you should see 04:33:40.359 your
+pipeline is running here as well so 04:33:42.400 it\'s up to you I will
+just show you some 04:33:45.520 amazing stuff as well because we have
+04:33:48.240 some expectations so I will just show 04:33:50.160 you how
+those expectations work and you 04:33:52.118 will see the stats as well
+for all the 04:33:54.400 pipelines So currently it is 04:33:56.561
+initializing and now it is just setting 04:33:59.320 up the tables so
+then it will just write 04:34:01.840 your all the data all the data all
+all 04:34:05.039 the data 04:34:06.799 okay okay see it has started
+running it 04:34:10.719 so as you can see let me me just zoom
+04:34:13.680 It event log hey 04:34:17.000 bro why you are not allowing
+us to drag 04:34:19.879 it down we want more screen see see see
+04:34:25.799 see hey what are you 04:34:29.160 doing you want to drag it
+oh man improve 04:34:33.160 your UI man what are you doing High good
+04:34:35.520 Engineers what are you 04:34:37.639 doing I want to make
+this display let me 04:34:41.359 just go back to my notebook you are not
+04:34:43.160 good this view is better okay because I 04:34:46.520 can
+expand it so this is this is this is 04:34:50.080 my pipeline flow so as
+you can see let\'s 04:34:52.000 start with the top one so as you can see
+04:34:55.199 written records are 04:34:57.000 44,000 44,000 yes it has
+written all the 04:35:00.520 records 14,000 7,000 5,000 then 6,000
+04:35:05.799 then this is a view obviously view 04:35:07.278 doesn\'t
+hold any data that\'s why you are 04:35:08.799 not seeing anything then
+it it WR 04:35:12.599 6.2k records but there\'s something 04:35:15.480
+special what is this what is this what 04:35:19.438 is this what is this
+for dropped records 04:35:23.278 dropped records that\'s why I have
+04:35:26.080 created this dropped records see if you 04:35:29.000 just
+go here to The Notebook which rule 04:35:31.278 you have defined
+04:35:34.438 bro which 04:35:37.359 rule bro 04:35:39.879 see expect all
+or drop that means this 04:35:43.919 table failed to pass both the rules
+04:35:47.719 maybe they have show ID is null that\'s 04:35:51.118 why it
+has dropped the records see 04:35:56.840 see that\'s the power of DT you
+not you 04:35:59.759 do not need to worry about data quality
+04:36:01.879 checks okay and if you just go to DT now 04:36:05.919 if
+you just go here and these are all 04:36:08.719 the table runs that you
+can see and I 04:36:11.958 will just contact data Bri engineer why
+04:36:13.879 it is not allowing me to expand the 04:36:15.520 screen
+obviously I can expand this area 04:36:16.879 but I also want to expand
+this area see 04:36:19.240 my it it it it has the option but it is
+04:36:22.480 not going 04:36:23.919 down I don\'t know why it is not
+going 04:36:29.320 down oh man oh man oh man so let\'s say 04:36:32.561
+let me just click on it okay then simply 04:36:34.879 go to data quality
+and then you will see 04:36:37.599 this bar graph it is saying
+04:36:40.520 99.99 % your records are fine but four 04:36:44.879 records
+are dropped because of your rule 04:36:48.039 because of your
+04:36:49.799 rule this is so cool man this is so cool 04:36:53.480 you
+do not need to worry about data 04:36:54.680 quality in DT everything is
+automated 04:36:58.039 okay now these are the failures 04:37:01.039
+obviously we do not have much failures 04:37:03.438 only four but yeah
+this was a good catch 04:37:06.400 now I will click on start for one
+more 04:37:08.199 time why do you want to load all the 04:37:11.599
+thousands of Records again I will load 04:37:14.520 Zero Records zero
+how because it will 04:37:18.561 incrementally load the data for me
+04:37:21.000 automatically I do not need to worry 04:37:22.919 about
+schema location I do not need to 04:37:25.039 worry about checkpoint
+location I do not 04:37:26.840 need to worry about anything I have just
+04:37:29.680 rerun the pipeline you will see it will 04:37:32.118 bring
+Zero Records zero just see just 04:37:37.359 see okay let me Zoom it and
+I hope it 04:37:40.438 brought Zero Records 04:37:42.039 lamba it will
+be a 04:37:43.799 good sense of humor from your 04:37:47.879 end no bro
+I\'m not lying see all the 04:37:52.480 tables all the tables zero Z
+Dash means 04:37:56.759 mean like Zero Zero Records written 0o 0
+04:38:00.879 0 04:38:02.480 0 0 04:38:05.438 0 oh man 04:38:07.799 zero
+that means it is automatically 04:38:10.599 taking care of your
+04:38:12.039 streaming data as well you do not need 04:38:13.879 to
+worry about anything do not see the 04:38:17.680 power of streaming
+tables in 04:38:20.278 DT it is so cool man so 04:38:23.639 cool so
+finally you have built your end 04:38:27.799 to end project and now
+let\'s let me just 04:38:30.278 tell you how you can just actually
+04:38:32.000 connect this data to the uh powerbi so 04:38:35.160 that
+you can hand over this data to the 04:38:37.000 data analyst and then
+you should go home 04:38:39.719 and just take rest okay just kidding so
+04:38:43.080 just go to the serving 04:38:45.879 okay so this is your
+serving end points 04:38:48.359 from where you can just share your
+let\'s 04:38:50.278 say ai ai I 04:38:53.840 just I just read this open
+AI so I was 04:38:57.199 like share Ai No no no oh by the way
+04:39:01.000 what about uh deep seek man what\'s going 04:39:04.400 on
+deep seek just killed 04:39:07.759 this 04:39:09.719 okay no more
+controversial talks okay 04:39:12.958 okay okay so if I just go to
+Marketplace 04:39:15.958 no we do not need to go to Marketplace
+04:39:17.520 so where they have moved man where they 04:39:20.400 have
+moved 04:39:21.958 our b2s let me just go to 04:39:25.599 Marketplace do
+we have it yeah so 04:39:29.438 partner connect is now in Marketplace I
+04:39:31.320 was just looking for partner connect so 04:39:33.160 now
+they\'re saying that all the partner 04:39:35.000 connect is now in
+Marketplace so if you 04:39:37.760 want to connect your TAA lake house
+to 04:39:41.400 let\'s say powerbi or let\'s say tab these 04:39:43.718
+are like popular Pi tools you simply 04:39:47.240 need to click on this
+and what it will 04:39:49.600 do it for you what it will do it for you
+04:39:53.040 just click on 04:39:54.240 connect okay and then obviously
+it will 04:39:56.638 just ask me to provide the compute and 04:39:59.280
+this is your serverless compute that I 04:40:01.040 have created like an
+lambas cluster then 04:40:03.040 it will just connect report to this
+04:40:05.638 cluster so that it can use that special 04:40:07.840
+compute to run optimiz SQL workloads 04:40:11.638 then I will simply
+download this file 04:40:15.000 let me just click on download connection
+04:40:16.360 file see this has downloaded a pbids 04:40:22.240 file
+which is nothing but a PB file with 04:40:25.000 data connections
+already filled in that 04:40:27.000 so now I do not need to worry about
+04:40:28.958 Connections I do not need to worry about 04:40:31.120 URL
+everything is automatically filled 04:40:33.760 in this powerbi
+04:40:35.560 file is automatically filled in this 04:40:38.320 powerbi
+04:40:39.718 file by data 04:40:43.240 okay so now you can just hand
+over this 04:40:45.360 file to daon list and just say 04:40:49.360
+bye-bye no no no you should say that 04:40:51.958 this is your file if
+you need any 04:40:53.920 further help just let me know I\'m there
+04:40:56.080 for you just talk to him or her like 04:40:58.160 this okay
+okay so just say this is your 04:41:01.000 file just build your
+beautiful 04:41:03.160 dashboards and if you need any help I\'m
+04:41:05.120 there okay just talk it like 04:41:06.958 this 04:41:09.280
+okay talk like this to your Downstream 04:41:12.600 to your Upstream to
+your same level 04:41:15.160 stream by the way Downstream doesn\'t
+04:41:16.840 mean that they are just you are above 04:41:20.000 than
+them no it is just like the flow 04:41:22.840 Upstream is like software
+Engineers uh 04:41:25.958 then Downstream is the data analyst and
+04:41:28.718 data scientist because we receive the 04:41:30.360 data
+from the Upstream we process it and 04:41:32.638 we serve the data to
+the data analyst 04:41:34.320 and data scientist so this is a flow
+04:41:36.240 this is a 04:41:37.480 stream okay do not make an issue of
+04:41:40.920 everything thing just a statement 04:41:44.680 bro so by
+the 04:41:47.280 way we don\'t care we don\'t care then we 04:41:51.120
+will simply go to our beautiful 04:41:53.240 beautiful 04:41:55.200
+beautiful architecture because now it\'s 04:41:58.160 time to actually
+summarize what we have 04:41:59.798 done and I know we have done so so
+so 04:42:02.280 much by the way I\'m again repeating just 04:42:06.840
+support my channel because this channel 04:42:10.360 is yours as well
+and if you want me to 04:42:13.240 continue creating these informative
+and 04:42:16.080 let\'s say insightful videos just join 04:42:18.958
+this channel I 04:42:21.200 know like there are I don\'t not want to
+04:42:23.560 take names but yeah we all know like 04:42:25.280 what\'s
+going on in the market right like 04:42:27.680 people are being looted
+because of like 04:42:30.798 so expensive courses so I\'m just trying
+04:42:33.320 my best to provide you the best quality 04:42:36.200 of
+data engineering Stu data engineering 04:42:39.520 courses I\'m trying
+my best so if you 04:42:41.958 want to support me just click on join
+04:42:44.480 button and just share it with others as 04:42:46.240 well
+just ask them to join this Channel 04:42:48.280 and make this community
+a strong 04:42:50.160 community community where you actually
+04:42:53.080 provide knowledge to others it\'s not 04:42:54.680 just
+about just selling like basic 04:42:57.920 courses and just I don\'t I I
+don\'t not 04:43:00.520 want to comment on anyone\'s life but I
+04:43:03.360 know what is going on in the market I 04:43:05.080 and I
+really feel sad and you know what 04:43:08.000 it will hardly take two
+minutes to just 04:43:11.760 show you the email that I\'m receiving
+04:43:14.200 from let\'s say big big um companies who 04:43:17.280 are
+selling courses for like thousands 04:43:19.280 of dollars thousands of
+rupees like I am 04:43:23.000 receiving emails from them I can just
+04:43:24.560 show you right now it will hardly take 04:43:26.600 two
+minutes I can simply log in and I 04:43:28.080 can show 04:43:29.160 you
+so if I\'m not replying them like I 04:43:34.440 do not want to because
+I know what\'s 04:43:36.040 going on in the 04:43:37.480 market they\'re
+just asking me to hey you 04:43:40.440 can just say this you can just
+say that 04:43:42.200 to promotee their courses and I know 04:43:43.878
+it\'s garbage I know 04:43:46.520 it 04:43:48.280 so if I am
+compromising so I hope that 04:43:52.560 you will also support me in
+return 04:43:55.560 that\'s all I wanted to say and I know my
+04:43:58.320 loyal data fam I don\'t not need to just 04:44:00.480 tell
+them again and again so I know they 04:44:02.400 are standing with me so
+just support 04:44:04.638 this channel just show your love and
+04:44:06.160 just show your just say yeah love love 04:44:08.680 is
+everything okay so let\'s quick 04:44:11.440 summarize this project that
+we have done 04:44:13.480 so far so first of all we pulled data
+04:44:17.360 from GitHub using data Factory then we 04:44:20.200 just
+pulled data incrementally from um 04:44:22.718 data Lake using
+autoloader and we push 04:44:24.920 this data to the bronze container
+okay 04:44:27.760 then we read this data and we 04:44:29.400 transformed
+the data using massive 04:44:31.718 massive parameterized notebooks
+using 04:44:33.798 workflows and all like it was such a 04:44:36.160
+such such an amazing task okay then we 04:44:39.798 just used
+04:44:41.638 DT okay then we can say that our data is 04:44:45.280 ready
+to go to powerbi and if our data 04:44:48.200 manager let\'s say anyone
+wants to take 04:44:50.120 that data to SQL let\'s say saap SQL
+04:44:53.440 Warehouse s SQL Warehouse they can 04:44:55.360 because our
+lake house is ready we have 04:44:57.520 our connection set up
+everything is 04:44:58.958 ready everything is done on our end if
+04:45:00.560 they want to just take it they can take 04:45:02.440 we can
+just provide the data to everyone 04:45:04.000 now because we have
+partner connect we 04:45:06.480 have the thing that I just showed you
+04:45:08.160 from where we can just pass on the links 04:45:09.958
+because everything is built right 04:45:12.958 okay okay okay okay okay
+okay so if you 04:45:19.040 I will not say if you like this video if
+04:45:21.080 you love this video and I know you loved 04:45:23.638 it
+just just just drop a lovely feedback 04:45:28.280 because it will help
+others how let me 04:45:30.080 just tell you because let\'s say a new
+04:45:32.400 person is coming on this video okay and 04:45:34.400 they
+just want to confirm like is this 04:45:35.760 video worth enough so you
+should just 04:45:37.440 provide a feedback and just tell your
+04:45:40.440 like on Hest feedback okay I\'m not 04:45:42.718 saying hey
+just put this put that no 04:45:44.480 just put your honest feedback
+okay and 04:45:47.080 just drop your feedback in the comments
+04:45:48.760 and love you my see you see you see you 04:45:52.480 very
+soon

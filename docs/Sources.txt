@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=uc-u_juRg-w
+
+https://github.com/anshlambagit/Netflix_Azure_Data_Engineering_Project/tree/main/RawData_AND_Notebooks
