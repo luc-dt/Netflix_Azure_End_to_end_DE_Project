@@ -13,8 +13,27 @@ wheels/
 desktop.ini
 *.gdoc
 
-# Documentation
+# Documentation (transcripts, personal notes)
 docs/
 
+# Data files (download from source — see README)
+data/*.csv
+data/*.dbc
 
+# Power BI binary files
+*.pbix
 
+# Local tooling config
+.python-version
+uv.lock
+
+# Images only used in rapport.md (not needed on GitHub)
+# Keep only: architecture_newest.png, 03_ADF_Realtime.png
+images/01_RG_Netflix_Project.png
+images/02_ADF_Object.png
+images/04_Azure_Databricks.png
+images/05_Access_Connector_for_Azure_Databricks.png
+images/06_IAM.png
+images/07_External_Data.png
+images/08_External_Data.png
+images/09_Create_Compute.png

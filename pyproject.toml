@@ -1,7 +1,7 @@
 [project]
 name = "netflix-azure-end-to-end-de-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "End-to-end Azure Data Engineering pipeline for Netflix content analytics using ADF, ADLS Gen2, Databricks, Delta Lake, Unity Catalog, and Power BI."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
