@@ -37,3 +37,9 @@ images/06_IAM.png
 images/07_External_Data.png
 images/08_External_Data.png
 images/09_Create_Compute.png
+
+# Dashboard config files and notes
+dashboard/netflix_powerbi_theme.json
+dashboard/netflix_powerbi_theme_v2_clean.json
+dashboard/netflix_dashboard_redesign.md
+dashboard/netflix_dashboard_v1.pbix
