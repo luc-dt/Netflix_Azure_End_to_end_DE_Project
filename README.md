@@ -4,6 +4,10 @@
 ![Build: Passing](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
 ![Language: Python](https://img.shields.io/badge/Language-Python-blue?style=flat-square)
 
+> [!NOTE]
+> **Project Status — Decommissioned (Cost Control)**
+> The Azure cloud environment (ADF, ADLS Gen2, Databricks, Unity Catalog) for this project has been intentionally shut down to avoid ongoing costs. All pipeline code, notebooks, documentation, and the Power BI dashboard are preserved in this repository. Use the [runbook](docs/runbook.md) to recreate the environment in any Azure subscription.
+
 > A production-style data engineering pipeline built on Microsoft Azure, demonstrating the full lifecycle from ingestion to visualization using modern Lakehouse architecture.
 
 ![Solution Architecture](images/architecture_newest.png)

@@ -13,8 +13,15 @@ wheels/
 desktop.ini
 *.gdoc
 
-# Documentation (transcripts, personal notes)
-docs/
+# Documentation — exclude only bulky tutorial transcripts, not all docs
+docs/End-To-End Data Engineering Project_transcript.md
+docs/End-To-End Data Engineering Project_transcript.txt
+docs/Sources.txt
+docs/interview_answers.md 
+docs/interview_netflix.md 
+docs/project_feedback.md 
+docs/rapport.md 
+
 
 # Data files (download from source — see README)
 data/*.csv
@@ -43,3 +50,13 @@ dashboard/netflix_powerbi_theme.json
 dashboard/netflix_powerbi_theme_v2_clean.json
 dashboard/netflix_dashboard_redesign.md
 dashboard/netflix_dashboard_v1.pbix
+
+
+# Configuration and Data Files
+config/dev.yml
+
+# Scripts to Ignore (Development / Temporary)
+scripts/playground_notebooks/
+
+# Databricks Assets (If manually exported)
+*.dbc

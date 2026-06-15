@@ -1,0 +1,54 @@
+# Development configuration template for the Netflix Azure lakehouse pipeline.
+environment: dev
+
+azure:
+  storage_account: your_storage_account_name
+  containers:
+    raw: raw
+    bronze: bronze
+    silver: silver
+    gold: gold
+  checkpoint_container: bronze
+  checkpoint_prefix: _checkpoints/netflix_titles
+
+databricks:
+  catalog: your_databricks_catalog
+  schemas:
+    bronze: bronze
+    silver: silver
+    gold: gold
+  sql_warehouse: your_sql_warehouse_name
+
+pipeline:
+  main_dataset: netflix_titles
+  lookup_datasets:
+    - source_folder: netflix_directors
+      target_folder: netflix_directors
+      natural_keys: [show_id, director]
+    - source_folder: netflix_cast
+      target_folder: netflix_cast
+      natural_keys: [show_id, cast]
+    - source_folder: netflix_countries
+      target_folder: netflix_countries
+      natural_keys: [show_id, country]
+    - source_folder: netflix_category
+      target_folder: netflix_category
+      natural_keys: [show_id, listed_in]
+
+quality_rules:
+  required_title_columns: [show_id, type, title, release_year]
+  valid_content_types: [Movie, TV Show]
+  valid_ratings:
+    - G
+    - PG
+    - PG-13
+    - R
+    - NC-17
+    - TV-Y
+    - TV-Y7
+    - TV-G
+    - TV-PG
+    - TV-14
+    - TV-MA
+    - NR
+    - UR

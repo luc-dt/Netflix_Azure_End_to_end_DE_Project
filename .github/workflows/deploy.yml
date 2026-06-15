@@ -1,4 +1,4 @@
-name: Deploy Databricks Pipeline
+name: Validate Netflix DE Portfolio Project
 
 on:
   push:
@@ -9,31 +9,34 @@ on:
       - main
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: "3.12"
+          cache: "pip"
 
-      - name: Install Databricks CLI
+      - name: Install development dependencies
         run: |
-          pip install databricks-cli
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
 
-      - name: Validate Notebooks (Syntax Check)
+      - name: Validate repository structure and notebooks
         run: |
-          python -m py_compile notebooks/*.ipynb || echo "Warning: Jupyter notebooks cannot be directly compiled, skipping syntax check."
+          python scripts/validate_project.py
 
-      - name: Deploy Notebooks to Databricks Workspace (Placeholder)
-        # Uncomment and configure with secrets when ready to deploy:
-        # env:
-        #   DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-        #   DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-        # run: |
-        #   databricks workspace import_dir ./notebooks /Shared/Netflix_Project
-        run: echo "Deployment step successfully configured (pending secrets)."
+      - name: Run unit checks
+        run: |
+          pytest -q
+
+      - name: Validation summary
+        run: |
+          echo "Structure validation and unit tests passed."
+          echo "Note: Azure cloud resources (ADF, ADLS Gen2, Databricks) are decommissioned."
+          echo "All pipeline code and documentation are preserved for portfolio purposes."
