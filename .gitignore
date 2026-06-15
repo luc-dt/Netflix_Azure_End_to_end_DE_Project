@@ -21,6 +21,7 @@ docs/interview_answers.md
 docs/interview_netflix.md 
 docs/project_feedback.md 
 docs/rapport.md 
+docs/feedback_v1.md
 
 
 # Data files (download from source — see README)
@@ -45,11 +46,8 @@ images/07_External_Data.png
 images/08_External_Data.png
 images/09_Create_Compute.png
 
-# Dashboard config files and notes
-dashboard/netflix_powerbi_theme.json
-dashboard/netflix_powerbi_theme_v2_clean.json
-dashboard/netflix_dashboard_redesign.md
-dashboard/netflix_dashboard_v1.pbix
+# Dashboard — exclude only the binary Power BI file (*.pbix handles this globally)
+# netflix_powerbi_theme.json, netflix_powerbi_theme_v2_clean.json, and netflix_dashboard_redesign.md are tracked
 
 
 # Configuration and Data Files

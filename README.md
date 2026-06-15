@@ -283,7 +283,7 @@ Netflix_Azure_End_to_end_DE_Project/
 │   ├── 03_Lookup_Ingestion.ipynb        # Defines lookup-table metadata and shares it with Databricks Workflows task values
 │   ├── 04_Silver_Transformation.ipynb   # Cleans, enriches, validates, and writes the main netflix_titles Silver Delta dataset
 │   ├── 05_Gold_Notebook.ipynb           # Builds Gold reporting tables for content type, ratings, and release-year analytics
-│   └── 05_Gold_Top_Geners.ipynb         # Builds the Gold genre distribution table used by the Power BI dashboard
+│   └── 05_Gold_Top_Genres.ipynb         # Builds the Gold genre distribution table used by the Power BI dashboard
 │
 ├── images/
 │   ├── architecture_newest.png          # Solution architecture diagram
@@ -294,6 +294,18 @@ Netflix_Azure_End_to_end_DE_Project/
 │   ├── netflix_dashboard_redesign.md    # Dashboard design spec
 │   ├── netflix_powerbi_theme.json       # Power BI theme (v1)
 │   └── netflix_powerbi_theme_v2_clean.json  # Power BI theme (v2)
+│
+├── config/
+│   └── dev.example.yml                  # Environment config template (copy to dev.yml and fill in values)
+│
+├── docs/
+│   └── runbook.md                       # Rebuild guide for recreating the Azure environment
+│
+├── scripts/
+│   └── validate_project.py              # CI structure validation script
+│
+├── tests/
+│   └── test_project_structure.py        # pytest checks for notebooks, config, and docs
 │
 ├── .gitignore
 ├── pyproject.toml
